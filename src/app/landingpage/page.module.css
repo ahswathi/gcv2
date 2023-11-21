@@ -97,9 +97,19 @@
   }
 
 
+ 
+  .tsicons img{
+    width: 100%;
+    height: auto;
+  }
 
-
-
+  .tsicons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+    padding: 40px 4% 80px 4%;
+  }
+  
   
 @media (min-width: 360px) and (max-width: 768px) {
     .service{

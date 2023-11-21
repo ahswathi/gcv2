@@ -22,6 +22,30 @@ const Landingpage = () => {
      <Newchooseus/>
         <Testimonials/>
         <Process/>
+        <Mainheading
+        titlecenter="Tech Stack"
+        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+      /> 
+      <div className={styles.container}>
+        <div className={styles.tsicons}>
+            <div className={styles.tsicon}>
+                <img src='assets/ts1.png' />                     
+            </div>   
+            <div className={styles.tsicon}>
+                <img src='assets/ts2.png' />                     
+            </div>   
+            <div className={styles.tsicon}>
+                <img src='assets/ts3.png' />                     
+            </div>   
+            <div className={styles.tsicon}>
+                <img src='assets/ts4.png' />                     
+            </div>   
+            <div className={styles.tsicon}>
+                <img src='assets/ts5.png' />                     
+            </div>   
+          </div>
+      </div>
+
         <Newintegration 
         title="Grow with integration"
         content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."
