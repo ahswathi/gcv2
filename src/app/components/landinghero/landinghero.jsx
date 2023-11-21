@@ -25,6 +25,7 @@ const Landinghero = () => {
                 <div className={styles.application}>
                     <form>
                   <span>grow commerce</span>
+                  <div className='line'></div>
                       <div className={styles.row}>
                         <div className={styles.col1}>
                               <input
