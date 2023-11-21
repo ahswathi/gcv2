@@ -1,0 +1,368 @@
+
+.container{
+  padding: 0 8% 56px 8%;
+}/* 
+.application{
+  padding: 30px 16% ;
+}
+.form{
+box-shadow: 0px 4px 36px 2px rgba(0, 0, 0, 0.06);
+border-radius: 24px;
+padding: 48px;
+background: #FFF;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: space-evenly;
+  background: #FFF;
+}
+.row2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #FFF;
+  padding-left: 2%;
+}
+.appinput input{
+  width: 320px;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  padding: 8px 12px;
+  outline: none;
+  height: 46px;
+  color: #6A6A6A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.selectinput{
+  width: 320px;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  padding: 8px 12px;
+  outline: none;
+  height: 46px;
+  color: #6A6A6A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.appinput:focus{
+  border: 1px solid #090909;
+
+}
+.customfile {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 0 24px 0;
+  border-radius: 4px;
+  padding: 16px;
+  border: 1px solid #D9D9D9;
+}
+
+.customfile input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.customfile label {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #6A6A6A;
+  border-radius: 4px;
+} */
+.application form{
+  padding: 48px 8%;
+box-shadow: 0px 4px 36px 2px rgba(0, 0, 0, 0.06);
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #FFF;
+border-radius: 24px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+
+}
+.row2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+
+}
+.col1{
+  width: 100%;
+}
+.col2{
+  width: 100%;
+}
+
+.apptextarea:focus{
+  border: 1px solid #090909;
+
+}
+.apptextarea textarea{
+  border-radius: 5px;
+  padding: 8px 12px;
+  border: 1px solid #D9D9D9;
+  color: #6A6A6A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.button{
+  display: flex;
+  width: 648px;
+height: 46px;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #000;
+border-style: none;
+}
+
+.enquire{
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.appinput{
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  padding: 8px 12px;
+  outline: none;
+  width: 88%;
+  height: 46px;
+  color: #6A6A6A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  margin-bottom:  20px;
+}
+
+.appinput:focus{
+  border: 1px solid #090909;
+
+}
+.apptextarea:focus{
+  border: 1px solid #090909;
+
+}
+.apptextarea{
+  width: 94%;
+}
+
+.button{
+  display: flex;
+width: 94%;
+height: 46px;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #000;
+border-style: none;
+}
+
+.enquire{
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.customfile {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 0 24px 0;
+  border-radius: 4px;
+  padding: 16px;
+  border: 1px solid #D9D9D9;
+}
+
+.customfile input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.customfile label {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #6A6A6A;
+  border-radius: 4px;
+}
+
+.cardrow{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #090909;
+  padding: 72px 8%;
+  margin: 80px 0px;
+}
+
+.cardcol{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  width: 33%;
+  height: 225px;
+  background: #FFF;
+  border-radius: 12px;
+  border: 1.117px solid #E8E8E8;
+  transition: transform 0.9s;
+}
+.cardcol:hover{
+    transform: scale(1.1); 
+  }
+.card{
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+
+.card h2{
+  color: #090909;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.112px;
+}
+
+.card p{
+  color: #464646;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
+
+.partnerimage img{
+  width: 100%;
+}
+
+.partnerimage{
+  position: relative;
+}
+.partnerimage h1{
+  position: absolute;
+  top: 25%;
+  left: 80px;
+  color: #FFF;
+text-align: center;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 138.095% */
+letter-spacing: 1.5px;
+}
+
+.spacing{
+  padding: 42px;
+}
+
+/* Customizing the height */
+.mySelect {
+  width: 88%;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  padding: 8px 10px;
+  outline: none;
+  height: 46px;
+  color: #6A6A6A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  margin-bottom:  20px;
+}
+
+.mySelect option{
+  width: 88%;
+  background-color: transparent;
+}
+.mySelect option:checked{
+  width: 88%;
+/*   background-color: #090909;
+  color: #D9D9D9; */
+}
+@media (min-width: 360px) and (max-width: 768px) {
+     .container{
+      padding: 0 6% 32px 6%;
+     }
+  .application form{
+    padding:  24px 2%;
+    border-radius: 10px;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .row2{
+    width: 94%;
+  }
+     .application{
+      padding:  24px 0;
+     }
+    .cardrow{
+      flex-direction: column;
+    }
+  .cardcol{
+    width: 100%;
+  }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+     
+  }
+  
+  
+  @media (min-width: 1024px) and (max-width: 1279px) {
+   
+  }

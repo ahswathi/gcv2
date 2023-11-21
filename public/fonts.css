@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Outfit'; /* Font family name */
+    src: url('/fonts/outfit-regular.woff2') format('woff2'), /* Path to the font file */
+         url('/fonts/outfit-regular.woff') format('woff'); /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -1,0 +1,35 @@
+.faqcontainer{
+    padding: 0 10%;
+    display: flex;
+}
+/* 
+.faq-accordion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+}
+
+.faq {
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.faq.active {
+  background-color: #f5f5f5;
+}
+
+.faq-question {
+  font-weight: bold;
+}
+
+.faq-answer {
+  display: none;
+}
+
+.faq.active .faq-answer {
+  display: block;
+}
+.faq-item{
+  background-color: black;
+} */

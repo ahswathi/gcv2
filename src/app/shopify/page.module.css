@@ -1,0 +1,115 @@
+.container{
+  padding: 40px 6% 40px 6%;
+}
+
+.casestudy{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 6% 40px 6%;
+  gap:60px;
+}
+.csleft h2{
+  color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.csright{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line{
+  padding: 10px 0 20px 0;
+}
+.line::before {
+  content: '';
+  display: block;
+  width: 100%;
+  border-top: 0.6px solid rgb(231, 231, 231, 0.4);
+  /* padding: 0px 20px; */
+}
+
+.types{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 10px;
+}
+.types span{
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+.row{
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding-bottom: 40px;
+
+}
+
+.col{
+  border-radius: 12px;
+  background: #1C1C1C;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 8px;
+}
+
+.optlbl{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.optlbl label{
+  color: rgba(255, 255, 255, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* .options{
+  display: flex;
+} */
+
+.csright h3{
+  color: #FDFDFD;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.2px;
+padding-top: 10px;
+}
+.csright  h2{
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.csright  p{
+  color: rgba(217, 217, 217, 0.85);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+padding-bottom: 40px;
+}
+.csright  h6{
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

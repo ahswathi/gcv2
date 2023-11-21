@@ -1,0 +1,282 @@
+.container{
+    padding: 0 10% 36px 10%;
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.form{
+    border-radius: 40px;
+    background: rgba(217, 217, 217, 0.16);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 4% 0  4% 0;
+}
+.formmob{
+    display: none;
+}
+.inputs{
+    padding: 0px 6%  0px 6%;
+}
+.custominput {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgba(136, 145, 155, 0.80);
+  }
+.form span{
+    color: #090909;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.64px;
+}
+
+.options{
+    display: flex;
+    width: 1114px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 0px 6%  0px 6%;
+}
+
+
+.requestbtn{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    background: #090909;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+    transition: all 500ms ease;
+    margin-top: 40px;
+}
+.requestbtn:hover{
+    background: #FDFDFD;
+    color: #090909;
+    border: 1px solid #090909;
+}
+.request{
+    padding: 2% 6%  0px 6%;
+}
+
+.spanbtn{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #090909;
+    background: #EFEFEF;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    transition: all 500ms ease;
+    
+    border-radius: 50px;
+border: 1px solid #000;
+    font-size: 14px;
+    
+}
+.spanbtnactive{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #090909;
+    font-size: 14px;
+    border-style: none;
+    background-color: #090909;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+  .spanbtnactive:hover{
+  background: #EFEFEF;
+  color: #090909;
+  border: 1px solid #090909;
+
+  }
+  .spanbtn:hover{
+    background: #090909;
+    color: #FDFDFD;
+  
+    }
+  
+@media (max-width: 375px) {
+    .container{
+        padding: 0 4% 36px 4%;
+    }
+    .form{
+        display: none;
+    }
+    .formmob{
+        display: block;
+        border-radius: 12px;
+        background: rgba(217, 217, 217, 0.16);
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 4% 0  4% 0;
+    }
+
+    .inputs{
+        padding: 0px 4%;
+    }
+    .custominput {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 1px solid black;
+        padding-left: 16px;
+        font-size: 12px;
+        color: rgba(136, 145, 155, 0.80);
+      }
+    .formmob span{
+        color: #090909;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.64px;
+    }
+    
+    .options{
+        display: flex;
+        width: 324px;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 0px 3%  0px 3%;
+        font-size: 11px;
+    }
+    
+    .spanbtn{
+        display: flex;
+        padding: 6px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        border: 1px solid #090909;
+        font-size: 11px;
+    }
+    
+    
+    .spanbtnactive{
+        font-size: 11px;
+    }
+    .requestbtn{
+        display: flex;
+        padding: 6px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #ffffff;
+        background: #090909;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 500ms ease;
+    }
+    .requestbtn:hover{
+        background: #FDFDFD;
+        color: #090909;
+        border: 1px solid #090909;
+    }
+    .requestbtn{
+        display: flex;
+        padding: 6px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #ffffff;
+        background: #090909;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 500ms ease;
+    }
+    .requestbtn:hover{
+        background: #FDFDFD;
+        color: #090909;
+        border: 1px solid #090909;
+    }
+    .request{
+        padding: 3% 4%  0px 4%;
+    }
+    
+    .spanbtnactive{
+        display: flex;
+        padding: 6px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        color: #ffffff;
+        background: #090909;
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container{
+        padding: 0 9% 36px 9%;
+    }
+    .form{
+        display: none;
+    }
+    .form{
+        display: block;
+        border-radius: 12px;
+        background: rgba(217, 217, 217, 0.16);
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 4% 0  4% 0;
+        width: 99%;
+    }
+
+    .inputs{
+        padding: 0px 4%;
+    }
+    .custominput {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 1px solid black;
+        padding-left: 16px;
+        font-size: 14px;
+        color: rgba(136, 145, 155, 0.80);
+      }
+    .form span{
+        color: #090909;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.24px;
+    }
+    .options{
+        padding: 0% 4%;
+        width: 100%;
+    }
+    .request{
+        padding: 2% 4%  0px 4%;
+    }
+    
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+ 
+}

@@ -1,0 +1,228 @@
+
+.container{
+  background-color: #090909;
+}
+.main{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3% 6% 6%  6%;
+  text-align:  center;
+}
+.header{
+  padding: 0 20% 8%  20%;
+}
+.header p{
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.header span{
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px; /* 133.333% */
+}
+
+.images img{
+  padding: 20px 50px;
+}
+/* .line::before {
+  content: '';
+  display: block;
+  width: 100%;
+  border-top: 2px solid #FFF;
+  background-color: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.20) 0%, #FFF 48.96%, rgba(255, 255, 255, 0.20) 100%);
+} */
+.line img{
+  padding: 100px 10% 30px 10%;
+  width: 100%;
+}
+.button{
+  display: flex;
+width: 150px;
+height: 40px;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #090909;
+border-style: none;
+box-shadow: -4px -4px 8px 0px rgba(36 36 36 / 40%);
+cursor: pointer;
+transition: all 500ms ease;
+color: #FDFDFD;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.button:hover{
+background: #FDFDFD;
+color: #090909;
+box-shadow: -6px -6px 8px 0px rgb(36 36 36 / 40%);
+border: 1px solid #090909;
+}
+
+
+.enquire{
+  color: #FFFFFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.button2{
+  display: flex;
+width: 150px;
+height: 40px;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #FDFDFD;
+border-style: none;
+box-shadow: -4px -4px 8px 0px rgba(36 36 36 / 40%);
+cursor: pointer;
+transition: all 500ms ease;
+color: #090909;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.button2:hover{
+background: #090909;
+color: #FDFDFD;
+box-shadow: -6px -6px 8px 0px rgb(36 36 36 / 40%);
+border: 1px solid #FDFDFD;
+}
+
+
+.enquire2{
+  color: #090909;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.buttoncont{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding: 20px 0px 80px 0px;
+}
+
+.ctacont{
+  padding: 76px 0 0 0 ;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ctacontent{
+  background: #090909;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4% 10%;
+}
+
+.contentleft{
+padding-left: 18%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+width: 74%;
+}
+
+.contentleft h2{
+  color: #FFFFFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 135% */
+}
+
+.contentleft p{
+  color: #eaf7ff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  padding: 8px 0 58px 0;
+}
+
+
+.contentright{
+  width: 26%;
+}
+.contentright img{
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+@media (max-width: 375px) {
+  .header{
+    padding: 0 5% 8%  5%;
+  }
+  .buttoncont{
+   padding: 20px 0px 20px 0px;
+  }
+  .ctacontent{
+    flex-direction: column;
+    padding: 14% 10%;
+  }
+  .contentleft h2{
+    font-size: 30px;
+  }
+  .contentleft{
+    width: 100%;
+    padding-left: 0px;
+  }
+  .contentright{
+    width: 100%;
+  }
+  .line img{
+    padding: 10px 10% 30px 10%;
+  } 
+   .button{
+    width: 100px;
+    height: 30px;
+    padding: 16px 16px;
+    box-shadow: -4px -4px 8px 0px rgb(36 36 36 / 40%);
+    font-size: 12px;
+    }
+    .button2{
+      width: 100px;
+      height: 30px;
+      padding: 16px 16px;
+      box-shadow: -4px -4px 8px 0px rgb(36 36 36 / 40%);
+      font-size: 12px;
+      }
+    
+  
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+   
+  }
+  
+ 
+@media (min-width: 1024px) and (max-width: 1279px) {
+   
+  }

@@ -1,0 +1,59 @@
+
+.button{
+    display: flex;
+  width: 150px;
+  height: 40px;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #FDFDFD;
+  border-style: none;
+  box-shadow: -4px -4px 8px 0px rgba(36 36 36 / 40%);
+  cursor: pointer;
+  transition: all 500ms ease;
+  color: #090909;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .button:hover{
+  background: #090909;
+  color: #FDFDFD;
+  box-shadow: -6px -6px 8px 0px rgb(36 36 36 / 40%);
+  border: 1px solid #FDFDFD;
+  }
+  
+.enquire{
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+@media (max-width: 375px) {
+    .button{
+        width: 100px;
+        height: 30px;
+        padding: 16px 16px;
+        box-shadow: -4px -4px 8px 0px rgb(36 36 36 / 40%);
+        font-size: 10px;
+        }
+      
+    .enquire{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+ 
+}

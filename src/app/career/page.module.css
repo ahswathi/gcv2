@@ -1,0 +1,153 @@
+.container{
+  padding: 40px 6%;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40%;
+}
+.jobs{
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 56px 48px;
+}
+.button{
+  display: flex;
+width: 146px;
+height: 40px;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #000;
+border-style: none;
+box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.40);
+}
+
+.enquire{
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.line{
+  padding: 40px 0 60px 0;
+}
+.line::before {
+  content: '';
+  display: block;
+  width: 100%;
+  border-top: 0.6px solid rgba(70, 70, 70, 0.65);
+  /* padding: 0px 20px; */
+}
+
+.description h2{
+  color: #090909;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px; /* 143.75% *//* 
+  padding-bottom: 10px; */
+}
+.description p{
+  color: #6A6A6A;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 172.222% */
+}
+.button{
+  display: flex;
+width: 150px;
+height: 40px;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #090909;
+border-style: none;
+box-shadow: -4px -4px 8px 0px rgba(36 36 36 / 40%);
+cursor: pointer;
+transition: all 500ms ease;
+color: #FDFDFD;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.button:hover{
+background: #FDFDFD;
+color: #090909;
+box-shadow: -6px -6px 8px 0px rgb(36 36 36 / 40%);
+border: 1px solid #090909;
+}
+
+
+.enquire{
+  color: #090909;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.enquire:hover{
+  color: #FDFDFD;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+     
+  .jobs{
+    padding: 16px;
+    border-radius: 10px;
+  }
+  
+  .row{
+     align-items: flex-start;
+     flex-direction: column;
+  }
+  .line{
+    padding: 26px 0px;
+  }
+  .description{
+  padding-bottom: 20px;
+  }
+  .description p{
+    font-size: 12px;
+    line-height: 24px;
+  }
+  
+  .description h2{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .button{
+  width: 100px;
+  height: 30px;
+  padding: 16px 16px;
+  box-shadow: -4px -4px 8px 0px rgb(36 36 36 / 40%);
+  font-size: 12px;
+  }/* 
+  .enquire{
+  font-size: 12px;
+  } */
+  
+  
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+     
+  }
+  
+  
+  @media (min-width: 1024px) and (max-width: 1279px) {
+   
+  }

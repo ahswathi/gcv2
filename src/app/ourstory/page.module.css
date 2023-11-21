@@ -1,0 +1,297 @@
+.container{
+  margin-top: 120px;
+  padding: 32px 8% 48px 8%;
+  background-color: #090909;
+}
+.maincontainer {
+  position: relative;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:80px;
+  padding: 40px 0;
+}
+.images {
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  right: 38px;
+  top: 10px;
+  z-index: 4;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+
+
+.content h2{
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 93.75% */
+  padding-top: 50px;
+}
+
+.content p{
+  color: #FFF;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300; 
+  line-height: 26px; /* 162.5% */
+  padding-top: 20px;
+}
+
+.teammaincontainer{
+  padding: 48px 12%;
+}
+
+.teamrow{
+  display: flex;
+  justify-content: space-between;
+}
+.teamcard{
+  position: relative;
+}
+.teamcard h2{
+  position: absolute;
+  top: 20px;
+  left: -40px;
+  color: #090909;
+  width: 137px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.teamcard span{
+  position: absolute;
+  top: 50px;
+  right: -60px;
+  color: #090909;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px; /* 175% */
+  letter-spacing: 5.44px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr; /* Rotate text vertically */
+  transform: rotate(180deg); /* Rotate text by 90 degrees */
+  transform-origin: left; /* Set rotation origin to top left */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.teamcard2{
+  position: relative;
+  padding-top: 100px;
+}
+.teamcard2 h2{
+  position: absolute;
+  top: 120px;
+  left: -40px;
+  color: #090909;
+  width: 137px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.teamcard2 span{
+  position: absolute;
+  top: 140px;
+  right: -60px;
+  color: #090909;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px; /* 175% */
+  letter-spacing: 5.44px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr; /* Rotate text vertically */
+  transform: rotate(180deg); /* Rotate text by 90 degrees */
+  transform-origin: left; /* Set rotation origin to top left */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.partnerimage img{
+  width: 100%;
+}
+
+/* .images img{
+  width: 100%;
+  height: auto;
+} */
+.partnerimage{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  background-color: black;
+}
+.partnerimage h1{
+  position: absolute;
+  top: 25%;
+  left: 80px;
+  color: #FFF;
+text-align: center;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 58px; /* 138.095% */
+letter-spacing: 1.5px;
+}
+
+.slidetrack {
+  display: flex;
+  -webkit-animation: scroll 30s linear infinite;
+animation: scroll 30s linear infinite;
+  gap: 22px;
+width: calc(280px * 6);
+}
+@media (max-width: 375px) {
+  .container{
+    margin-top: 0px;
+    padding: 32px 6% 48px 6%;
+  }
+  .maincontainer {
+    gap: 30px;
+  }
+  .teammaincontainer{
+    padding: 0px 8%;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .teamrow{
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+  }
+  .teamcard h2{
+    font-size: 20px;
+  }
+  .teamcard span{
+    font-size: 16px;
+  }
+  .teamcard2{
+    padding-top: 0px;
+  }
+  .teamcard2 h2{
+    font-size: 20px;
+    top: 20px;
+  }
+  .teamcard2 span{
+    font-size: 16px;
+    top: 50px;
+  }
+  .partnercontainer{
+    padding: 32px 0;
+  }
+  .partnerimage h1{
+    left: 16px;
+  font-size: 12px;
+  line-height: 18px; /* 138.095% */
+  letter-spacing: 1.0px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* .row{
+    width: 100%;
+  }
+   .maincontainer{
+     width: 33%;
+   } */
+   .images img{
+     width: 100%;
+   }
+   .teammaincontainer{
+     padding: 0px 8% 72px 8%;
+   }
+.content img{
+  width: 50%;
+}
+.content {
+  position: absolute;
+  right: 18px;
+  top: 10px;
+  z-index: 4;
+  padding: 6px 0 0 0;
+  text-align: right;
+}
+
+
+.content h2{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px; /* 93.75% */
+  padding-top: 6px;
+}
+
+.content p{
+  font-size: 12px;
+  font-weight: 300; 
+  line-height: 18px; /* 162.5% */
+  padding-top: 10px;
+}
+.row{
+  gap:60px
+}
+.teammaincontainer{
+  padding: 0px 8%;
+}
+.teamrow{
+  gap: 40px;
+  padding-top: 30px;
+}
+.teamcard h2{
+  font-size: 20px;
+}
+.teamcard img{
+  width: 80%;
+}
+.teamcard span{
+  font-size: 16px;
+  right: -12px;
+  top: 32px;
+}
+.teamcard2{
+  padding-top: 30px;
+}
+.teamcard2 h2{
+  font-size: 20px;
+  top: 42px;
+}
+.teamcard2 img{
+  width: 80%;
+}
+.teamcard2 span{
+  font-size: 16px;
+  right: -12px;
+  top: 52px;
+}
+.partnercontainer{
+  padding-top: 60px;
+}
+.partnerimage h1{
+  left: 60px;
+  font-size: 32px;
+  line-height: 40px;
+}
+  }
+  
+ 
+@media (min-width: 1024px) and (max-width: 1279px) {
+   
+  }

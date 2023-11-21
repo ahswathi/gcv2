@@ -1,0 +1,132 @@
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 56px;
+    padding:  32px 8% 32px 8% ;
+}
+.container2{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  0px 0 0px 0;
+}
+.heading{
+    color: #090909;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108px;
+    letter-spacing: 1.6px;
+    padding-bottom: 48px;
+}
+.heromain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    color: #0A0A0A;
+    text-align: left;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108px;
+    letter-spacing: 1.6px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+width: 152px;
+height: 46px;
+padding: 16px 22px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #000;
+border-style: none;
+box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.40);
+}
+
+.enquire{
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+   
+
+.main{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+line-height: normal;
+}
+
+.quicknav span{
+    color: #6A6A6A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+line-height: normal;
+padding: 8px;
+}
+.sub{
+    color: #0AA8E5;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+@media (max-width: 375px) {
+    .container{
+        gap: 36px;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 6% 32px 6%;
+    }
+    .heading{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0.8px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .button{
+        width: 120px;
+        height: 36px;
+    }
+    .enquire{
+        font-size: 12px;
+    }
+    .quicknav{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .heading{
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 90px;
+        letter-spacing: 0.8px;
+        padding-bottom: 0px;
+    }
+  }
+  
+ 
+@media (min-width: 1024px) and (max-width: 1279px) {
+   
+  }
+  

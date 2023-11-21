@@ -1,0 +1,128 @@
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    padding-top: 40px;
+}
+.service{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+    gap: 6%;
+}
+.service2{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+    gap: 6%;
+}
+
+.mainLeft{
+    box-sizing: border-box;
+}
+
+.mainLeft h2{
+    color: #090909;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 135% */
+    padding-top: 8px;
+}
+
+.mainLeft p{
+    color: #6A6A6A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    padding: 8px 0 48px 0;
+}
+
+.read{
+    float: right;
+}
+.button{
+    display: flex;
+width: 146px;
+height: 40px;
+border-style: none;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #000;
+box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.40);
+}
+
+.enquire{
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.mainRight img{
+    transition: transform 0.9s;
+  }
+  .mainRight:hover img {
+      transform: scale(1.1); 
+    }
+@media (min-width: 360px) and (max-width: 768px) {
+  .service{
+      flex-direction: column;
+      padding-bottom: 40px;
+      gap: 20px;
+  }
+  .service2{
+    flex-direction:column-reverse;
+    padding-bottom: 40px;
+  }
+.row{
+    padding-top: 20px;
+}
+  .mainLeft{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .mainLeft h2{
+    font-size: 24px;
+    line-height: 32px; /* 135% */
+    padding-top: 8px;
+    text-align: center;
+}
+
+.mainLeft p{
+    font-size: 12px;
+    line-height: 18px; /* 187.5% */
+    padding: 16px 0 32px 0;
+    text-align: center;
+}
+.button{
+    width: 120px;
+    height: 36px;
+}
+.mainRight img{
+    width: 100%;
+    height: auto;
+}
+.enquire{
+    font-size: 12px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+ 
+}
