@@ -10,7 +10,7 @@ import Ctaform from '../components/ctaform/ctaform'
 import Models from '../components/models/models'
 import Subservices from '../components/subservices/subservices'
 import Content from '../components/content/content'
-
+import Contacting from '../components/contacting/contacting'
 const page = () => {
   return (
     <>
@@ -29,6 +29,7 @@ const page = () => {
     <Models/>
     <Latestcs/>
     </div>
+        <Contacting />
         <Process/>
         <Portfolio/>
         <Testimonials/>

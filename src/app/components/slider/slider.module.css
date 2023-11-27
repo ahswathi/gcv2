@@ -1,9 +1,8 @@
 .containermain{
     padding: 32px 0 32px 0;
 }
-.container{
-    
-    filter: drop-shadow(0px 4px 8px #0AA8E5);
+.contained{
+    padding: 0;
 }
 .main{
     padding: 48px 8% 0 8%;
@@ -124,7 +123,7 @@
   }
 
   .container{
-      padding: 20px 8%;
+      padding: 20px 3.5%;
     
    /*  height: 80%;
     
