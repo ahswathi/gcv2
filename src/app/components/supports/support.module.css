@@ -23,7 +23,6 @@ font-size: 36px;
 font-weight: 500;
 }
 .answer{
-    display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -45,4 +44,33 @@ margin-top: 3px;
 }
 .active{
     transform: rotate(180deg);
+}
+
+@media (max-width: 821px) {
+    .answer{
+        flex-direction: column-reverse;
+    }
+    .ppl{
+        width: 98%;
+    }
+    .para{
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .head{
+        font-size: 16px;
+    }
+    .para{
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+   
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+ 
 }

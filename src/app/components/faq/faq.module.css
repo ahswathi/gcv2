@@ -81,3 +81,18 @@
 .faq-item{
   background-color: black;
 } */
+
+@media (max-width: 375px) {
+  .question{
+      font-size: 14px;
+  }
+  .answer{
+      font-size: 12px;
+  }
+  .faqaccordion{
+   flex-direction: column;
+  }
+  .faqbox{
+    width: 100%;
+  }
+}

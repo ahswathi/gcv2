@@ -4,9 +4,17 @@ import styles from './support.module.css'
 import Mainheading from '../mainheading/mainheading'
 
 const supports = () => {
-  const [stages, setStages] = useState(null)
+  const [stages, setStages] = useState(2)
 
   const handleClick = (i) => {
+    // let isExist = stages.findIndex((id) => id === i)
+    // if(isExist > -1){
+    //   let clone = [...stages];
+    //   clone.splice(isExist, 1)
+    //   setStages(clone)
+    // }else{
+    //   setStages((prev) => {return [...prev, i]})
+    // }
     let exist = stages === i;
 
     if (exist) {
