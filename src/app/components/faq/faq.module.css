@@ -81,16 +81,24 @@
 .faq-item{
   background-color: black;
 } */
-
+@media (max-width: 1023px) {
+  .faqaccordion{
+    flex-direction: column;
+   }
+   .faqbox{
+    width: 95%;
+  }
+  .aligned{
+    grid-gap: 5%;
+    justify-content: flex-start;
+  }
+}
 @media (max-width: 375px) {
   .question{
       font-size: 14px;
   }
   .answer{
       font-size: 12px;
-  }
-  .faqaccordion{
-   flex-direction: column;
   }
   .faqbox{
     width: 100%;

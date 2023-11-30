@@ -217,7 +217,13 @@ line-height: 22px; /* 137.5% */
         line-height: 30px; /* 187.5% */
         padding: 16px 0 32px 0;
     }
-    
+    .content{
+        top: 96px;
+        right: -20px;
+      }
+      .read{
+        gap: 20px;
+      }
 }
 
 

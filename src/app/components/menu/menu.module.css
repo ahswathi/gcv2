@@ -128,7 +128,7 @@
     height: 100%;
     border-top: 1px solid rgb(231, 231, 231);
   } */
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     .button{
         width: 120px;
         height: 36px;
@@ -136,8 +136,28 @@
     .enquire{
         font-size: 12px;
     }
+    .container{
+        left: 57%;
+    }
+    .businesscat{
+        padding: 10px;
+        width: 100%;
+    }
 }
 
+@media (max-width: 767px){
+    .container{
+        flex-direction: column;
+        left: 0%;
+        margin:0;
+        width: 100%;
+    }
+    .businesscat{
+        background-color: white;
+        width: 100%;
+        margin-top: 0;
+    }
+}
 @media (min-width: 768px) and (max-width: 1023px) {
     .container{
         position: relative;
@@ -151,5 +171,54 @@
         position: relative;
         width:90%;
         left: -46%;
+    }
+} */
+
+
+@media (max-width: 991.98px) {
+    .container {
+        left: 0;
+        margin: 0;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .businesscat{
+        padding: 20px;
+        width: 100%;
+        border: none;
+    }
+
+    .businesscat > h2 {
+        padding: 0 0 15px 10px;
+    }
+    .row{
+        justify-content: flex-start;
+        gap: 20px;
+
+    }
+    .business{
+        padding: 2px 10px 2px 10px;
+    }
+    .subcat{
+        width: 100%;
+    }
+
+    .buttonmain {
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        padding: 14px 20px;
+    }
+
+    .stage {
+        width: 100%;
+    }
+
+    .stage > h2 {
+        width: 100%;
+        padding: 0 0 15px 10px;
     }
 }

@@ -56,3 +56,17 @@ font-weight: 400;
 line-height: 40px; 
 padding-right: 60px;
 }
+@media (max-width: 375px){
+    .main{
+    top: 5%;
+    padding-left: 11px;
+    width: 53%;
+    }
+    .box{
+        padding: 40px 20px;
+    }
+    .content2 span{
+        padding: auto;
+        margin-top: 40px
+    }
+}

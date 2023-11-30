@@ -8,18 +8,22 @@
 }
 
 .tabs {
-    margin: 5px 48px 2px 48px;
+    margin: 5px 48px 0px 48px;
     display: flex;
     color: #090909;
 font-size: 18px;
 background-color: white;
 border: none;
-border-bottom: 3px #090909 solid;
 padding-bottom: 10px;
 padding-right: 10px;
 cursor: pointer;
+transition: all ease 0.3s;
 font-weight: 600;
 letter-spacing: 0.72px;
+}
+.active{
+    border-bottom: 3px #090909 solid;
+    margin-bottom: 0;
 }
 /* tab - styling */
 .tabcontainer{
@@ -64,4 +68,49 @@ height: 356px;
 .heropic{
     width: 100%;
     height: auto;
+}
+@media (max-width: 375px) {
+    .heading{
+        font-size: 20px;
+    }
+    .points{
+    font-size: 12px;
+    }
+    .tabs{
+        font-size: 14px;
+    }
+}
+@media (max-width: 765px){
+    
+    .head{
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 4px;
+        margin: 7px 0;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1023px) {
+   .tabcontainer{
+    flex-direction: column-reverse;
+   }
+   .herotext{
+    margin-top: 15px;
+    width: 90%;
+   }
+   .hero{
+    width: 85%;
+    height: auto;
+   }
+   .tabs {
+    margin: 5px 4% 2px 4%;
+font-size: 16px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+ .tabcontainer{
+    grid-gap: 12%;
+   }
 }
