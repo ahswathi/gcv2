@@ -26,7 +26,7 @@ const Casestudies = () => {
                   <h2>Grocery Shop</h2>
                   <p>Uniting teams to build a top-notch omnichannel shopping experience.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span>
+                    <span>Ecommerce</span><br className={styles.hidden} />
                     <span>Native App</span>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const Casestudies = () => {
                   <h2>Grocery Shop</h2>
                   <p>Uniting teams to build a top-notch omnichannel shopping experience.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span>
+                    <span>Ecommerce</span><br className={styles.hidden} />
                     <span>Native App</span>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ const Casestudies = () => {
                   <h2>Grocery Shop</h2>
                   <p>Uniting teams to build a top-notch omnichannel shopping experience.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span>
+                    <span>Ecommerce</span><br className={styles.hidden} />
                     <span>Native App</span>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ const Casestudies = () => {
                   <h2>Grocery Shop</h2>
                   <p>Uniting teams to build a top-notch omnichannel shopping experience.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span>
+                    <span>Ecommerce</span><br className={styles.hidden} />
                     <span>Native App</span>
                   </div>
                 </div>

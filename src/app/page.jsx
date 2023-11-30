@@ -64,7 +64,7 @@ export default function Home() {
         content="Boost your website's visibility and drive organic traffic with our comprehensive SEO solutions. Our team of experts utilizes cutting-edge techniques and tools to optimize your website for search engines, ensuring higher rankings and better online presence."
         imageUrl='assets/imagenew.png'
       />
-      <CTA/>
+      {/* <CTA/>
       <Testimonials/>
       <Process/>
       <Chooseus/>
@@ -74,7 +74,7 @@ export default function Home() {
       <Partner/>
       <Ctaform/>
       
-        {/* <FAQAccordion faqItems={faqItems} faqItem2={faqItems2} /> */}
+        {/* <FAQAccordion faqItems={faqItems} faqItem2={faqItems2} />  ////////
             <FAQAccordion />
       <Integration 
         title="Grow with integration"
@@ -86,7 +86,7 @@ export default function Home() {
         content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."
        
       />
-      <Blogs />
+      <Blogs /> */}
     </>
   )
 }

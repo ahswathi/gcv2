@@ -1,5 +1,5 @@
 .container{
-    padding: 76px 10% 36px 10%;
+    padding: 76px 8% 36px 8%;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,6 @@
     flex-direction: column;
     align-items: center;
     gap: 18px;
-    flex-shrink: 0;
     border-radius: 12px;
     border: 1.117px solid #E8E8E8;
     background: #FFF;
@@ -25,8 +24,9 @@
   }
 .row{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 40px;
+    gap: 35px;
 }
 
 .col{
@@ -35,6 +35,8 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 4px;
+    width: 259px;
+    flex-grow: 1;
 }
 
 .card h2{
@@ -62,7 +64,29 @@ font-weight: 500;
 line-height: 31.266px; /* 195.411% */
 padding-top: 16px;
 }
-
+@media (max-width: 665px) {
+    .col{
+        /* width: 256px; */
+        width: 200px;
+    }
+    .container{
+        padding: 76px 6% 36px 6%;
+    }
+}
+@media (max-width: 549px) {
+    .card{
+        padding: 20px 10px;
+    }
+    .container{
+        padding: 36px 4% 36px 4%;
+    }
+    .row{
+        grid-column-gap: 20px;
+    }
+    .col{
+        height: auto;
+    }
+}
 @media (max-width: 375px) {
     .container{
         padding: 32px 6% 32px 6%;
@@ -111,7 +135,7 @@ padding-top: 16px;
     }
     
 }
-
+/* 
 @media (min-width: 768px) and (max-width: 1023px) {
     .container{
     padding: 76px 6% 36px 6%;
@@ -119,7 +143,7 @@ padding-top: 16px;
    .card{
        padding: 20px;
    }
-}
+} */
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
