@@ -26,9 +26,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 
 .main{
     position: absolute;
-    top: 6%;
+    top: 7%;
     padding-left: 100px;
-    max-width: 325px;
+    max-width: 350px;
 }
 .content h2{
     color: #090909;
@@ -65,28 +65,36 @@ padding-right: 45px;
 @media (max-width: 835px){
     .main{
         padding-left: 50px;
+        top: 10%;
+        width: 50%;
     }
-}
-@media (max-width: 505px){
     .box{
         padding: 25px 20px;
     }
+}
+@media (max-width: 505px){
+    
     .contentright img{
-        opacity: 0.7;
+        opacity: 1;
     }
     .hidden{
         display: flex;
+    }
+    .content p{
+        padding-bottom: 30px;
     }
     .content2 span{
         padding-right: 15px;
         font-size: 18px;
     }
+    .main{
+        top: 2%;
+    }
+   
 }
 @media (max-width: 375px){
     .main{
-    top: 5%;
     padding-left: 11px;
-    width: 53%;
     }
     .content p{
         padding-bottom: 20px;
