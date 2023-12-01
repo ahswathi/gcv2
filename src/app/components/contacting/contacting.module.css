@@ -69,17 +69,7 @@ height: 356px;
     width: 100%;
     height: auto;
 }
-@media (max-width: 375px) {
-    .heading{
-        font-size: 20px;
-    }
-    .points{
-    font-size: 12px;
-    }
-    .tabs{
-        font-size: 14px;
-    }
-}
+
 @media (max-width: 765px){
     
     .head{
@@ -88,6 +78,9 @@ height: 356px;
         grid-gap: 4px;
         margin: 7px 0;
         justify-content: space-between;
+    }
+    .container{
+        padding: 28px 6%;
     }
 }
 @media (max-width: 1023px) {
@@ -113,4 +106,23 @@ font-size: 16px;
  .tabcontainer{
     grid-gap: 12%;
    }
+}
+@media (max-width: 375px) {
+    .heading{
+        font-size: 20px;
+    }
+    .points{
+    font-size: 12px;
+    }
+    .tabs{
+        font-size: 14px;
+    }
+}
+@media (max-width: 565px){
+    .head{
+        justify-content: space-evenly;
+    }
+    .tabcontainer{
+        margin-top: 25px;
+    }
 }

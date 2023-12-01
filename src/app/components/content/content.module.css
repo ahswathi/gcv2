@@ -13,11 +13,13 @@
 }
 .box{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding-top: 40px;
+    grid-gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
 }
 .box span{
     display: flex;
@@ -30,9 +32,11 @@
     border: 1px solid #464646;
 }
 .box1{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 18px;
+    justify-content: center;
+    align-items: center;
 }
 .box2{
     display: inline-flex;
@@ -54,12 +58,12 @@
 .mainRight{
     width: 40%;
 }
-.mainRight img{
+.container img{
     width: 100%;
   height: auto;
   transition: transform 0.9s;
 }
-.mainRight:hover img {
+.mainRicon.container img {
     transform: scale(1.1); 
   }
 
@@ -94,8 +98,83 @@
 .read{
     float: right;
 }
-
-@media (max-width: 375px) {
+@media (max-width: 1220px){
+    .box{
+        width: 100%;
+    }
+}
+@media (max-width: 1023px) {
+    .box span{
+        width: 124px;
+    }
+    .container{
+        padding: 48px 10% 0 10%;
+    }
+    .service{
+        gap: 10%;
+        padding-top: 48px;
+    }
+    
+    .service2{
+        gap: 10%;
+        padding-top: 88px;
+    }
+    .mainLeft{
+        width: 50%;
+    }
+    .mainRight{
+        width: 50%;
+    }
+    .container img{
+        width: 100%;
+    }
+    .mainLeft h6{
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.32px;
+    }
+    
+    .mainLeft h2{
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 54px; /* 135% */
+        padding-top: 8px;
+    }
+    
+    .mainLeft p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px; /* 187.5% */
+        padding: 16px 0 32px 0;
+    }
+    
+}
+@media (max-width: 975px) {
+    .container{
+        padding: 0px 6% 0 6%;
+    }
+    .container img{
+        width: 100%;
+    }
+    .container p{
+        text-align: start;
+    }
+}
+@media (max-width: 785px) {
+    
+    .box span{
+        display: flex;
+        width: 86px;
+        padding: 6px 8px;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        gap: 10px;
+        border-radius: 50px;
+        border: 1px solid #464646;
+    }
+}
+@media (max-width: 415px) {
 
     .service{
         display: inline-flex;
@@ -131,12 +210,17 @@
         padding-top: 32px;
         
     }
-    .mainRight img{
+    .container p{
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: normal;
+    }
+    .container img{
         width: 100%;
       height: auto; 
       transition: transform 0.3s;
     }
-    .mainRight:hover img {
+    .mainRicon.container img {
         transform: scale(1.1); 
       }
     
@@ -172,55 +256,9 @@
     .container{
         padding: 0px 10% 0 10%;
     }
-
-    
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .container{
-        padding: 48px 10% 0 10%;
-    }
-    .service{
-        gap: 10%;
-        padding-top: 48px;
-    }
-    
-    .service2{
-        gap: 10%;
-        padding-top: 88px;
-    }
-    .mainLeft{
-        width: 50%;
-    }
-    .mainRight{
-        width: 50%;
-    }
-    .mainRight img{
-        width: 100%;
-    }
-    .mainLeft h6{
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: 0.32px;
-    }
-    
-    .mainLeft h2{
-        font-size: 34px;
-        font-weight: 600;
-        line-height: 54px; /* 135% */
-        padding-top: 8px;
-    }
-    
-    .mainLeft p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px; /* 187.5% */
-        padding: 16px 0 32px 0;
+    .box{
+        grid-gap: 10px;
     }
     
 }
 
-
-@media (min-width: 1024px) and (max-width: 1279px) {
- 
-}
