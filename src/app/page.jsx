@@ -25,68 +25,68 @@ import Supports from './components/supports/supports'
 
 // const faqItems = [
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-  
+
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-  
+
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-  
+
 // ];
 // const faqItems2 = [
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-  
+
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-  
+
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-  
+
 // ]; 
 
 export default function Home() {
 
   return (
     <>
-    {/* <Menu/> */}
-      <Hero/>
-      <Herosub/>
-      <Brands/>
-      <Slidebar/>
-      <Technologies 
+      {/* <Menu/> */}
+      <Hero />
+      <Herosub />
+      <Brands />
+      <Slidebar />
+      <Technologies
         subtitle="For CMS based development"
         title="Expert Search Engine Optimization"
         content="the quick fox jumps over the lazy dog the quick fox jumps over the lazy dog the quick fox jumps over the lazy dog the quick fox jumps over the lazy dog"
         imageUrl='assets/image.png'
       />
-      <Casestudies/>
+      <Casestudies />
       <Supports />
-      <Industries/>
+      <Industries />
       <Business
         subtitle="For CMS based development"
         title="Expert Search Engine Optimization"
         content="Boost your website's visibility and drive organic traffic with our comprehensive SEO solutions. Our team of experts utilizes cutting-edge techniques and tools to optimize your website for search engines, ensuring higher rankings and better online presence."
         imageUrl='assets/imagenew.png'
       />
-      {/* <CTA/>
-      <Testimonials/>
-      <Process/>
-      <Chooseus/>
-      <Newchooseus/>
-      <Trends/>
-      
-      <Partner/>
-      <Ctaform/>
-      
-        {/* <FAQAccordion faqItems={faqItems} faqItem2={faqItems2} />  ////////
-            <FAQAccordion />
-      <Integration 
+      <CTA />
+      <Testimonials />
+      <Process />
+      <Chooseus />
+      <Newchooseus />
+      <Trends />
+
+      <Partner />
+      {/* <Ctaform /> */}
+
+      {/* <FAQAccordion faqItems={faqItems} faqItem2={faqItems2} />  //////// */}
+      <FAQAccordion />
+      <Integration
         title="Grow with integration"
         content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."
         imageUrl='assets/image3.png'
       />
-      <Newintegration 
+      <Newintegration
         title="Grow with integration"
         content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."
-       
+
       />
-      <Blogs /> */}
+      <Blogs />
     </>
   )
 }

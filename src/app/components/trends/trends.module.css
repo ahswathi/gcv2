@@ -1,4 +1,4 @@
-.container{
+.container {
     padding: 24px 0 48px 0;
     display: inline-flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 
-.row{
+.row {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -18,7 +18,7 @@
     padding: 0px 6% 3% 6%;
 }
 
-.col{
+.col {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -26,14 +26,14 @@
 }
 
 
-.heading{
+.heading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
 }
 
-.col h2{
+.col h2 {
     color: #FFF;
     font-size: 32px;
     font-style: normal;
@@ -42,7 +42,7 @@
     letter-spacing: 0.64px;
 }
 
-.col p{
+.col p {
     color: #FDFDFD;
     font-size: 16px;
     font-style: normal;
@@ -51,7 +51,7 @@
     letter-spacing: 0.32px;
 }
 
-.trendfoot{
+.trendfoot {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -65,87 +65,125 @@
 }
 
 
-.button{
+.button {
     display: flex;
-width: 150px;
-height: 40px;
-padding: 14px 20px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 12px;
-background: #FDFDFD;
-border-style: none;
-box-shadow: -4px -4px 8px 0px rgba(133, 135, 141, 0.4);
+    width: 150px;
+    height: 40px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FDFDFD;
+    border-style: none;
+    box-shadow: -4px -4px 8px 0px rgba(133, 135, 141, 0.4);
 }
 
-.enquire{
+.enquire {
     color: #090909;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
-.col img{
-    width:100px; 
-    height:94px;
+.col img {
+    width: 100px;
+    height: 94px;
     transition: transform 0.9s;
-  }
-  .col:hover img {
-      transform: scale(1.1); 
+}
+
+.col:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1023px) {
+    .row {
+        gap: 26px
     }
 
-@media (max-width: 375px) {
-    .row{
+    .trendfoot {
+        padding: 40px 3% 48px 3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col {
+        gap: 16px;
+    }
+
+    .row {
+        padding: 0px 3% 3% 3%;
+    }
+
+    .col img {
+        width: 65px;
+        height: 55px;
+    }
+
+    .col h2 {
+        font-size: 26px;
+    }
+
+    .col p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        margin: 0 3%;
+    }
+}
+
+
+@media (max-width: 475px) {
+    .container {
+        margin: 0;
+    }
+    .row {
         flex-direction: column;
         gap: 40px;
         padding: 0 4% 3% 4%;
     }
-    .col img{
-        width:50px; 
-        height:47px;
+
+    .col img {
+        width: 50px;
+        height: 47px;
     }
-    .heading{
+
+    .heading {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 2px;
     }
-    
-    .col h2{
+
+    .col h2 {
         font-size: 24px;
         line-height: 30px;
     }
-    
-    .col p{
+
+    .col p {
         font-size: 12px;
         line-height: 20px;
         letter-spacing: 0.32px;
     }
-    .trendfoot{
+
+    .trendfoot {
         gap: 26px;
         padding: 20px 0 24px 0;
         font-size: 18px;
         text-align: center;
     }
-    .button{
+
+    .button {
         width: 128px;
         height: 36px;
     }
-    .enquire{
+
+    .enquire {
         font-size: 14px;
     }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-   .row{
-       gap:26px
-   }
-}
-
-
-@media (min-width: 1024px) and (max-width: 1279px) {
- 
 }

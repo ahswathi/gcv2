@@ -62,7 +62,7 @@
   .mainRight:hover img {
       transform: scale(1.1); 
     }
-@media (max-width: 375px) {
+@media (max-width: 475px) {
     .container{
         padding: 32px 6% 0 6%;
     }
@@ -132,7 +132,13 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 675px) {
+    .container{
+        padding: 48px 6% 48px 6%;
+    }
+    .service{
+        gap: 5%;
+    }
    .service h2{
        font-size: 26px;
        line-height: 40px;
@@ -140,7 +146,7 @@
    .service2 h2{
     font-size: 26px;
     line-height: 40px;
-    padding-top: 98px;
+    padding-top: 8px;
 }
 }
 

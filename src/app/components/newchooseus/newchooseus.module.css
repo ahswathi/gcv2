@@ -1,5 +1,5 @@
-.container{
-    padding: 6% 8%  6% 8%;
+.container {
+    padding: 6% 8% 6% 8%;
     display: inline-flex;
     align-items: flex-start;
     background: #FFF;
@@ -7,13 +7,16 @@
     justify-content: space-between;
     margin: 0px 0px 72px 0px;
 }
-.heading{
+
+.heading {
     width: 50%;
 }
-.rowmain{
+
+.rowmain {
     width: 46%;
 }
-.line::before{
+
+.line::before {
     content: '';
     display: block;
     width: 100%;
@@ -21,17 +24,17 @@
 }
 
 .card:hover {
-    transform: scale(1.05); 
-  }
+    transform: scale(1.05);
+}
 
-.row{
+.row {
     display: flex;
     align-items: center;
     gap: 80px;
     padding-bottom: 40px;
 }
 
-.col{
+.col {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,92 +42,129 @@
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-.col h2{
+.col h2 {
     color: #000;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 150% */
-letter-spacing: 0.2px;
-padding-bottom: 16px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: 0.2px;
+    padding-bottom: 16px;
 }
-.heading h2{
+
+.heading h2 {
     color: #090909;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 132.6%; /* 63.648px */
-letter-spacing: 0.48px;
-padding-bottom: 30px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.6%;
+    /* 63.648px */
+    letter-spacing: 0.48px;
+    padding-bottom: 30px;
 }
-.heading p{
+
+.heading p {
     color: #464646;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 187.5% */
-padding-bottom: 60px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    padding-bottom: 60px;
 }
-.card span{
+
+.card span {
     color: #464646;
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 31.266px; /* 195.411% */
-padding-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.266px;
+    /* 195.411% */
+    padding-top: 16px;
 }
 
 
-.button{
+.button {
     display: flex;
-width: 146px;
-height: 40px;
-padding: 14px 20px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 12px;
-background: #090909;
-border-style: none;
-box-shadow: -4px -4px 8px 0px rgba(157, 165, 182, 0.4);
-color: #ffffff;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    width: 146px;
+    height: 40px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #090909;
+    border-style: none;
+    box-shadow: -4px -4px 8px 0px rgba(157, 165, 182, 0.4);
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.button:hover{
-background: #FDFDFD;
-color: #090909;
-box-shadow: -6px -6px 8px 0px rgb(157, 165, 182, 0.2);
-border: 1px solid #000000;
+
+.button:hover {
+    background: #FDFDFD;
+    color: #090909;
+    box-shadow: -6px -6px 8px 0px rgb(157, 165, 182, 0.2);
+    border: 1px solid #000000;
 }
+
+
+/* @media (min-width: 768px) and (max-width: 1023px) {}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {} */
+
+@media (max-width: 991px) {
+    .container {
+        gap: 60px;
+    }
+    .row {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .heading p {
+        padding-bottom: 40px;
+    }
+
+    .rowmain {
+        width: 100%;
+    }
+}
+
 @media (max-width: 375px) {
-    .card{
+    .card {
         height: 200px;
         gap: 10px;
         padding: 18px;
     }
-    .row{
+
+    .row {
         flex-direction: column;
     }
-    
-    .card h2{
-    font-size: 16px;
+
+    .card h2 {
+        font-size: 16px;
     }
-    .card p{
-    font-size: 14px;
-    line-height: 20px; /* 150% */
+
+    .card p {
+        font-size: 14px;
+        line-height: 20px;
+        /* 150% */
     }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-   
-}
-
-
-@media (min-width: 1024px) and (max-width: 1279px) {
- 
 }
