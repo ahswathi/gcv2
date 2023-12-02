@@ -53,7 +53,7 @@ line-height: normal;
         padding-bottom: 48px;
     }
   }
-@media (max-width: 375px) {
+@media (max-width: 415px) {
     .heading{
         font-size: 24px;
         font-weight: 600;

@@ -88,7 +88,7 @@ const Navbar = () => {
                             </div>
                             <div className={styles.dropdownContent}>
                                 {/* <Link href="/shopify">Shopify</Link> */}
-                                <Menu setIsDropdownOpen={setIsDropdownOpen} />
+                                <Menu setIsDropdownOpen={setIsDropdownOpen} setSidebar={setSidebar} />
                             </div>
                         </div>
                         <Link href="/casestudies" onClick={() => setSidebar(false)} className={styles.link}>Case Studies</Link>

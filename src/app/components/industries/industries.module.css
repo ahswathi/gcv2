@@ -35,7 +35,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 4px;
-    width: 259px;
+    width: 30%;
     flex-grow: 1;
 }
 
@@ -72,6 +72,7 @@ padding-top: 16px;
     .container{
         padding: 76px 6% 36px 6%;
     }
+
 }
 @media (max-width: 549px) {
     .card{
