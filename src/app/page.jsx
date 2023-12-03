@@ -46,7 +46,7 @@ export default function Home() {
     <>
       {/* <Menu/> */}
       <Hero />
-      <Herosub />
+      {/* <Herosub /> */}
       <Brands />
       <Slidebar />
       <Technologies
