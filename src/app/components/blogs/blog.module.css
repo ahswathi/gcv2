@@ -1,0 +1,80 @@
+.container {
+    padding: 48px 6.2%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs {
+    grid-gap: 50px;
+    display: flex;
+}
+
+.menu {
+    color: #464646;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    line-height: normal;
+    cursor: pointer;
+    padding-bottom: 2px;
+    transition: all 0.3s;
+}
+
+.active {
+    color: #1D212C;
+    padding-bottom: 0;
+    border-bottom: 3px #1D212C solid
+}
+
+.view {
+    color: #1D212C;
+    font-size: 24px;
+    font-style: normal;
+    background: white;
+    align-items: center;
+    display: flex;
+    grid-gap: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* tabs style */
+.tabcontainer {
+    margin-top: 50px;
+    display: flex;
+    grid-gap: 70px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.blogs {
+    width: calc(33% - 47px);
+}
+
+.blog {
+    overflow: hidden;
+    width: 100%;
+    height: 321px;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.blogtext {
+    color: #090909;
+    font-size: 24px;
+    font-style: normal;
+    width: 70%;
+    font-weight: 600;
+    line-height: 40px;
+    /* 166.667% */
+}
