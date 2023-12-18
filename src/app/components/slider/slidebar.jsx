@@ -9,7 +9,7 @@ import styles from './slider.module.css'
 
 const Slidebar = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 400,
     slidesToShow: 1,
