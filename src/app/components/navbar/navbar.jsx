@@ -81,7 +81,7 @@ const Navbar = () => {
                 </Link>
                     <div className={styles.dropdownContent}>
                         {/* <Link href="/shopify">Shopify</Link> */}
-                        <Menu/>
+                        <Menu setIsDropdownOpen={setIsDropdownOpen} />
                     </div>
             </div>
             <Link href="/casestudies" className={styles.link}>Case Studies</Link>

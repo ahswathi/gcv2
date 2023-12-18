@@ -87,8 +87,10 @@ line-height: normal;
 @media (max-width: 375px) {
     .service{
         flex-direction: column;
+        align-items: flex-start;
         gap: 40px;
-        padding-top: 0;
+        padding: 8% 6%;
+        border-radius: 16px;
     }
     .mainLeft{
         width: 96%;
@@ -120,15 +122,38 @@ line-height: normal;
     .enquire{
         font-size: 12px;
     }
+    
+.mainRight img{
+    width: 30%;
+    transition: transform 0.9s;
+  }
+  .row2{
+      justify-content: space-between;
+  }
+  .row1{
+      justify-content: space-between;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
    .service{
-       gap:10%;
+       gap:8%;
+       border-radius: 16px;
+       padding: 6% 4%;
+   }
+   .service h2{
+       padding-top: 0px;
    }
 }
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
- 
+    .service{
+        gap:8%;
+        border-radius: 16px;
+        padding: 6% 8%;
+    }
+    .service h2{
+        padding-top: 0px;
+    }
 }

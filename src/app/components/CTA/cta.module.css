@@ -17,7 +17,7 @@
 
 .contentleft{
   padding: 0 6% 0 6%;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -78,6 +78,7 @@ transition: all 500ms ease;
     color: #0AA8E5;
     box-shadow: -6px -6px 8px 0px rgb(36 36 36 / 40%);
     }
+
 .enquire{
     color: #FFF;
 font-size: 16px;
@@ -101,17 +102,36 @@ line-height: normal;
     }
 
     .contentleft{
-        padding: 48px 6%;
-
+        padding: 28px 6% 0px 6%;
     }
     
+    .contentleft h2{
+        font-size: 22px;
+        line-height: 28px; 
+    }
+
+    .contentleft p{
+        font-size: 18px;
+        line-height: 30px; 
+        padding: 8px 0 48px 0;
+    }
+    .contentright{
+        height: 280px;
+        margin: 20px 0px 0px 0px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-   
+    .contentright{
+        height: 280px;
+        margin: 60px 0px;
+    }
 }
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
- 
+         .contentright{
+            height: 320px;
+            margin: 60px 0px;
+        }
 }

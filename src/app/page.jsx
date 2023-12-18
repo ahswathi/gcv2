@@ -14,7 +14,7 @@ import Slider from './components/slider/slider'
 import Process from './components/process/process'
 import FAQAccordion from './components/faq/faq'
 import Portfolio from './components/portfolio/portfolio'
-import Menu from './components/menu/menu'
+import Stages from './components/stages/stages'
 import Casestudies from './components/casestudies/casestudies'
 import Technologies from './components/technologies/technologies'
 import Newintegration from './components/newintegration/newintegration'
@@ -44,7 +44,7 @@ export default function Home() {
     <>
     {/* <Menu/> */}
       <Hero/>
-      <Herosub/>
+      <Stages/>
       <Brands/>
       <Slider/>
       <Technologies 
