@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import styles from './menu.module.css'
 
-const Menu = () => {
+const Menu = ( {setIsDropdownOpen} ) => {
   return (
     <>
         <div className={styles.container}>
@@ -10,14 +10,14 @@ const Menu = () => {
                 <h2>BUSINESS MODEL</h2>
                 <div className={styles.subcat}>
                     <div className={styles.row}>
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={ () => setIsDropdownOpen(false) }> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
                         </div>
                     </Link>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={ () => setIsDropdownOpen(false) }> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>

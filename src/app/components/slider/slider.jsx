@@ -3,13 +3,13 @@ import React from 'react'
 import Mainheading from '../mainheading/mainheading'
 import styles from './slider.module.css'
 
-const Slider = () => {
+const Slider = ({head, bg}) => {
   return (
-    <div className={styles.containermain}>
-        <Mainheading
+    <div className={styles.contained}>
+        {/* <Mainheading
         titlecenter="Our Sevices"
         contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
-        />
+        /> */}
 
         
          {/* <div className={styles.container}>
@@ -25,14 +25,14 @@ const Slider = () => {
                   </div>
               </div>
           </div>  */}
-      <div className={styles.container}>
+      <div className={styles.container} style={{filter:`drop-shadow(0px 4px 8px ${bg})`}}>
            {/*  <div className={styles.wrapper}> */}
-              <div className={styles.service}>
+              <div className={styles.service} style={{background:bg}}>
                   <div className={styles.mainRight}>
                     <img src='assets/image2.png' />
                   </div>
                   <div className={styles.mainLeft}>
-                      <h2>Develop</h2>
+                      <h2>{head}</h2>
                       <p>‘In the end, it all comes down to 0 and 1’. This is where the product shapes up, and our team knows these 0’s and 1’s well.</p>
                       
                         <div className={styles.bullet}>

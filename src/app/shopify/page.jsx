@@ -10,11 +10,11 @@ import Ctaform from '../components/ctaform/ctaform'
 import Models from '../components/models/models'
 import Subservices from '../components/subservices/subservices'
 import Content from '../components/content/content'
-
+import Contacting from '../components/contacting/contacting'
 const page = () => {
   return (
     <>
-    <Subservices
+    <Herosub
      subtitle="Web Hosting"
      title="E-commerce UI/UX Design"
      content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
@@ -29,6 +29,7 @@ const page = () => {
     <Models/>
     <Latestcs/>
     </div>
+        <Contacting />
         <Process/>
         <Portfolio/>
         <Testimonials/>

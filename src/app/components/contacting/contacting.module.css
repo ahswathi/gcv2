@@ -1,0 +1,67 @@
+.container{
+    padding: 48px 8%;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    margin: 5px 48px 2px 48px;
+    display: flex;
+    color: #090909;
+font-size: 18px;
+background-color: white;
+border: none;
+border-bottom: 3px #090909 solid;
+padding-bottom: 10px;
+padding-right: 10px;
+cursor: pointer;
+font-weight: 600;
+letter-spacing: 0.72px;
+}
+/* tab - styling */
+.tabcontainer{
+    display: inline-flex;
+/* padding: 39px 693px 46px 59px; */
+align-items: center;
+width: 100%;
+grid-gap: 18%;
+border-radius: 15px;
+padding: 48px 0;
+justify-content: center;
+background-color: rgba(30, 34, 43, 0.10);
+    margin-top: 47px;
+}
+.herotext{
+    color: #090909;
+font-size: 16px;
+width: 40%;
+}
+.heading{
+font-size: 32px;
+font-weight: 600;
+margin-top: 8px;
+}
+.points{
+    margin-top: 12px;
+font-size: 16px;
+font-weight: 500;
+}
+.bullet{
+    display: flex;
+    padding: 12px 0;
+    grid-gap: 4.5%;
+    align-items: center;
+}
+.hero{
+    width: 407px;
+    overflow: hidden;
+    border-radius: 26px;
+height: 356px;
+}
+.heropic{
+    width: 100%;
+    height: auto;
+}

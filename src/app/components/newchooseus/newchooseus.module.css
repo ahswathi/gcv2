@@ -101,27 +101,78 @@ color: #090909;
 box-shadow: -6px -6px 8px 0px rgb(157, 165, 182, 0.2);
 border: 1px solid #000000;
 }
+
+
+
 @media (max-width: 375px) {
+    .container{
+        padding: 6% 8%  6% 8%;
+        margin: 0px 0px 72px 0px;
+        gap: 60px;  
+        flex-direction: column;
+    }
     .card{
         height: 200px;
         gap: 10px;
         padding: 18px;
     }
     .row{
-        flex-direction: column;
+        flex-direction: column; 
+        gap: 20px;
+        padding-bottom: 20px;
     }
     
-    .card h2{
-    font-size: 16px;
+    
+    .heading{
+        width: 100%;
     }
-    .card p{
+    .rowmain{
+        width: 100%;
+    }
+    .heading h2{
+    font-size: 22px;
+    line-height: 32px; 
+    padding-bottom: 10px;
+    }
+    .heading p{
     font-size: 14px;
-    line-height: 20px; /* 150% */
+    line-height: 24px; 
+    padding-bottom: 20px;
+    }
+    .col h2{
+    font-size: 20px;
+    line-height: 28px; 
+    padding-bottom: 12px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-   
+    .container{
+        padding: 6% 8%  6% 8%;
+        margin: 0px 0px 72px 0px;
+        gap:100px;  
+    }
+    .row{
+        gap:40px;
+        padding-bottom: 30px;
+    }
+    
+    .heading h2{
+    font-size: 22px;
+    line-height: 32px; 
+    padding-bottom: 10px;
+    }
+
+    .heading p{
+    font-size: 16px;
+    line-height: 28px; 
+    padding-bottom: 40px;
+    }
+    .col h2{
+    font-size: 20px;
+    line-height: 28px; 
+    padding-bottom: 12px;
+    }
 }
 
 
