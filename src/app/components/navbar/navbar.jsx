@@ -5,6 +5,7 @@ import styles from './navbar.module.css'
 import Image from 'next/image';
 import Menu from '../menu/menu';
 import Darkbutton from '../darkbutton/darkbutton';
+import Remenu from './../remenu/remenu';
 
 const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -81,7 +82,7 @@ const Navbar = () => {
                 </Link>
                     <div className={styles.dropdownContent}>
                         {/* <Link href="/shopify">Shopify</Link> */}
-                        <Menu/>
+                        <Remenu />
                     </div>
             </div>
             <Link href="/casestudies" className={styles.link}>Case Studies</Link>
