@@ -2,7 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import styles from './menu.module.css'
 
-const Menu = ( {setIsDropdownOpen} ) => {
+const Menu = ({setIsDropdownOpen, setSidebar}) => {
+    const handleclick = () => {
+        setIsDropdownOpen(false)
+        setSidebar(false)
+    }
   return (
     <>
         <div className={styles.container}>
@@ -10,30 +14,14 @@ const Menu = ( {setIsDropdownOpen} ) => {
                 <h2>BUSINESS MODEL</h2>
                 <div className={styles.subcat}>
                     <div className={styles.row}>
-                    <Link href="/shopify" onClick={ () => setIsDropdownOpen(false) }> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
                         </div>
                     </Link>
                         
-                    <Link href="/shopify" onClick={ () => setIsDropdownOpen(false) }> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                    <div className={styles.row}>
-                        
-                    <Link href="/shopify"> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                        
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
@@ -42,14 +30,30 @@ const Menu = ( {setIsDropdownOpen} ) => {
                     </div>
                     <div className={styles.row}>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
                         </div>
                     </Link>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
+                        <div className={styles.business}>
+                            <h3>Shopify</h3>
+                            <p>Streamline workflow to <br/> increase business efficiency.</p>
+                        </div>
+                    </Link>
+                    </div>
+                    <div className={styles.row}>
+                        
+                    <Link href="/shopify" onClick={handleclick}> 
+                        <div className={styles.business}>
+                            <h3>Shopify</h3>
+                            <p>Streamline workflow to <br/> increase business efficiency.</p>
+                        </div>
+                    </Link>
+                        
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
@@ -74,30 +78,14 @@ const Menu = ( {setIsDropdownOpen} ) => {
                 <div className={styles.subcat}>
                     <div className={styles.row}>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
                         </div>
                     </Link>
                         
-                    <Link href="/shopify"> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                    <div className={styles.row}>
-                        
-                    <Link href="/shopify"> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                        
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
@@ -106,14 +94,30 @@ const Menu = ( {setIsDropdownOpen} ) => {
                     </div>
                     <div className={styles.row}>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
                         </div>
                     </Link>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
+                        <div className={styles.business}>
+                            <h3>Shopify</h3>
+                            <p>Streamline workflow to <br/> increase business efficiency.</p>
+                        </div>
+                    </Link>
+                    </div>
+                    <div className={styles.row}>
+                        
+                    <Link href="/shopify" onClick={handleclick}> 
+                        <div className={styles.business}>
+                            <h3>Shopify</h3>
+                            <p>Streamline workflow to <br/> increase business efficiency.</p>
+                        </div>
+                    </Link>
+                        
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
@@ -139,7 +143,7 @@ const Menu = ( {setIsDropdownOpen} ) => {
                 <div className={styles.subcat}>
                     <div className={styles.stagerow}>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
@@ -148,7 +152,7 @@ const Menu = ( {setIsDropdownOpen} ) => {
                     </div>
                     <div className={styles.stagerow}>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>
@@ -157,7 +161,7 @@ const Menu = ( {setIsDropdownOpen} ) => {
                     </div>
                     <div className={styles.stagerow}>
                         
-                    <Link href="/shopify"> 
+                    <Link href="/shopify" onClick={handleclick}> 
                         <div className={styles.business}>
                             <h3>Shopify</h3>
                             <p>Streamline workflow to <br/> increase business efficiency.</p>

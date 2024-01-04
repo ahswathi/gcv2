@@ -41,6 +41,9 @@ margin-top: 3px;
 .dropdown{
     transition: all ease-in 0.3s;
     cursor: pointer;
+    width: 2.5%;
+    min-width: 18px;
+    height: auto;
 }
 .active{
     transform: rotate(180deg);
@@ -57,17 +60,26 @@ margin-top: 3px;
         width: 90%;
         margin-top: 10px;
     }
-}
-@media (max-width: 375px) {
     .head{
-        font-size: 16px;
+        font-size: 28px;
+    }
+}
+@media (max-width: 445px) {
+    .head{
+        font-size: 24px;
     }
     .para{
         font-size: 12px;
+        line-height: 27px;
+    }
+    .dropdown{
+        width: 6%;
     }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-   
+    .dropdown{
+        width: 3.5%;
+    }
 }
 
 

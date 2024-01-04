@@ -15,19 +15,15 @@ const Content = ({ subtitle, title, content, imageUrl}) => {
                 <img src={imageUrl} />
                 <p>{content}</p>
                 <div className={styles.box}>
-                    <div className={styles.box1}>
                         <span>Analytics</span>
                         <span>SEO</span>
                         <span>PPC</span>
                         <span>Content</span>
                         <span>Social</span>
-                    </div>
-                    <div className={styles.box2}>
                         <span>Email</span>
                         <span>Video</span>
                         <span>Branding</span>
                         <span>Strategy</span>
-                    </div>
                 </div>
         </div>
  </>

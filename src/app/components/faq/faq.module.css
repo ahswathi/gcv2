@@ -1,16 +1,17 @@
-.faqcontainer{
-    padding: 0 10%;
+.faqcontainer {
+  padding: 0 10%;
 }
 
-.faqaccordion{
-  display:flex;
+.faqaccordion {
+  display: flex;
   grid-gap: 50px;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   padding: 50px 0px;
 }
-.faqbox{
+
+.faqbox {
   width: calc(50% - 25px);
   height: fit-content;
   border-radius: 12px;
@@ -19,38 +20,45 @@
   box-shadow: 0.60219px 1.80656px 0px -0.83333px rgba(0, 0, 0, 0.05);
   padding: 27px 27px 27px 36px;
 }
-.question{
+
+.question {
   color: #090909;
   font-size: 23px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-.answer{
+
+.answer {
   color: #6A6A6A;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   padding-top: 27px;
   transition: all 0.3s;
 }
-.aligned{
-  display:flex;
+
+.aligned {
+  display: flex;
   grid-gap: 20px;
   justify-content: space-between;
   width: 100%;
 }
-.dropdown{
+
+.dropdown {
   width: 12px;
-  height:12px;
+  height: 12px;
   margin-top: 6px;
   transition: all 0.3s;
   cursor: pointer;
 }
-.dropdown.active{
-    transform: rotate(90deg);
+
+.dropdown.active {
+  transform: rotate(90deg);
 }
+
 /* .faq-accordion {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
@@ -81,18 +89,44 @@
 .faq-item{
   background-color: black;
 } */
+@media (max-width: 1023px) {
+  .faqaccordion {
+    flex-direction: column;
+  }
 
-@media (max-width: 375px) {
-  .question{
-      font-size: 14px;
+  .faqbox {
+    width: 95%;
   }
-  .answer{
-      font-size: 12px;
+
+  .aligned {
+    grid-gap: 5%;
+    justify-content: flex-start;
   }
-  .faqaccordion{
-   flex-direction: column;
+}
+
+@media (max-width: 575px) {
+  .faqcontainer {
+    padding: 0 5%;
   }
-  .faqbox{
+  .faqaccordion {
+    grid-gap: 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  .question {
+    font-size: 18px;
+  }
+
+  .answer {
+    font-size: 14px;
+  }
+
+  .faqbox {
     width: 100%;
+  }
+
+  .answer {
+    padding-top: 15px;
   }
 }

@@ -58,7 +58,7 @@ const Ourstory = () => {
             contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
             /> 
           <div className={styles.teammaincontainer}>
-            <div className={styles.teamrow}>
+            
                 <div className={styles.teamcard}>
                     <h2>Eleonora Israele</h2>
                     <img src="assets/team.png" alt="Image" />
@@ -74,9 +74,6 @@ const Ourstory = () => {
                     <img src="assets/team.png" alt="Image" />
                     <span>PROJECT MANAGER</span>
                 </div>
-                
-            </div>
-            <div className={styles.teamrow}>
                 <div className={styles.teamcard}>
                     <h2>Eleonora Israele</h2>
                     <img src="assets/team.png" alt="Image" />
@@ -92,8 +89,6 @@ const Ourstory = () => {
                     <img src="assets/team.png" alt="Image" />
                     <span>PROJECT MANAGER</span>
                 </div>
-                
-            </div>
           </div>  
         </div>
 

@@ -1,159 +1,174 @@
-.container{
+.container {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     padding: 48px 6% 72px 6%;
 }
-.service{
+
+.service {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 20%;
     padding: 8% 10%;
     border-radius: 24px;
-background: #F3F7F6;
+    background: #F3F7F6;
 }
 
-.service h2{
+.service h2 {
     color: #090909;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: 54px; /* 135% */
+    line-height: 54px;
+    /* 135% */
     padding-top: 8px;
 }
 
-.service p{
+.service p {
     color: #6A6A6A;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     padding: 16px 0 42px 0;
 }
 
-.mainLeft{
+.mainLeft {
     box-sizing: border-box;
 }
-.mainRight{
+
+.mainRight {
     flex-shrink: 0;
 }
-.mainRight img{
+
+.mainRight img {
     width: 80%;
     height: 80%;
     height: auto;
     transition: transform 0.9s;
-  }
+}
 
-  .row1{
+.row1 {
     display: flex;
     gap: 20px;
     padding: 0px 0px 20px 25px;
-  }
+}
 
-  .row2{
+.row2 {
     display: flex;
     gap: 20px;
     padding: 0px 25px 20px 0px;
-  }
-  .mainRight:hover img {
-      transform: scale(1.1); 
+}
+
+.mainRight:hover img {
+    transform: scale(1.1);
+}
+
+.button {
+    display: flex;
+    width: 146px;
+    height: 40px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #000;
+    border-style: none;
+    box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.40);
+}
+
+.enquire {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width: 1023px) {
+    .service {
+        gap: 10%;
+    }
+}
+
+@media (max-width: 767px) {
+    .service {
+        gap: 0%;
+        padding: 6% 4%;
     }
 
-.button{
-    display: flex;
-width: 146px;
-height: 40px;
-padding: 14px 20px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 12px;
-background: #000;
-border-style: none;
-box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.40);
+    .row1 {
+        gap: 10px;
+        padding: 0 0 17px 25px;
+    }
+
+    .row2 {
+        gap: 10px;
+    }
+
+    .service h2 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .mainRight img {
+        width: 25%;
+    }
+    
+    .row2,.row1  {
+        justify-content: flex-end;
+    }
+    .mainRight {
+        width: 50%;
+    }
 }
 
-.enquire{
-    color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
 
-
-@media (max-width: 375px) {
-    .service{
+@media (max-width: 475px) {
+    .service {
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
-        padding: 8% 6%;
-        border-radius: 16px;
+        padding-top: 15px;
     }
-    .mainLeft{
+    .mainLeft {
         width: 96%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .mainLeft h2{
+
+    .mainLeft h2 {
         font-size: 24px;
         line-height: 34px;
         text-align: center;
     }
-    .mainLeft p{
+
+    .mainLeft p {
         font-size: 14px;
         line-height: 20px;
         text-align: center;
-        padding:8px 0 24px 0;
+        padding: 8px 0 24px 0;
     }
-    .mainRight{
+
+    .mainRight {
         width: 96%;
     }
-    
 
-    .button{
+
+    .button {
         width: 120px;
         height: 36px;
     }
-    .enquire{
+
+    .enquire {
         font-size: 12px;
     }
-    
-.mainRight img{
-    width: 30%;
-    transition: transform 0.9s;
-  }
-  .row2{
-      justify-content: space-between;
-  }
-  .row1{
-      justify-content: space-between;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-   .service{
-       gap:8%;
-       border-radius: 16px;
-       padding: 6% 4%;
-   }
-   .service h2{
-       padding-top: 0px;
-   }
-}
-
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-    .service{
-        gap:8%;
-        border-radius: 16px;
-        padding: 6% 8%;
-    }
-    .service h2{
-        padding-top: 0px;
+    .row2,.row1  {
+        justify-content: center;
     }
 }

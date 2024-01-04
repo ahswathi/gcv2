@@ -35,8 +35,6 @@ const Industries = () => {
                     <span>Learn more</span>
                 </div>
             </div>
-        </div>
-        <div className={styles.row}>
             <div className={styles.col}>
                 <div className={styles.card}>
                     <img src='assets/icons8-kawaii-soda-96.png' width='48px' height='48px' />

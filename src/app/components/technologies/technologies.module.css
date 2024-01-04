@@ -65,9 +65,48 @@
 .read{
     float: right;
 }
+@media (max-width: 699px) {
+    .mainLeft p{
+        color: #6A6A6A;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 187.5% */
+        padding: 16px 0 32px 0;
+        text-align: center;
+    }
+    
+    .mainLeft h6{
+        color: #6A6A6A;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.32px;
+        text-align: center;
+    }
 
-@media (max-width: 375px) {
-
+    .mainLeft h2{
+        color: #090909;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 135% */
+        padding-top: 8px;
+        text-align: center;
+    }
+    .service{
+        gap: 10%;
+    }
+    .service2{
+        padding-bottom: 25px;
+        gap: 10%;
+    }
+    .container{
+        padding: 48px 6% 0 6%;
+    }
+}
+@media (max-width: 435px) {
     .service{
         display: inline-flex;
         flex-direction: column;
@@ -85,7 +124,7 @@
         /* flex-direction: col-reverse; */
         align-items: center;
         gap: 20%;
-        padding: 48px 0  72px 0;
+        padding: 48px 0 72px 0;
     }
     
     .mainLeft{
@@ -111,35 +150,6 @@
         transform: scale(1.1); 
       }
     
-    .mainLeft h6{
-        color: #6A6A6A;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: 0.32px;
-        text-align: center;
-    }
-
-    .mainLeft h2{
-        color: #090909;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 32px; /* 135% */
-        padding-top: 8px;
-        text-align: center;
-    }
-
-    .mainLeft p{
-        color: #6A6A6A;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px; /* 187.5% */
-        padding: 16px 0 32px 0;
-        text-align: center;
-    }
     .container{
         padding: 0px 10% 0 10%;
     }

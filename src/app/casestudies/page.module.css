@@ -152,6 +152,7 @@
 
 .mobileimg{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 10px;
   padding: 80px 4% 80px 4%;
@@ -255,7 +256,52 @@ padding-top: 20px;
   gap: 22px;
   padding: 60px 8% 60px 8%;
 }
-@media (max-width: 375px) and (max-width: 768px) {
+@media (max-width: 1023px) {
+  .summary h2{
+    font-size: 22px;
+    line-height: 36px;
+   }
+   .summary {
+     padding-bottom: 60px;
+   }
+  }
+  @media (max-width: 970px){
+    .typo{
+      gap: 52px;
+    }
+    .typo{
+      padding: 0 2% 0 2%;
+    }
+    .colorpallete{
+      padding: 30px 2%;
+    }
+    .tsicons{
+      gap: 70px;
+    }
+  }
+  @media (min-width: 747px) and (max-width: 999px){
+    .mobileimg{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 30px;
+      padding: 80px 12% 80px 12%;
+    }
+  }
+  @media (max-width: 694px){
+    .tsicons{
+      gap: 30px;
+    }
+    .tsicons img{
+      width: 65px;
+    }
+  }
+  @media (min-width: 457px) and (max-width: 574px){
+    .container{
+      padding: 40px 8% 0 8%;
+    }
+  }
+@media (max-width: 575px) {
   .summary{
     flex-direction: column;
     gap:3%;
@@ -326,10 +372,6 @@ padding-top: 20px;
     width: 12px;
     height: 12px;
   }
-  .mobileimg{
-    flex-direction: column;
-    align-items: center;
-  }
 
   .imagedown{
     padding-top: 10px;
@@ -353,6 +395,9 @@ padding-top: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
   }
+  .tsicons img{
+    width: 38px;
+  }
   .clientcontainer{
     padding: 18px 6%;
   }
@@ -375,18 +420,4 @@ padding-top: 20px;
     height: auto;
   }
 }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .summary h2{
-    font-size: 22px;
-    line-height: 36px;
-   }
-   .summary {
-     padding-bottom: 60px;
-   }
-  }
   
- 
-@media (min-width: 1024px) and (max-width: 1279px) {
-   
-  }
