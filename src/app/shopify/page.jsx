@@ -11,6 +11,7 @@ import Models from '../components/models/models'
 import Subservices from '../components/subservices/subservices'
 import Content from '../components/content/content'
 import Contacting from '../components/contacting/contacting'
+import Herosub from '../components/herosub/herosub'
 const page = () => {
   return (
     <>
