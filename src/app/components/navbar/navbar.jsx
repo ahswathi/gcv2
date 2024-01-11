@@ -13,10 +13,11 @@ const Navbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [solution, setSolution] = useState(null)
+    const [nestedSolution, setNestedSolution] = useState(null)
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
     };
-    
+
     /* 
     const links = [
         {
@@ -38,36 +39,6 @@ const Navbar = () => {
     console.log(solution)
     return (
         <>
-            {/* <div className={styles.container}>
-        <div className=''>
-            <Link href='/' className={styles.logo}>
-            <img
-                src="assets/logo.jpg"
-                alt="Description of the image"
-                width={146}
-                height={60}
-                />
-            </Link>
-        </div>
-        <div className={styles.header}>
-            <div>{links.map((link)=>(
-                <Link key={link.id} href={link.url} className={styles.link}> 
-                {link.title}</Link>
-            ))
-            }
-            </div>
-            <div> 
-                <button onClick={()=>{console.log('logged out')}} className={styles.button}>
-                        <div className={styles.enquire}>
-                        Lets connect
-                        </div>
-                    </button>
-            </div>
-        </div>
-    </div>
-    <div className={styles.line}>
-    </div> */}
-
             <nav className={styles.navbar}>
                 <div className=''>
                     <Link href='/' className={styles.logo}>
@@ -94,10 +65,10 @@ const Navbar = () => {
                                 <Remenu />
                             </div>
                         </div>
-                        <div>
-                        <div className={styles.link} onClick={() =>setSolution(1)}>Designs</div>
-                        <div className={styles.link} onClick={() =>setSolution(2)}>Development</div>
-                        <div className={styles.link} onClick={() =>setSolution(3)}>Integration</div>
+                        <div className={styles.subHeader}>
+                            <div className={styles.link} onClick={() => setSolution(1)}>Designs</div>
+                            <div className={styles.link} onClick={() => setSolution(2)}>Development</div>
+                            <div className={styles.link} onClick={() => setSolution(3)}>Integration</div>
                         </div>
                         <Link href="/casestudies" onClick={() => setSidebar(false)} className={styles.link}>Case Studies</Link>
                     </div>
@@ -106,7 +77,27 @@ const Navbar = () => {
                     </div>
                 </div>
                 <RiMenu3Fill className={styles.hamburger} onClick={() => setSidebar(true)} />
-            </nav>
+
+
+                {/* 
+            --------------------- Sub header ---------------------
+             */}
+                <div className={solution === 1 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
+                    <p onClick={() => setSolution(null)}>Back</p>
+                    <h2>Hii</h2>
+                    <br />
+                    <h2 onClick={() => setNestedSolution(2)}>Hii</h2>
+                    <br />
+                    <h2>Hii</h2>
+                    <br />
+                </div>
+                <div className={nestedSolution === 1 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
+                    <p onClick={() => setNestedSolution(null)}>Back</p>
+                    <h2>Hii</h2>
+                    <h2>Hii</h2>
+                    <h2>Hii</h2>
+                </div>
+            </nav >
             <div className={styles.line}>
             </div>
         </>
