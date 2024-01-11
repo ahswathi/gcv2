@@ -13,7 +13,7 @@
   height: 60px;
 }
 
-.header {
+.header, .subheader {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -144,7 +144,7 @@
     padding: 15px 25px;
   }
 
-  .header{
+  .header, .subheader{
     width: 300px;
     position: fixed;
     flex-direction: column;
@@ -182,7 +182,7 @@
 }
 
 @media (max-width: 375px) {
-  .header{
+  .header, .subheader{
     width: 100%;
   }
   .gcv{

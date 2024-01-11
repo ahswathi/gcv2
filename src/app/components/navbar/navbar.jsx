@@ -12,10 +12,12 @@ import Remenu from './../remenu/remenu';
 const Navbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
+    const [solution, setSolution] = useState(null)
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
-    };/* 
+    };
+    
+    /* 
     const links = [
         {
             id: 1,
@@ -33,7 +35,7 @@ const Navbar = () => {
             url: '/casestudies',
         },
     ] */
-
+    console.log(solution)
     return (
         <>
             {/* <div className={styles.container}>
@@ -91,6 +93,11 @@ const Navbar = () => {
                                 {/* <Link href="/shopify">Shopify</Link> */}
                                 <Remenu />
                             </div>
+                        </div>
+                        <div>
+                        <div className={styles.link} onClick={() =>setSolution(1)}>Designs</div>
+                        <div className={styles.link} onClick={() =>setSolution(2)}>Development</div>
+                        <div className={styles.link} onClick={() =>setSolution(3)}>Integration</div>
                         </div>
                         <Link href="/casestudies" onClick={() => setSidebar(false)} className={styles.link}>Case Studies</Link>
                     </div>
