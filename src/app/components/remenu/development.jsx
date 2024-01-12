@@ -21,7 +21,7 @@ const development = () => {
     <p className={styles.links}><a href="#">Webflow e-commerce development</a></p>
     <p className={styles.sublinks}><a href="#"> Webflow  ecommerce Maintenance and Support</a></p> 
     <p className={styles.gap}></p>
-    <p className={styles.links}><a href="#">Webflow e-commerce development</a></p>
+    <p className={styles.links}><a href="#">Bigcommerce development</a></p>
     <p className={styles.sublinks}><a href="#"> Bigcommerce  ecommerce Maintenance and Support</a></p> 
     </div>
     <div className={styles.vl}></div>
