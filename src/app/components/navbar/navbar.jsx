@@ -64,7 +64,7 @@ const Navbar = () => {
                 </div>
                 <div className={sidebar ? `${styles.sidebar} ${styles.header}` : styles.header}>
                     <RxCross1 className={styles.exit} onClick={() => setSidebar(false)} />
-                    <div>
+                    <div style={{display: !sidebar ? 'flex' : ''}}>
                         <Link href="/ourstory" onClick={handleClose} className={styles.link}>Our Story</Link>
                         <div className={`${styles.dropdown} ${isDropdownOpen ? styles.open : ''}`}>
                             {/* <Link href="#" className={styles.dropdownToggle} onClick={toggleDropdown}>
