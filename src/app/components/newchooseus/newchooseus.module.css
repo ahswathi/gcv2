@@ -61,8 +61,39 @@
     box-shadow: -6px -6px 8px 0px rgb(157, 165, 182, 0.2);
     border: 1px solid #000000;
 }
-
-
+.boxes{
+    display: grid;
+    grid-gap: 15% 5%;
+    grid-template-columns: 1fr 1fr;
+}
+.box{
+    display: block;
+    align-items: flex-start;
+    width: 300px;
+}
+.box span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1E222B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.title{
+    color: #090909;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.2px;
+}
+.para{
+    color: #6A6A6A;
+font-size: 18px;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.18px;
+}
 /* @media (min-width: 768px) and (max-width: 1023px) {}
 
 

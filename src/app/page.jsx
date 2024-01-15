@@ -22,7 +22,6 @@ import Newchooseus from './components/newchooseus/newchooseus'
 import Herosub from './components/herosub/herosub'
 import Blogs from './components/blogs/blogs'
 import Supports from './components/supports/supports'
-
 // const faqItems = [
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
 
@@ -76,10 +75,10 @@ export default function Home() {
         scontent="Boost your website's visibility and drive organic traffic with our comprehensive SEO solutions. Our team of experts utilizes cutting-edge techniques and tools to optimize your website for search engines, ensuring higher rankings and better online presence."
         simageUrl='assets/bm2.png'
       />
-      <Chooseus />
+      {/* <Chooseus /> */}
       <Newchooseus />
       <Trends />
-
+      <Ctaform />
       <Partner />
       {/* <Ctaform /> */}
 

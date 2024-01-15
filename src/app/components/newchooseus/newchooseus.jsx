@@ -15,8 +15,27 @@ const Newchooseus = () => {
                 </a>
           </div>
       </div>
-    <div>
-        
+    <div className={styles.boxes}>
+        <div className={styles.box}>
+          <span>1</span>
+          <p className={styles.title}>Login or Sign Up</p>
+          <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+        </div>
+    <div className={styles.box}>
+    <span>2</span>
+          <p className={styles.title}>Verify Account</p>
+          <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+    </div>
+    <div className={styles.box}>
+    <span>3</span>
+          <p className={styles.title}>Verify Account</p>
+          <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+    </div>
+        <div className={styles.box}>
+        <span>4</span>
+          <p className={styles.title}>Ready to Use!</p>
+          <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+        </div>
     </div>
     </div>
     </>

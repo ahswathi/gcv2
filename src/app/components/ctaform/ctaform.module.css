@@ -49,10 +49,12 @@
 
 .requestbtn{
     display: flex;
-    padding: 12px 24px;
+    font-size: 22px;
+    padding: 13px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-weight: 600;
     color: #ffffff;
     background: #090909;
     border-radius: 12px;

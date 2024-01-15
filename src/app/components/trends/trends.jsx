@@ -60,8 +60,11 @@ const Trends = () => {
             </div>
         </div>
         <div className={styles.trendfoot}>
-            <p>Ready to post your job to 10+ job boards for free?</p>
+            <p>Do you want to scale your e-commerce</p>
+            <div style={{display: 'flex', gap: '30px'}}>
             <Lightbutton title="Lets connect"/>
+            <div><a className={styles.button}>Book a Time</a></div>
+            </div>
         </div>
     </div>
   )
