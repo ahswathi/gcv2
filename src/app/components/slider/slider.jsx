@@ -3,7 +3,7 @@ import React from 'react'
 import Mainheading from '../mainheading/mainheading'
 import styles from './slider.module.css'
 
-const Slider = ({head, bg}) => {
+const Slider = ({head, bg, src}) => {
   return (
     <div className={styles.contained}>
         {/* <Mainheading
@@ -29,7 +29,7 @@ const Slider = ({head, bg}) => {
            {/*  <div className={styles.wrapper}> */}
               <div className={styles.service} style={{background:bg}}>
                   <div className={styles.mainRight}>
-                    <img src='assets/image2.png' />
+                    <img src={src} />
                   </div>
                   <div className={styles.mainLeft}>
                       <h2>{head}</h2>

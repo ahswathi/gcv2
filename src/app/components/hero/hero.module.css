@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 56px;
+    gap: 36px;
     padding:  32px 10% 32px 10% ;
 }
 .heading{
@@ -14,9 +14,15 @@
     font-weight: 600;
     line-height: 108px;
     letter-spacing: 1.6px;
-    padding-bottom: 48px;
 }
-
+.subtitle{
+    color: #464646;
+text-align: center;
+font-size: 16px;
+width: 60%;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.4px;
+}
 .button{
     display: flex;
     width: 152px;
@@ -69,8 +75,11 @@ line-height: normal;
         font-size: 12px;
     }
     .container{
-        gap: 46px;
+        gap: 26px;
         padding:  72px 6% 36px 6%;
+    }
+    .subtitle{
+        width: 100%;
     }
 }
   

@@ -1,56 +1,15 @@
 .container {
     padding: 6% 8% 6% 8%;
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
     background: #FFF;
-    gap: 120px;
+    gap: 15%;
     justify-content: space-between;
     margin: 0px 0px 72px 0px;
 }
 
 .heading {
     width: 50%;
-}
-
-.rowmain {
-    width: 46%;
-}
-
-.line::before {
-    content: '';
-    display: block;
-    width: 100%;
-    border-top: 1px solid rgb(0, 0, 0);
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.row {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    padding-bottom: 40px;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgb(0, 0, 0);
-}
-
-.col h2 {
-    color: #000;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-    letter-spacing: 0.2px;
-    padding-bottom: 16px;
 }
 
 .heading h2 {
@@ -74,16 +33,6 @@
     padding-bottom: 60px;
 }
 
-.card span {
-    color: #464646;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 31.266px;
-    /* 195.411% */
-    padding-top: 16px;
-}
 
 
 .button {
@@ -123,9 +72,6 @@
     .container {
         gap: 60px;
     }
-    .row {
-        gap: 40px;
-    }
 }
 
 @media (max-width: 700px) {
@@ -141,30 +87,8 @@
     .heading p {
         padding-bottom: 40px;
     }
-
-    .rowmain {
-        width: 100%;
-    }
 }
 
 @media (max-width: 375px) {
-    .card {
-        height: 200px;
-        gap: 10px;
-        padding: 18px;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .card h2 {
-        font-size: 16px;
-    }
-
-    .card p {
-        font-size: 14px;
-        line-height: 20px;
-        /* 150% */
-    }
+    
 }

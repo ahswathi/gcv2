@@ -5,12 +5,22 @@
     margin-top: 65px;
 }
 .box{
-    width: 100%;
     height: fit-content;
     border-radius: 14px;
 border: 2px solid #0AA8E5;
-margin: 25px 0;
+margin: auto;
+margin-top: 25px;
+margin-bottom: 25px;
 padding: 2.5% 3.5% 2.8% 6%;
+}
+.first{
+    width: 85%;
+}
+.second{
+    width: 92.5%;
+}
+.third{
+    width: 100%;
 }
 .question{
     align-items: center;

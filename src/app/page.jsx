@@ -49,24 +49,33 @@ export default function Home() {
       {/* <Herosub /> */}
       <Brands />
       <Slidebar />
+      <Casestudies />
+      <CTA />
       <Technologies
         subtitle="For CMS based development"
-        title="Expert Search Engine Optimization"
-        content="the quick fox jumps over the lazy dog the quick fox jumps over the lazy dog the quick fox jumps over the lazy dog the quick fox jumps over the lazy dog"
-        imageUrl='assets/image.png'
+        title="Building CMS Based Ecommerce"
+        content="we are helping to launch your ecommerce web & mobile application using cms frameworks"
+        secondsubtitle="For custom development"
+        secondtitle='Building Custom Ecommerce Solution'
+        secondcontent="we are helping to launch your Custom  ecommerce web & mobile application using various technologies"
+        imageUrl='assets/programming.png'
+        imageUrlSecond='assets/languages.png'
+
       />
-      <Casestudies />
+      <Process />
+      <Testimonials />
       <Supports />
       <Industries />
       <Business
-        subtitle="For CMS based development"
-        title="Expert Search Engine Optimization"
+        subtitle="FOR D2C SOLUTION"
+        title="Direct To Customer (D2C)"
         content="Boost your website's visibility and drive organic traffic with our comprehensive SEO solutions. Our team of experts utilizes cutting-edge techniques and tools to optimize your website for search engines, ensuring higher rankings and better online presence."
-        imageUrl='assets/imagenew.png'
+        imageUrl='assets/bm1.png'
+        ssubtitle="FOR B2B SOLUTION"
+        stitle="Bussiness To Bussiness (B2B) "
+        scontent="Boost your website's visibility and drive organic traffic with our comprehensive SEO solutions. Our team of experts utilizes cutting-edge techniques and tools to optimize your website for search engines, ensuring higher rankings and better online presence."
+        simageUrl='assets/bm2.png'
       />
-      <CTA />
-      <Testimonials />
-      <Process />
       <Chooseus />
       <Newchooseus />
       <Trends />

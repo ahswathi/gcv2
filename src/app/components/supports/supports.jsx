@@ -31,7 +31,7 @@ const supports = () => {
         contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
       />
       <div className={styles.stages}>
-        <div className={styles.box}>
+        <div className={`${styles.box} ${styles.first}`}>
           <div className={styles.question}>
             <div className={styles.head}>
               Small (Early Stage)
@@ -42,11 +42,11 @@ const supports = () => {
           </div>
           <div className={styles.answer} style={{ display: stages===0 ? 'flex' : 'none' }}>
             <div className={styles.para}>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</div>
-            <img src='https://s3-alpha-sig.figma.com/img/2afa/6b18/0ba97312b551ccd7f31be9f3d7e9a245?Expires=1701648000&Signature=lhZGwmOyUPdtP-P6KYLOGJYxA94VomtNe6fsZ3cfXNNjb-rEzTeX95rFMCjVkXeI7hx6w4OKeqY4NSKTJp8KOL0xY-Cfmp3kLsZ6pMWm8-ziTKbhVoxE0xAdF~CoQDCWeBlCLeWxV8Oe89ee4TndNYsy9ZSqoB5psR6BEmi~psXNHUtbwQE-iv9Fz6qlkjZ9LeC-zx6y9rLK~klIEssdBL~x1yTU64kmEi~keB8z2PZHYeYMgvcgWPXOWwsIoXos4dzUcPeywBM12nWGQF09A7rQ0Rrj-w193-5sbMHuIuaGq-wXppT~jm~jvpPyYh46I1SSynzliGpQ5sv7dvqgog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4' className={styles.ppl} />
+            <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>
 
-        <div className={styles.box} style={{ borderColor: '#1D212C' }}>
+        <div className={`${styles.box} ${styles.second}`} style={{ borderColor: '#1D212C' }}>
           <div className={styles.question}>
             <div className={styles.head} style={{ color: '#1D212C' }}>
               Medium (After Market Fit)
@@ -57,11 +57,11 @@ const supports = () => {
           </div>
           <div className={styles.answer} style={{ display: stages===1 ? 'flex' : 'none' }}>
             <div className={styles.para}>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</div>
-            <img src='https://s3-alpha-sig.figma.com/img/2afa/6b18/0ba97312b551ccd7f31be9f3d7e9a245?Expires=1701648000&Signature=lhZGwmOyUPdtP-P6KYLOGJYxA94VomtNe6fsZ3cfXNNjb-rEzTeX95rFMCjVkXeI7hx6w4OKeqY4NSKTJp8KOL0xY-Cfmp3kLsZ6pMWm8-ziTKbhVoxE0xAdF~CoQDCWeBlCLeWxV8Oe89ee4TndNYsy9ZSqoB5psR6BEmi~psXNHUtbwQE-iv9Fz6qlkjZ9LeC-zx6y9rLK~klIEssdBL~x1yTU64kmEi~keB8z2PZHYeYMgvcgWPXOWwsIoXos4dzUcPeywBM12nWGQF09A7rQ0Rrj-w193-5sbMHuIuaGq-wXppT~jm~jvpPyYh46I1SSynzliGpQ5sv7dvqgog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4' className={styles.ppl} />
+            <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>
 
-        <div className={styles.box} style={{ borderColor: '#0FCC75' }}>
+        <div className={`${styles.box} ${styles.third}`} style={{ borderColor: '#0FCC75' }}>
           <div className={styles.question}>
             <div className={styles.head} style={{ color: '#0FCC75' }}>
               Large (Enterprises)
@@ -72,7 +72,7 @@ const supports = () => {
           </div>
           <div className={styles.answer} style={{ display: stages===2 ? 'flex' : 'none' }}>
             <div className={styles.para}>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</div>
-            <img src='https://s3-alpha-sig.figma.com/img/2afa/6b18/0ba97312b551ccd7f31be9f3d7e9a245?Expires=1701648000&Signature=lhZGwmOyUPdtP-P6KYLOGJYxA94VomtNe6fsZ3cfXNNjb-rEzTeX95rFMCjVkXeI7hx6w4OKeqY4NSKTJp8KOL0xY-Cfmp3kLsZ6pMWm8-ziTKbhVoxE0xAdF~CoQDCWeBlCLeWxV8Oe89ee4TndNYsy9ZSqoB5psR6BEmi~psXNHUtbwQE-iv9Fz6qlkjZ9LeC-zx6y9rLK~klIEssdBL~x1yTU64kmEi~keB8z2PZHYeYMgvcgWPXOWwsIoXos4dzUcPeywBM12nWGQF09A7rQ0Rrj-w193-5sbMHuIuaGq-wXppT~jm~jvpPyYh46I1SSynzliGpQ5sv7dvqgog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4' className={styles.ppl} />
+            <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>
       </div>

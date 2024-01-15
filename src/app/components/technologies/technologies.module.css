@@ -63,7 +63,16 @@
     padding: 16px 0 32px 0;
 }
 .read{
-    float: right;
+    color: #1E222B;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+align-items: center;
+}
+.read svg{
+    margin-left: 8px;
 }
 @media (max-width: 699px) {
     .mainLeft p{

@@ -26,9 +26,9 @@ const Slidebar = () => {
         />
         <div className={styles.container}>
       <Slider {...settings}>
-      <Slidercompo head="Develop" bg="#0AA8E5" />
-      <Slidercompo head='Design' bg='#46CB7E' />
-      <Slidercompo head='Integration' bg='#EF8D8D' />
+      <Slidercompo head="Develop" bg="#46CB7E" src='assets/sidebar1.png' />
+      <Slidercompo head='Design' bg='#0AA8E5' src='assets/image2.png' />
+      <Slidercompo head='Integration' bg='#EAE7E7' src='assets/sidebar3.png' />
       </Slider>
       </div>
     </div>
