@@ -11,19 +11,13 @@ const Newintegration = ({ subtitle, title, content, }) => {
             <div className={styles.mainLeft}>
                 <h2>{title}</h2>
                 <p>{content}</p>
+                <div className={styles.btngroup}>
                 <Darkbutton title="Lets connect"/>
+                <button className={styles.book}>Book a time</button>
+                </div>
             </div>
             <div className={styles.mainRight}>
-                <div className={styles.row1}>
-                    <img src='assets/i1.PNG' />
-                    <img src='assets/i2.PNG' />
-                    <img src='assets/i3.PNG'/>
-                </div>
-                <div className={styles.row2}>
-                    <img src='assets/i1.PNG' />
-                    <img src='assets/i2.PNG' />
-                    <img src='assets/i3.PNG'/>
-                </div>
+               <img src='assets/clientbrands/payments.png' />
             </div>
         </div>
 </div>

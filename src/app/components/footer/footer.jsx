@@ -15,9 +15,13 @@ const Footer = () => {
           <div>
             <a className={styles.button}>
                 Lets Talk
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" fill="none">
+  <path d="M19.1976 8.20711C19.5881 7.81658 19.5881 7.18342 19.1976 6.79289L12.8336 0.428932C12.4431 0.0384078 11.8099 0.0384078 11.4194 0.428932C11.0289 0.819457 11.0289 1.45262 11.4194 1.84315L17.0763 7.5L11.4194 13.1569C11.0289 13.5474 11.0289 14.1805 11.4194 14.5711C11.8099 14.9616 12.4431 14.9616 12.8336 14.5711L19.1976 8.20711ZM0.490479 8.5H18.4905V6.5H0.490479V8.5Z" fill="#FDFDFD" fill-opacity="0.82"/>
+</svg>
             </a>
           </div>
           </div>
+          <img src="assets/footer.png" className={styles.gap} />
         </div>
         <div className={styles.footerRight}>
           <div>

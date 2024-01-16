@@ -21,37 +21,20 @@ const Ctaform = () => {
               <span>I am interested in (select one or more)</span><br/><br/>
             </div>
             <div  className={styles.options}>
-                <div className={styles.spanbtn}>Branding</div> 
-                <div className={styles.spanbtn}>Web / App Design</div>
-                <div className={styles.spanbtnactive}>Graphic Design</div> 
-                <div className={styles.spanbtn}>Motion Design & Video</div>
-                <div className={styles.spanbtn}>Copywriting</div>
-                <div className={styles.spanbtn}>Illustration</div>
-                <div className={styles.spanbtn}>Web Development</div>  
-                <div className={styles.spanbtn}>Copywriting</div> 
-                <div className={styles.spanbtn}>Illustration</div>
-                <div className={styles.spanbtn}>Branding</div> 
-                <div className={styles.spanbtn}>Graphic Design</div>
+                <div className={styles.spanbtn}>ux design</div> 
+                <div className={styles.spanbtn}>Web Development</div>
+                <div className={styles.spanbtnactive}>Woo Comerce</div> 
+                <div className={styles.spanbtn}>shopify development</div>
+                <div className={styles.spanbtn}>Webflow</div>
+                <div className={styles.spanbtn}>Mobile app development</div>
+                <div className={styles.spanbtn}>store redesign</div>  
+                <div className={styles.spanbtn}>store Auditing</div> 
+                <div className={styles.spanbtn}>Adobe Commerce</div>
+                <div className={styles.spanbtn}>Others</div> 
             </div>
                 <div  className={styles.request}><button className={styles.requestbtn}>Send request</button></div>
         </div>
         <div className={styles.formmob}>
-        <div className={styles.inputs}>
-              <span>Hello! My name is</span> <input type='text' className={styles.custominput} value='enter your name here'/>  <span>and I want to discuss a potential project. </span> <br/>
-              <span> You can email me at </span>  <input type='text' className={styles.custominput} value='your@email.com '/>  <span>or reach me on</span>  
-              <input type='text' className={styles.custominput} value=' #your phone'/> <br/>
-              <span>Here are some details about my project:</span> <br/>
-              <div><input type='text' className={styles.custominput}  value='   my project is about . . . '/></div><br/>
-              <span>I am interested in (select one or more)</span><br/>
-            </div>
-            <div  className={styles.options}>
-                <div className={styles.spanbtn}>Branding</div> <div className={styles.spanbtn}>Web / App Design</div>
-                <div className={styles.spanbtnactive}>Graphic Design</div> <div className={styles.spanbtn}>Motion Design & Video</div>
-                <div className={styles.spanbtn}>Copywriting</div>
-                <div className={styles.spanbtn}>Illustration</div>
-                <div className={styles.spanbtn}>Web Development</div>  <div className={styles.spanbtn}>Copywriting</div> <div className={styles.spanbtn}>Illustration</div>
-                <div className={styles.spanbtn}>Branding</div> <div className={styles.spanbtn}>Graphic Design</div>
-            </div>
                 <div  className={styles.request}><button className={styles.requestbtn}>Send request</button></div>
           </div>
     </div>

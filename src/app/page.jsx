@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Brands from './components/brands/brands'
 import Business from './components/business/business'
-import Chooseus from './components/chooseus/chooseus'
+// import Chooseus from './components/chooseus/chooseus'
 import CTA from './components/CTA/cta'
 import Ctaform from './components/ctaform/ctaform'
 import Hero from './components/hero/hero'
@@ -9,7 +9,7 @@ import Industries from './components/industries/industries'
 import Partner from './components/partner/partner'
 import Testimonials from './components/testimonials/testimonials'
 import Trends from './components/trends/trends'
-import Integration from './components/integration/integration'
+import Website from './components/website/website'
 import Slidebar from './components/slider/slidebar'
 import Process from './components/process/process'
 import FAQAccordion from './components/faq/faq'
@@ -64,6 +64,7 @@ export default function Home() {
       <Process />
       <Testimonials />
       <Supports />
+      <Website />
       <Industries />
       <Business
         subtitle="FOR D2C SOLUTION"
@@ -79,16 +80,10 @@ export default function Home() {
       <Newchooseus />
       <Trends />
       <Ctaform />
-      <Partner />
       {/* <Ctaform /> */}
 
       {/* <FAQAccordion faqItems={faqItems} faqItem2={faqItems2} />  //////// */}
       <FAQAccordion />
-      <Integration
-        title="Grow with integration"
-        content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."
-        imageUrl='assets/image3.png'
-      />
       <Newintegration
         title="Grow with integration"
         content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."

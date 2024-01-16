@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     background: #FFF;
-    gap: 15%;
+    gap: 5%;
     justify-content: space-between;
     margin: 0px 0px 72px 0px;
 }
@@ -64,12 +64,14 @@
 .boxes{
     display: grid;
     grid-gap: 15% 5%;
+    justify-content: space-between;
+    width: 50%;
     grid-template-columns: 1fr 1fr;
 }
 .box{
     display: block;
     align-items: flex-start;
-    width: 300px;
+    max-width: 300px;
 }
 .box span{
     width: 50px;
@@ -103,6 +105,9 @@ letter-spacing: 0.18px;
     .container {
         gap: 60px;
     }
+    .boxes{
+        grid-gap: 7.5% 3%;
+    }
 }
 
 @media (max-width: 700px) {
@@ -114,7 +119,9 @@ letter-spacing: 0.18px;
     .heading {
         width: 100%;
     }
-
+    .boxes{
+        width: 100%;
+    }
     .heading p {
         padding-bottom: 40px;
     }

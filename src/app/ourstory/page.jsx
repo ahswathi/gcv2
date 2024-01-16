@@ -4,7 +4,6 @@ import FAQ from '../components/faq/faq'
 import styles from './page.module.css'
 import Mainheadingdark from '../components/mainheadingdark/mainheadingdark'
 import Mainheading from '../components/mainheading/mainheading'
-import Chooseus from '../components/chooseus/chooseus'
 import Ctaform from '../components/ctaform/ctaform'
 import Brands from '../components/brands/brands'
 
@@ -150,7 +149,6 @@ const Ourstory = () => {
 		            </div></div> */}
               </div>
         </div>
-      <Chooseus/>
       <Ctaform/>
     </div>
   )

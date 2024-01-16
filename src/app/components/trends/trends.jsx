@@ -61,9 +61,9 @@ const Trends = () => {
         </div>
         <div className={styles.trendfoot}>
             <p>Do you want to scale your e-commerce</p>
-            <div style={{display: 'flex', gap: '30px'}}>
+            <div className={styles.btngroup}>
             <Lightbutton title="Lets connect"/>
-            <div><a className={styles.button}>Book a Time</a></div>
+            <a className={styles.book}>Book a Time</a>
             </div>
         </div>
     </div>
