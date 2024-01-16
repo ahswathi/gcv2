@@ -34,7 +34,7 @@ font-weight: 600;
 line-height: normal;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 475px) {
     .button{
         width: 100px;
         height: 30px;
