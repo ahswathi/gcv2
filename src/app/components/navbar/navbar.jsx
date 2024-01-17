@@ -135,7 +135,7 @@ const Navbar = () => {
                     <p className={styles.sublink}><a onClick ={() =>setNestedSolution(null)} href="/services/wordpress">Shopify custom theme development</a></p>
                     <p className={styles.sublink}><a onClick ={() =>setNestedSolution(null)} href="/services/custom">Shopify Maintenance and Support</a></p>
                     <br />
-                    <p className={styles.links}><a href="#">Shopify plus development</a></p>
+                    <p className={styles.links}><a onClick ={() =>setNestedSolution(null)} href="/services/customecomm">Shopify plus development</a></p>
                     <p className={styles.sublink}><a href="#">Shopify plus development Maintenance and Support</a></p>
                     <br />
                     <p className={styles.links}><a href="#">Wordpress  development</a></p>

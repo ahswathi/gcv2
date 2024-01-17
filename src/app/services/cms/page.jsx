@@ -13,11 +13,11 @@ const Cms = () => {
   return (
     <>
     <Herosub
-     subtitle="Design"
-     title="Mobile UI/UX"
+     subtitle="Development"
+     title="customecomm"
      content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
-     imageUrl='/assets/mobile.png'
-     bg='rgba(10, 168, 229, 0.46)'
+     imageUrl='/assets/custom.png'
+     bg='#E0E3E3'
      />
      <Brands />
      <Content 
