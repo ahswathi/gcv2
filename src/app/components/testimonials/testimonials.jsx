@@ -15,7 +15,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png'  />
+                        <img src='/assets/testimonial.png'  />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -27,7 +27,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -39,7 +39,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -51,7 +51,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -63,7 +63,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png'  />
+                        <img src='/assets/testimonial.png'  />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -75,7 +75,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -87,7 +87,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -99,7 +99,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -111,7 +111,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png'  />
+                        <img src='/assets/testimonial.png'  />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -123,7 +123,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -135,7 +135,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -147,7 +147,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -162,7 +162,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png'  />
+                        <img src='/assets/testimonial.png'  />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -174,7 +174,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -186,7 +186,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -198,7 +198,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -210,7 +210,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png'  />
+                        <img src='/assets/testimonial.png'  />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -222,7 +222,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -234,7 +234,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -246,7 +246,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -258,7 +258,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -270,7 +270,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -282,7 +282,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>
@@ -294,7 +294,7 @@ const Testimonials = () => {
             <div className={styles.col}>
                 <div className={styles.card}>
                     <div className={styles.avatar}>
-                        <img src='assets/testimonial.png' width='64px' height='64px' />
+                        <img src='/assets/testimonial.png' width='64px' height='64px' />
                         <div className={styles.heading}>
                             <h2>Dann</h2>
                             <span>@dann123</span>

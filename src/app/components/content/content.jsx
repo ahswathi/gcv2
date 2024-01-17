@@ -8,22 +8,22 @@ const Content = ({ subtitle, title, content, imageUrl}) => {
   return (
   <>
     <Mainheading
-        titlecenter="Software Development Project"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        titlecenter="More About Service"
+        contentcenter="Please answer a few simple questions about your needs to help our experts calculate your quote quicker."
         />
         <div className={styles.container}>
                 <img src={imageUrl} />
                 <p>{content}</p>
                 <div className={styles.box}>
-                        <span>Analytics</span>
-                        <span>SEO</span>
-                        <span>PPC</span>
-                        <span>Content</span>
-                        <span>Social</span>
-                        <span>Email</span>
-                        <span>Video</span>
-                        <span>Branding</span>
-                        <span>Strategy</span>
+                        <span>woo commerce</span>
+                        <span>yoast</span>
+                        <span>theme</span>
+                        <span>payment gateway</span>
+                        <span>shipping</span>
+                        <span>page speed</span>
+                        <span>bulk import</span>
+                        <span>mobile responsive</span>
+                        <span>social media sharing</span>
                 </div>
         </div>
  </>

@@ -26,8 +26,7 @@
 }
 .box span{
     display: flex;
-    width: 140px;
-    padding: 10px 48px;
+    padding: 10px 38px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -102,14 +101,13 @@
 .read{
     float: right;
 }
-@media (max-width: 1220px){
+/* @media (max-width: 1220px){
     .box{
         width: 100%;
     }
-}
+} */
 @media (max-width: 1023px) {
     .box span{
-        width: 124px;
     }
     .container{
         padding: 48px 10% 0 10%;
@@ -168,7 +166,6 @@
     
     .box span{
         display: flex;
-        width: 86px;
         padding: 6px 8px;
         justify-content: center;
         align-items: center;

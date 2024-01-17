@@ -21,7 +21,7 @@ const Footer = () => {
             </a>
           </div>
           </div>
-          <img src="assets/footer.png" className={styles.gap} />
+          <img src="/assets/footer.png" className={styles.gap} />
         </div>
         <div className={styles.footerRight}>
           <div>

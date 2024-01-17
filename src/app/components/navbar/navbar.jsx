@@ -56,7 +56,7 @@ const Navbar = () => {
                 <div className=''>
                     <Link href='/' className={styles.logo}>
                         <img
-                            src="assets/logo.png"
+                            src="/assets/logo.png"
                             alt="Description of the image"
                             className={styles.gcv}
                         />
@@ -75,7 +75,7 @@ const Navbar = () => {
                             </div>
                             <div className={styles.dropdownContent}>
                                 {/* <Link href="/shopify">Shopify</Link> */}
-                                <Remenu />
+                                <Remenu handleClose={handleClose} />
                             </div>
                         </div>
                         <div className={styles.subHeader}>
@@ -107,8 +107,8 @@ const Navbar = () => {
                 <div className={nestedSolution === 1 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
                 <div className={styles.alignment}>
                     <p onClick={() => setNestedSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p><br /><br />
-                    <p className={styles.links}><a href="#">Website ui and ux</a></p>
-                    <p className={styles.links}><a href="#">Mobile ui and ux</a></p>
+                    <p className={styles.links}><Link onClick ={() =>setNestedSolution(null)}  href="/shopify">Website ui and ux</Link></p>
+                    <p className={styles.links}><Link onClick ={() =>setNestedSolution(null)} href="/services/mobile">Mobile ui and ux</Link></p>
                 </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
                 </div>

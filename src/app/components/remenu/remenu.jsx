@@ -3,7 +3,7 @@ import styles from './remenu.module.css'
 import Development from './development'
 import Integration from './integration'
 import Design from './design'
-const remenu = () => {
+const remenu = ({handleClose}) => {
     const [menuList, setMenuList] = useState(1)
     const focus = (id) => {
         setMenuList(id)
@@ -16,7 +16,7 @@ const remenu = () => {
 <h2 className={menuList === 3 ? `${styles.active}` : ''} onClick={() =>focus(3)}>Integraton</h2>
       </div>
       <div className={styles.list}>
-        {menuList === 1 ? <Design /> : menuList === 2 ? <Development /> : <Integration />}
+        {menuList === 1 ? <Design handleClose={handleClose} /> : menuList === 2 ? <Development handleClose={handleClose} /> : <Integration handleClose={handleClose} />}
       </div>
     </div>
   )

@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './remenu.module.css'
-const design = () => {
+import Link from 'next/link'
+const design = ({handleClose}) => {
   return (
     <div className={styles.header}>
       <div className={styles.heading}>
         <p className={styles.ptag}>E-commerce UI/UX design services </p>
-        <p className={styles.links}><a href="#">Website ui and ux</a></p>
-        <p className={styles.links}><a href="#">Mobile ui and ux</a></p>
+        <p className={styles.links}><Link onClick={() =>handleClose()} href="/shopify">Website ui and ux</Link></p>
+        <p className={styles.links}><Link onClick={() =>handleClose()} href="/services/mobile">Mobile ui and ux</Link></p>
       </div>
     </div>
   )

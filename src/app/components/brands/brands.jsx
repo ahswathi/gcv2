@@ -29,50 +29,50 @@ const Brands = () => {
 		<div className={styles.slidetrack}>
 		
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb1.png'/>
+            <img src='/assets/clientbrands/cb1.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb2.png'/>
+            <img src='/assets/clientbrands/cb2.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb3.png'/>
+            <img src='/assets/clientbrands/cb3.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb4.png'/>
+            <img src='/assets/clientbrands/cb4.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb5.png'/>
+            <img src='/assets/clientbrands/cb5.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-			<img src='assets/clientbrands/cb6.png'/>
+			<img src='/assets/clientbrands/cb6.png'/>
 			</div>
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb1.png'/>
-			</div>
-			
-			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb2.png'/>
+            <img src='/assets/clientbrands/cb1.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb3.png'/>
+            <img src='/assets/clientbrands/cb2.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb4.png'/>
+            <img src='/assets/clientbrands/cb3.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-            <img src='assets/clientbrands/cb5.png'/>
+            <img src='/assets/clientbrands/cb4.png'/>
 			</div>
 			
 			<div className={styles.slide}>
-			<img src='assets/clientbrands/cb6.png'/>
+            <img src='/assets/clientbrands/cb5.png'/>
+			</div>
+			
+			<div className={styles.slide}>
+			<img src='/assets/clientbrands/cb6.png'/>
 			</div>
 			
 		</div>
