@@ -130,10 +130,10 @@ const Navbar = () => {
             <div className={nestedSolution === 2 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
             <div className={styles.alignment}>
                     <p onClick={() => setNestedSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p><br /><br />
-                    <p className={styles.links}><a href="#">Shopify web development</a></p>
-                    <p className={styles.sublink}><a href="#">Shopify theme customization</a></p>
-                    <p className={styles.sublink}><a href="#">Shopify custom theme development</a></p>
-                    <p className={styles.sublink}><a href="#">Shopify Maintenance and Support</a></p>
+                    <p className={styles.links}><a onClick ={() =>setNestedSolution(null)} href="/services/ecommerce">Shopify web development</a></p>
+                    <p className={styles.sublink}><a onClick ={() =>setNestedSolution(null)} href="/services/cms">Shopify theme customization</a></p>
+                    <p className={styles.sublink}><a onClick ={() =>setNestedSolution(null)} href="/services/wordpress">Shopify custom theme development</a></p>
+                    <p className={styles.sublink}><a onClick ={() =>setNestedSolution(null)} href="/services/custom">Shopify Maintenance and Support</a></p>
                     <br />
                     <p className={styles.links}><a href="#">Shopify plus development</a></p>
                     <p className={styles.sublink}><a href="#">Shopify plus development Maintenance and Support</a></p>

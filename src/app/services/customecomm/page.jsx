@@ -9,7 +9,7 @@ import Testimonials from '../../components/testimonials/testimonials'
 import Content from '../../components/content/content'
 import Ctaform from '../../components/ctaform/ctaform'
 // import Brands from '../components'
-const Mobile = () => {
+const Customecomm = () => {
   return (
     <>
     <Herosub
@@ -34,4 +34,4 @@ const Mobile = () => {
   )
 }
 
-export default Mobile
+export default Customecomm;

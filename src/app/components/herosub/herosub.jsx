@@ -7,7 +7,7 @@ import Readmore from '../readbutton/readbutton'
 import styles from './herosub.module.css'
 import Link from 'next/link';
 
-const Herosub = ({subtitle, title, imageUrl, content}) => {
+const Herosub = ({subtitle, title, imageUrl, content, bg}) => {
   return (
   <>
     
@@ -29,7 +29,7 @@ const Herosub = ({subtitle, title, imageUrl, content}) => {
             websit ui and ux
           </Link>
         </div>
-        <div className={styles.service}>
+        <div className={styles.service} style={{background: `${bg}`}}>
             <div className={styles.mainLeft}>
                 <h6>{subtitle}</h6>
                 <h2>{title}</h2>
