@@ -11,9 +11,13 @@
 .book{
     color: #fff;
 font-size: 17px;
+height: 40px;
+width: 130px;
 font-weight: 600;
     background-color: transparent;
-    padding: 14px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px dashed #fff;
     border-radius: 12px;
     box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.20);
@@ -27,10 +31,6 @@ font-weight: 600;
     display: flex;
     align-items: center;
     gap: 32px;
-}
-.button:hover {
-    background: #FDFDFD;
-    box-shadow: -6px -6px 8px 0px rgb(36 36 36 / 40%);
 }
 .row {
     display: flex;
@@ -84,22 +84,6 @@ font-weight: 600;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
-
-
-.button {
-    display: flex;
-    width: 150px;
-    height: 40px;
-    padding: 14px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #FDFDFD;
-    border-style: none;
-    box-shadow: -4px -4px 8px 0px rgba(133, 135, 141, 0.4);
 }
 
 .enquire {
@@ -171,10 +155,9 @@ font-weight: 600;
     }
     .book{
         width: 150px;
-        height: 40px;
-        padding: 16px 16px;
+        /* padding: 16px 16px; */
         box-shadow: -4px -4px 8px 0px rgb(36 36 36 / 40%);
-        font-size: 10px;
+        font-size: 16px;
     }
     .col img {
         width: 50px;

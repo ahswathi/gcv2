@@ -1,0 +1,138 @@
+.container{
+    padding: 0;
+    margin: 0;
+}
+.platform{
+    width: 100%;
+
+}
+.maincontainer{
+        padding: 40px 6% 40px 6%;
+}
+.main{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 45px 0;
+}
+.mainleft{
+    color: #090909;
+font-size: 64px;
+width: 42%;
+text-align: center;
+font-weight: 300;
+line-height: 46px; /* 71.875% */
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+.heading{
+    width: 50%;
+    color: #090909;
+font-size: 34px;
+font-weight: 600;
+display: flex;
+justify-content: center;
+line-height: 46px; /* 135.294% */
+}
+.heading p{
+    width: 80%;
+}
+.para{
+    color: #6A6A6A;
+font-size: 16px;
+width: 50%;
+line-height: 30px; /* 187.5% */
+}
+.story{
+    color: #6A6A6A;
+font-size: 16px;
+line-height: 30px; /* 187.5% */
+width: 45%;
+}
+.story img{
+    width: 80%;
+}
+.title{
+    color: #090909;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+letter-spacing: 0.24px;
+padding: 25px 0px;
+width: 60%;
+}
+.story p{
+    width: 70%;
+}
+.read{
+    color: #1E222B;
+font-size: 16px;
+font-weight: 600;
+display: flex;
+padding: 25px 0px;
+align-items: center;
+}
+.read svg{
+    margin-left: 8px;
+}
+.mainright{
+    color: #6A6A6A;
+font-size: 16px;
+width: 50%;
+margin-right: 8%;
+line-height: 30px; /* 187.5% */
+}
+@media (max-width: 650px) {
+    .platform{
+        width: 115%;
+    }
+    .heading{
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .para{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .mainleft{
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .mainright{
+        margin-right: 0;
+    }
+    .content{
+        padding: 0%;
+    }
+    .story img{
+        width: 100%;
+    }
+    .story p, .title{
+        width: 95%;
+    }
+    .title{
+        line-height: 35px;
+    }
+    .story{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 415px) {
+    .main, .content{
+        flex-direction: column;
+    }
+    .mainleft, .mainright, .story{
+        width: 100%;
+        text-align: left;
+    }
+    .heading p, .heading, .para{
+        width: 100%;
+    }
+    
+}

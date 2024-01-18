@@ -1,0 +1,36 @@
+.container{
+    padding: 40px 6% 40px 6%;
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 30px 10px;
+}
+.story{
+    color: #6A6A6A;
+font-size: 24px;
+font-weight: 200;
+line-height: 30px; /* 187.5% */
+width: 43%;
+}
+.story img{
+    width: 100%;
+}
+.story p, .story h3{
+    width: 85%;
+    margin: auto;
+}
+.story h3{
+    color: #090909;
+font-size: 36px;
+font-weight: 400;
+line-height: 50px; /* 138.889% */
+letter-spacing: 0.36px;
+}
+
+@media (max-width: 650px) {
+    .story{
+    width: 47%;
+    }
+}

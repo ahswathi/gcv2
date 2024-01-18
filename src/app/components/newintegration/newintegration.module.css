@@ -88,18 +88,6 @@
     font-weight: 600;
     line-height: normal;
 }
-.book{
-    height: 40px;
-    color: #090909;
-font-size: 17px;
-font-weight: 600;
-    background-color: transparent;
-    padding: 10px 28px;
-    border: 1px dashed #090909;
-    border-radius: 12px;
-    box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.20);
-    transition: all 500ms ease;
-}
 .book:hover{
     background: #090909;
     color: #fff;
@@ -109,13 +97,16 @@ font-weight: 600;
     gap: 20px;
 }
 .book{
-    height: 40px;
-    color: #090909;
+    color: #fff;
 font-size: 17px;
+height: 40px;
+width: 130px;
 font-weight: 600;
     background-color: transparent;
-    padding: 10px 28px;
-    border: 1px dashed #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #fff;
     border-radius: 12px;
     box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.20);
     transition: all 500ms ease;
@@ -199,10 +190,9 @@ font-weight: 600;
     }
     .book{
         width: 150px;
-        height: 40px;
-        padding: 16px 16px;
+        /* padding: 16px 16px; */
         box-shadow: -4px -4px 8px 0px rgb(36 36 36 / 40%);
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .button {

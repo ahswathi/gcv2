@@ -21,12 +21,16 @@ font-weight: 400;
 line-height: 34px; /* 188.889% */
 }
 .book{
-    color: #090909;
+    color: #fff;
 font-size: 17px;
+height: 40px;
+width: 130px;
 font-weight: 600;
     background-color: transparent;
-    padding: 14px 28px;
-    border: 1px dashed #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #fff;
     border-radius: 12px;
     box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.20);
     transition: all 500ms ease;
@@ -81,10 +85,9 @@ font-weight: 600;
     
     .book{
         width: 150px;
-        height: 40px;
-        padding: 16px 16px;
+        /* padding: 16px 16px; */
         box-shadow: -4px -4px 8px 0px rgb(36 36 36 / 40%);
-        font-size: 10px;
+        font-size: 16px;
     }
 }
 @media (max-width: 445px) {

@@ -1,55 +1,32 @@
 import React from 'react'
-import Subhero from '../components/subhero/subhero'
 import FAQ from '../components/faq/faq'
+import Darkbutton from '../components/darkbutton/darkbutton'
 import styles from './page.module.css'
 import Mainheadingdark from '../components/mainheadingdark/mainheadingdark'
 import Mainheading from '../components/mainheading/mainheading'
 import Ctaform from '../components/ctaform/ctaform'
 import Brands from '../components/brands/brands'
-
+import Aboutus from '../components/aboutus/aboutus'
+import Platform from '../components/platform/platform'
+import Trends from '../components/trends/trends'
+import Newchooseus from './../components/newchooseus/newchooseus';
+import Workon from './../components/workon/workon';
 const Ourstory = () => {
   return (
     <div>
-      <Subhero/>
+      <Aboutus title='Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.'
+      heading='We build digital commerce that perform faster.' />
       <Brands/>
-        <div className={styles.container}>
-            <Mainheadingdark
-            titlecenter="Awards & Recognition"
-            contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
-            /> 
-          <div className={styles.row}>
-            <div className={styles.maincontainer}>
-              <div className={styles.content}>
-                <img src="assets/award1.png" alt="Image" />
-                <h2>Top Developers</h2>
-                <p>Duis deserunt adipisicing fugiat labore non laboris. Duis deserunt adipisicing fugiat labore non laboris.</p>
-              </div>
-              <div className={styles.images}>
-                <img src="assets/awards.png" alt="Image" />
-              </div>
+      <Platform />
+      <Trends />
+      <Mainheading
+            titlecenter="Fast-track your business goals."
+            contentcenter="Whether you’re starting from an ambiguous challenge or a clear idea, we can help you move forward. Reach out for an informal meeting below."
+            />
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+              <Darkbutton title='Get In Touch' />
             </div>
-            <div className={styles.maincontainer}>
-              <div className={styles.content}>
-                <img src="assets/award1.png" alt="Image" />
-                <h2>Top Developers</h2>
-                <p>Duis deserunt adipisicing fugiat labore non laboris. Duis deserunt adipisicing fugiat labore non laboris.</p>
-              </div>
-              <div className={styles.images}>
-                <img src="assets/awards.png" alt="Image" />
-              </div>
-            </div>
-            <div className={styles.maincontainer}>
-              <div className={styles.content}>
-                <img src="assets/award1.png" alt="Image" />
-                <h2>Top Developers</h2>
-                <p>Duis deserunt adipisicing fugiat labore non laboris. Duis deserunt adipisicing fugiat labore non laboris.</p>
-              </div>
-              <div className={styles.images}>
-                <img src="assets/awards.png" alt="Image" />
-              </div>
-            </div>
-          </div>
-        </div>
+       
 
         <div className={styles.teamcontainer}>
             <Mainheading
@@ -149,6 +126,8 @@ const Ourstory = () => {
 		            </div></div> */}
               </div>
         </div>
+        <Workon />
+      <Newchooseus />
       <Ctaform/>
     </div>
   )
