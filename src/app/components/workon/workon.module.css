@@ -13,12 +13,13 @@ font-size: 24px;
 font-weight: 200;
 line-height: 30px; /* 187.5% */
 width: 43%;
+padding: 15px 0;
 }
 .story img{
     width: 100%;
 }
 .story p, .story h3{
-    width: 85%;
+    width: 70%;
     margin: auto;
 }
 .story h3{
@@ -28,9 +29,30 @@ font-weight: 400;
 line-height: 50px; /* 138.889% */
 letter-spacing: 0.36px;
 }
-
+.design{
+    margin-top: 175px;
+}
+.designing{
+    margin-top: -170px;
+}
 @media (max-width: 650px) {
     .story{
     width: 47%;
+    font-size: 16px;
     }
+    .story h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 415px) {
+    .main{
+        flex-direction: column;
+    }
+    .designing, .design{
+        margin: 0;
+    }
+    .story, .story p, .story h3{
+        width: 100%;
+        }
 }
