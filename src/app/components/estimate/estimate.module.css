@@ -9,7 +9,7 @@
   gap: 10px;
   flex-shrink: 0;
   border-radius: 12px;
-  background: #ffffff;
+  background: transparent;
   border-style: none;
   box-shadow: -4px -4px 8px 0px rgba(36 36 36 / 40%);
   cursor: pointer;
@@ -20,7 +20,7 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.6px;
-  border: 1px solid #090909;
+  border: 1px dashed #090909;
   }
   .button:hover{
   background: #090909;

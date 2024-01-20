@@ -9,6 +9,8 @@ import Testimonials from '../../components/testimonials/testimonials'
 import Content from '../../components/content/content'
 import Ctaform from '../../components/ctaform/ctaform'
 import Slidebar from '@/app/components/slider/slidebar'
+import Workon from '../../components/workon/workon'
+import Website from '../../components/website/website'
 // import Brands from '../components'
 const Ecommerce = () => {
   return (
@@ -29,6 +31,8 @@ const Ecommerce = () => {
      <Newchooseus />
     <Process />
     <Casestudies />
+    <Workon />
+    <Website imgURL='/assets/iso1.png' />
     <Ctaform />
     <Testimonials />
     <FAQAccordion />

@@ -16,6 +16,8 @@ import Herosub from '../components/herosub/herosub'
 import Newchooseus from '../components/newchooseus/newchooseus'
 import Casestudies from '../components/casestudies/casestudies'
 import FAQAccordion from '../components/faq/faq'
+import Workon from '../components/workon/workon'
+import Website from '../components/website/website'
 
 const page = () => {
   return (
@@ -40,6 +42,8 @@ const page = () => {
     <Newchooseus />
     <Process />
     <Casestudies />
+    <Workon />
+    <Website imgURL='/assets/iso1.png' />
     <Ctaform />
     <Testimonials />
     <FAQAccordion />

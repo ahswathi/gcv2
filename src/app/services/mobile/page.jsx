@@ -8,6 +8,8 @@ import Process from '../../components/process/process'
 import Testimonials from '../../components/testimonials/testimonials'
 import Content from '../../components/content/content'
 import Ctaform from '../../components/ctaform/ctaform'
+import Workon from '../../components/workon/workon'
+import Website from '../../components/website/website'
 // import Brands from '../components'
 const Mobile = () => {
   return (
@@ -27,6 +29,8 @@ const Mobile = () => {
      <Newchooseus />
     <Process />
     <Casestudies />
+    <Workon />
+    <Website imgURL='/assets/iso1.png' />
     <Ctaform />
     <Testimonials />
     <FAQAccordion />

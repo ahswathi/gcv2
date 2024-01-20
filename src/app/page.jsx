@@ -64,7 +64,7 @@ export default function Home() {
       <Process />
       <Testimonials />
       <Supports />
-      <Website />
+      <Website imgURL="/assets/clientbrands/image.png" />
       <Industries />
       <Business
         subtitle="FOR D2C SOLUTION"

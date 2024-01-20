@@ -4,7 +4,7 @@ import Darkbutton from '../darkbutton/darkbutton'
 import Readmore from '../readbutton/readbutton'
 import styles from './website.module.css'
 
-const Website = () => {
+const Website = ({imgURL}) => {
   return (
       <div className={styles.container}>
         <div className={styles.mainLeft}>
@@ -16,7 +16,7 @@ const Website = () => {
             </div>
         </div>
         <div className={styles.mainRight}>
-          <img src="assets/clientbrands/image.png" alt="" />
+          <img src={imgURL} alt="" />
         </div>
 </div>
   )

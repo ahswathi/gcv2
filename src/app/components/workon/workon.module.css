@@ -35,6 +35,17 @@ letter-spacing: 0.36px;
 .designing{
     margin-top: -170px;
 }
+.more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
+    justify-content: center;
+    color: #1E222B;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
 @media (max-width: 650px) {
     .story{
     width: 47%;

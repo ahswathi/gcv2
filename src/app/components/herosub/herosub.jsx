@@ -13,7 +13,7 @@ const Herosub = ({subtitle, title, imageUrl, content, bg}) => {
     
       <div className={styles.container}>
       <div className={styles.quicknav}>
-          <Link href="/" className={styles.main}>
+          <Link href="/" className={styles.sub}>
             Home
           </Link>
           <span>/</span>
@@ -24,10 +24,10 @@ const Herosub = ({subtitle, title, imageUrl, content, bg}) => {
           <div className={styles.main}>
             Development
           </div>
-          <span>/</span>
+          {/* <span>/</span>
           <Link href="/shopify"  className={styles.sub}>
             websit ui and ux
-          </Link>
+          </Link> */}
         </div>
         <div className={styles.service} style={{background: `${bg}`}}>
             <div className={styles.mainLeft}>
