@@ -10,6 +10,7 @@ import Content from '../../components/content/content'
 import Ctaform from '../../components/ctaform/ctaform'
 // import Brands from '../../components'
 import Subservices from './../../components/subservices/subservices';
+import Subchoose from '../../components/subchoose/subchoose'
 const Cms = () => {
   return (
     <>
@@ -26,7 +27,7 @@ const Cms = () => {
      imageUrl='/assets/abt4.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
      />
-     <Newchooseus />
+     <Subchoose />
     <Process />
     <Casestudies />
     <Ctaform />
