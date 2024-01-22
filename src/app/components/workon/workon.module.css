@@ -66,4 +66,10 @@ font-weight: 600;
     .story, .story p, .story h3{
         width: 100%;
         }
+        .container{
+            padding: 40px 4% 40px 4%;
+        }
+        .main{
+            margin: 0;
+        }
 }

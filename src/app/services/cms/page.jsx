@@ -11,6 +11,7 @@ import Ctaform from '../../components/ctaform/ctaform'
 // import Brands from '../../components'
 import Subservices from './../../components/subservices/subservices';
 import Subchoose from '../../components/subchoose/subchoose'
+import Newcta from '@/app/components/newcta/newcta'
 const Cms = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const Cms = () => {
      <Subchoose />
     <Process />
     <Casestudies />
+    <Newcta />
     <Ctaform />
     <Testimonials />
     <FAQAccordion />

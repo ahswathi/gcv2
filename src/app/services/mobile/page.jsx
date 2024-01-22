@@ -30,7 +30,12 @@ const Mobile = () => {
     <Process />
     <Casestudies />
     <Workon />
-    <Website imgURL='/assets/iso1.png' />
+    <Website imgURL='/assets/iso1.png' 
+    bg='#fff'
+    color='#1E222B'
+    heading='Build perfect e-commerce website with growCommerce' 
+    title='Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below.' 
+    />
     <Ctaform />
     <Testimonials />
     <FAQAccordion />
