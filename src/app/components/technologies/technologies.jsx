@@ -4,7 +4,7 @@ import Mainheading from '../mainheading/mainheading'
 import Readmore from '../readbutton/readbutton'
 import styles from './technologies.module.css'
 
-const Technologies = ({ subtitle, title, content, imageUrl, secondtitle, secondsubtitle, secondcontent, imageUrlSecond}) => {
+const Technologies = ({ subtitle, title, content, iwebflow,iwoocom, imegento, ishopify, inextjs, inodejs, ireactjs,ilaravel,secondtitle, secondsubtitle, secondcontent}) => {
   return (
   <>
     <Mainheading
@@ -24,7 +24,26 @@ const Technologies = ({ subtitle, title, content, imageUrl, secondtitle, seconds
                 </div>
             </div>
             <div className={styles.mainRight}>
-                <img src={imageUrl} />
+                <div className={styles.mainRight1}>
+                    <div className={styles.techicon}>
+                        <img src={iwebflow} />
+                        <span>Webflow</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={iwoocom} />
+                        <span>WooCommerce</span>
+                    </div>
+                </div>
+                <div className={styles.mainRight2}>
+                    <div className={styles.techicon}>
+                        <img src={imegento} />
+                        <span>Meganto</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={ishopify} />
+                        <span>Shopify</span>
+                    </div>
+                </div>
             </div>
         </div>
         <div className={styles.service2}>
@@ -39,7 +58,26 @@ const Technologies = ({ subtitle, title, content, imageUrl, secondtitle, seconds
                 </div>
             </div>
             <div className={styles.mainRight}>
-                <img src={imageUrlSecond} />
+                <div className={styles.mainRight1}>
+                    <div className={styles.techicon}>
+                        <img src={inextjs} />
+                        <span>NextJs</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={inodejs} />
+                        <span>NodeJs</span>
+                    </div>
+                </div>
+                <div className={styles.mainRight2}>
+                    <div className={styles.techicon}>
+                        <img src={ilaravel} />
+                        <span>Laravel</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={ireactjs} />
+                        <span>Reacts</span>
+                </div>
+                </div>
             </div>
         </div>
 </div>

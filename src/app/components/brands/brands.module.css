@@ -19,7 +19,7 @@
 }
 
 .slider {
-	height: 110px;
+	/* height: 110px; */
 	margin: auto;
 	overflow: hidden;
 	position: relative;
@@ -34,7 +34,7 @@
     gap: 82px;
 }
 .slider .slide {
-	height: 100px;
+	/* height: 100px; */
 	width: auto;
 }
 
@@ -78,7 +78,7 @@
 	padding: 35px 0 25px 0;
 }	
 .slider {
-	height: 30px;
+	/* height: 30px; */
 }
 .slidetrack {
     -webkit-animation: scroll 30s linear infinite;

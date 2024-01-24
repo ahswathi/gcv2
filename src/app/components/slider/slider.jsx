@@ -166,7 +166,6 @@ const Slider = ({head, bg, src, clr, bullet}) => {
                   </div>
               </div> */}
             </div> 
-         {/*  </div>  */}
       </div>
   )
 }

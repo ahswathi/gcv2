@@ -4,24 +4,21 @@ import Darkbutton from '../darkbutton/darkbutton'
 import Readmore from '../readbutton/readbutton'
 import styles from './newintegration.module.css'
 
-const Newintegration = ({ subtitle, title, content, }) => {
+const Integration = ({ subtitle, title, content, imageUrl}) => {
   return (
       <div className={styles.container}>
         <div className={styles.service}>
+            <div className={styles.mainRight}>
+                <img src={imageUrl} />
+            </div>
             <div className={styles.mainLeft}>
                 <h2>{title}</h2>
                 <p>{content}</p>
-                <div className={styles.btngroup}>
                 <Darkbutton title="Lets connect"/>
-                <button className={styles.book}>Book a time</button>
-                </div>
-            </div>
-            <div className={styles.mainRight}>
-               <img src='assets/clientbrands/payments.png' />
             </div>
         </div>
 </div>
   )
 }
 
-export default Newintegration
+export default Integration

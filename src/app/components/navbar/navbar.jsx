@@ -58,7 +58,6 @@ const Navbar = () => {
                         <img
                             src="/assets/logo.png"
                             alt="Description of the image"
-                            className={styles.gcv}
                         />
                     </Link>
                 </div>

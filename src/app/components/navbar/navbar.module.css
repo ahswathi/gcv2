@@ -12,7 +12,7 @@
 }
 
 .logo {
-  height: 60px;
+  height: 50px;
 }
 
 .header {
@@ -25,10 +25,10 @@
 .subHeader, .subHeaderActive {
   display: none;
 }
-.gcv{
+/* .gcv{
   width:146px;
   height:60px;
-}
+} */
 .link {
   color: #090909;
   font-weight: 600;
@@ -85,9 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 108px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  gap: 68px;
   position: relative;
 }
 
@@ -248,4 +246,6 @@ font-weight: 600;
 }
 
 
-@media (min-width: 1024px) and (max-width: 1279px) {}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  
+}

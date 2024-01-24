@@ -8,7 +8,7 @@ const Ctaform = () => {
     <div className={styles.container}>
         
         <Mainheading 
-        titlecenter="Let's Talk"
+        titlecenter="Lets Talk"
         contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
         /> 
         <div className={styles.form}>
@@ -18,25 +18,18 @@ const Ctaform = () => {
               <input type='text' className={styles.custominput} value=' #your phone'/> <br/>
               <span>Here are some details about my project:</span> <br/>
               <div><input type='text' className={styles.custominput}  value='   my project is about . . . '/></div><br/><br/>
-              <span>I am interested in (select one or more)</span><br/><br/>
+              <span>I'm interested in (select one or more)</span><br/><br/>
             </div>
             <div  className={styles.options}>
-                <div className={styles.spanbtn}>ux design</div> 
-                <div className={styles.spanbtn}>Web Development</div>
-                <div className={styles.spanbtnactive}>Woo Comerce</div> 
-                <div className={styles.spanbtn}>shopify development</div>
-                <div className={styles.spanbtn}>Webflow</div>
-                <div className={styles.spanbtn}>Mobile app development</div>
-                <div className={styles.spanbtn}>store redesign</div>  
-                <div className={styles.spanbtn}>store Auditing</div> 
-                <div className={styles.spanbtn}>Adobe Commerce</div>
-                <div className={styles.spanbtn}>Others</div> 
+                <button className={styles.spanbtn}>Branding</button> <button className={styles.spanbtn}>Web / App Design</button>
+                <button className={styles.spanbtnactive}>Graphic Design</button> <button className={styles.spanbtn}>Motion Design & Video</button>
+                <button className={styles.spanbtn}>Copywriting</button>
+                <button className={styles.spanbtn}>Illustration</button>
+                <button className={styles.spanbtn}>Web Development</button>  <button className={styles.spanbtn}>Copywriting</button> <button className={styles.spanbtn}>Illustration</button>
+                <button className={styles.spanbtn}>Branding</button> <button className={styles.spanbtn}>Graphic Design</button>
             </div>
                 <div  className={styles.request}><button className={styles.requestbtn}>Send request</button></div>
         </div>
-        <div className={styles.formmob}>
-                <div  className={styles.request}><button className={styles.requestbtn}>Send request</button></div>
-          </div>
     </div>
   )
 }

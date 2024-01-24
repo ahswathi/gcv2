@@ -57,8 +57,14 @@ export default function Home() {
         secondsubtitle="For custom development"
         secondtitle='Building Custom Ecommerce Solution'
         secondcontent="we are helping to launch your Custom  ecommerce web & mobile application using various technologies"
-        imageUrl='assets/programming.png'
-        imageUrlSecond='assets/languages.png'
+        ishopify='assets/ishopify.png'
+        imegento='assets/imegento.png'
+        iwebflow='assets/iwebflow.png'
+        iwoocom='assets/iwoocom.png'
+        inextjs='assets/inextjs.png'
+        inodejs='assets/inodejs.png'
+        ireactjs='assets/ireactjs.png'
+        ilaravel='assets/ilaravel.png'
 
       />
       <Process />

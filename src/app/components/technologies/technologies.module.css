@@ -1,8 +1,8 @@
 .container{
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
-    padding: 48px 10% 0 10%;
+    padding: 48px 12% 0 12%;
+    gap: 80px;
 }
 .service{
     display: inline-flex;
@@ -25,16 +25,35 @@
     box-sizing: border-box;
 }
 .mainRight{
-    width: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
-.mainRight img{
-    width: 100%;
+
+.mainRight1{
+    display: flex;
+    gap: 60px;
+    padding-left: 120px;
+}
+.mainRight2{
+    display: flex;
+    gap: 60px;
+}
+
+.techicon{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+.techicon img{
   height: auto;
   transition: transform 0.9s;
 }
-.mainRight:hover img {
+/* .mainRight:hover img {
     transform: scale(1.1); 
-  }
+  } */
 
 .mainLeft h6{
     color: #6A6A6A;
@@ -74,7 +93,34 @@ align-items: center;
 .read svg{
     margin-left: 8px;
 }
-@media (max-width: 699px) {
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .techicon img{
+        height: 50%;
+      }
+
+      .mainRight{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        padding-top: 0px;
+    }
+    
+    .mainRight1{
+        display: flex;
+        gap: 20px;
+        padding-left: 60px;
+    }
+    .mainRight2{
+        display: flex;
+        gap: 20px;
+        padding-right: 40px;
+    }
+    .mainLeft {
+        width: 100%;
+        padding: 16px 0 16px 0;
+    }
     .mainLeft p{
         color: #6A6A6A;
         font-size: 12px;
@@ -106,69 +152,49 @@ align-items: center;
     }
     .service{
         gap: 10%;
+        flex-direction: column-reverse;
+        padding-top: 0px;
     }
     .service2{
         padding-bottom: 25px;
         gap: 10%;
-    }
-    .container{
-        padding: 48px 6% 0 6%;
-    }
-}
-@media (max-width: 435px) {
-    .service{
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         flex-direction: column-reverse;
-        gap: 20%;
         padding-top: 0px;
     }
-    .service2{
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-direction: column-reverse;
-        /* flex-direction: col-reverse; */
-        align-items: center;
-        gap: 20%;
-        padding: 48px 0 72px 0;
-    }
-    
-    .mainLeft{
-        width: 100%;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 32px;
-    }
-    .mainRight{
-        width: 100%;
-        padding-top: 32px;
-        
-    }
-    .mainRight img{
-        width: 100%;
-      height: auto; 
-      transition: transform 0.3s;
-    }
-    .mainRight:hover img {
-        transform: scale(1.1); 
-      }
-    
     .container{
-        padding: 0px 10% 0 10%;
+        padding: 0px 6% 0 6%;
+        gap: 40px;
     }
 
-    
+    .read{
+        justify-content: center;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    .techicon img{
+        height: 80%;
+      }
+
+      .mainRight{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .mainRight1{
+        display: flex;
+        gap: 40px;
+        padding-left: 80px;
+    }
+    .mainRight2{
+        display: flex;
+        gap: 40px;
+    }
     .container{
         padding: 48px 10% 0 10%;
+        gap: 60px;
     }
     .service{
         gap: 10%;
@@ -181,13 +207,14 @@ align-items: center;
     }
     .mainLeft{
         width: 50%;
+        padding: 16px 0 16px 0;
     }
     .mainRight{
         width: 50%;
     }
-    .mainRight img{
+   /*  .mainRight img{
         width: 100%;
-    }
+    } */
     .mainLeft h6{
         font-size: 16px;
         font-weight: 600;
@@ -212,5 +239,7 @@ align-items: center;
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
- 
+   .service{
+       gap: 12%;;
+   }
 }

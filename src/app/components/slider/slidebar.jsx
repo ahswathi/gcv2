@@ -11,7 +11,7 @@ const Slidebar = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 400,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -21,15 +21,15 @@ const Slidebar = () => {
   return (
     <div className={styles.containermain}>
     <Mainheading
-        titlecenter=" Sevices"
+        titlecenter=" Services"
         contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
         />
         <div className={styles.container}>
-      <Slider {...settings}>
-      <Slidercompo head="Develop" bg="#46CB7E" bullet='#fff' clr='#ffffff' src='/assets/sidebar1.png' />
-      <Slidercompo head='Design' bg='#0AA8E5' bullet='#fff' clr='#ffffff' src='/assets/image2.png' />
-      <Slidercompo head='Integration' bg='#EAE7E7' bullet='#090909' clr='#090909' src='/assets/sidebar3.png' />
-      </Slider>
+          <Slider {...settings}>
+          <Slidercompo class="slides" head="Develop" bg="#46CB7E" bullet='#fff' clr='#ffffff' src='/assets/sidebar1.png' />
+          <Slidercompo class="slides"  head='Design' bg='#0AA8E5' bullet='#fff' clr='#ffffff' src='/assets/image2.png' />
+          <Slidercompo  class="slides" head='Integration' bg='#EAE7E7' bullet='#090909' clr='#090909' src='/assets/sidebar3.png' />
+          </Slider>
       </div>
     </div>
   )
