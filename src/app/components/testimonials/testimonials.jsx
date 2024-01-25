@@ -4,7 +4,8 @@ import styles from './testimonials.module.css'
 
 const Testimonials = () => {
   return (
-      <><Mainheading
+    <div className={styles.containermain}>
+      <Mainheading
     titlecenter="Testimonials"
     contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
     /> 
@@ -305,7 +306,7 @@ const Testimonials = () => {
             </div>
         </div>
 
-    </div></> 
+    </div></div> 
   )
 }
 

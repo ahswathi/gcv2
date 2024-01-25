@@ -1,23 +1,23 @@
 .container{
-    padding: 48px 6%;
+    padding: 0px 6%;
 }
-.stages{
+/* .stages{
     margin-top: 65px;
-}
+} */
 .box{
     height: fit-content;
     border-radius: 14px;
-border: 2px solid #0AA8E5;
-margin: auto;
-margin-top: 25px;
-margin-bottom: 25px;
-padding: 2.5% 3.5% 2.8% 6%;
+    border: 2px solid #0AA8E5;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 3% 4% 3% 4%;
 }
 .first{
-    width: 85%;
+    width: 100%;
 }
 .second{
-    width: 92.5%;
+    width: 100%;
 }
 .third{
     width: 100%;
@@ -29,20 +29,24 @@ display: flex;
 }
 .head{
     color: rgba(10, 168, 229, 0.93);
-font-size: 36px;
-font-weight: 500;
+    font-size: 32px;
+    font-weight: 500;
 }
 .answer{
-    justify-content: space-between;
     margin-top: 20px;
+    gap: 40px;
 }
-.para{
+.answer p{
     color: rgba(21, 22, 26, 0.70);
 font-size: 16px;
 line-height: 34px; /* 212.5% */
-width: 43%;
+width: 50%;
 margin-top: 3px;
 }
+.answer img{ 
+    width: 46%;
+}
+
 .ppl{
     width: 40%;
     height: auto;
@@ -59,40 +63,46 @@ margin-top: 3px;
     transform: rotate(180deg);
 }
 
-@media (max-width: 821px) {
-    .answer{
-        flex-direction: column-reverse;
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .box{
+        border-radius: 6px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 4% 4% 4% 4%;
     }
-    .ppl{
-        width: 98%;
-    }
-    .para{
-        width: 90%;
-        margin-top: 10px;
-    }
+    
     .head{
         font-size: 28px;
     }
 }
-@media (max-width: 445px) {
-    .head{
-        font-size: 24px;
+@media (min-width: 360px) and (max-width: 768px) {
+    .box{
+        
+    border-radius: 6px;
     }
-    .para{
+    .head{
+        font-size: 20px;
+    }
+    .answer p{
         font-size: 12px;
-        line-height: 27px;
+        line-height: 24px;
+        width: 100%;
     }
     .dropdown{
         width: 6%;
     }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-    .dropdown{
-        width: 3.5%;
+    .answer{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .answer img{ 
+        width: 100%;
     }
 }
 
-
 @media (min-width: 1024px) and (max-width: 1279px) {
- 
+    .head{
+        font-size: 28px;
+    }
 }

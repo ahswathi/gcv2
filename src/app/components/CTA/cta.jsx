@@ -13,9 +13,7 @@ const CTA = ( ) => {
                 <h2>Find the perfect person <br/> every time</h2>
                 <p>Get unlimited design inspirations. Level up your design.</p>
                 <div> 
-                {/* <a className={styles.button}>
-                Lets connect
-                </a> */}<Darkbutton title="Lets connect"/>
+                  <Darkbutton title="Lets connect"/>
                 </div>
             </div>
             

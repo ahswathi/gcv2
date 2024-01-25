@@ -4,6 +4,32 @@
     align-items: center;
     padding: 48px 10% 72px 10%;
 }
+.contentleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.contentleft h2 {
+    color: #090909;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    /* 135% */
+}
+
+.contentleft p {
+    color: #090909;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 8px 0 48px 0;
+}
+
 .service{
     display: inline-flex;
     justify-content: center;
@@ -31,12 +57,8 @@
 }
 
 .mainLeft{
-    width: 50%;
-    box-sizing: border-box;
-}
-.mainRight{
     width: 40%;
-    flex-shrink: 0;
+    box-sizing: border-box;
 }
 .mainRight img{
     width: 100%;
@@ -47,32 +69,59 @@
       transform: scale(1.1); 
     }
 
-.button{
-    display: flex;
-width: 146px;
-height: 40px;
-padding: 14px 20px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 12px;
-background: #000;
-border-style: none;
-box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.40);
-}
+    .mainRight{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    /* .mainRight1{
+        display: flex;
+        gap: 60px;
+        padding-left: 70px;
+    }
+    .mainRight2{
+        display: flex;
+        gap: 60px;
+    } */
+    
+    .techicon{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+    }
+    .techicon img{
+        width: 100%;
+      height: auto;
+      transition: transform 0.9s;
+    } 
 
-.enquire{
-    color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
 
 
-@media (max-width: 375px) {
-    .service{
+
+    @media (min-width: 360px) and (max-width: 768px) {
+        .container{
+            padding: 48px 6% 72px 6%;
+            gap: 40px;
+        }
+        .contentleft {
+            width: 100%;
+            padding: 0%;
+        }
+        .contentleft p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px; /* 171.429% */
+            padding: 0px 0px 36px 0px;
+            padding-top: 10px;
+        }
+        .contentleft h2 {
+            font-size: 20px;
+            padding-bottom: 0px;
+        }
+        .service{
         flex-direction: column;
         gap: 40px;
         padding-top: 0;
@@ -100,19 +149,23 @@ line-height: normal;
     }
     
 
-    .button{
-        width: 120px;
-        height: 36px;
-    }
-    .enquire{
-        font-size: 12px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-   .service{
-       gap:10%;
-   }
+    .contentleft {
+        width: 100%;
+        align-items: center;
+        padding: 0px 8%;
+    }
+    .contentleft h2 {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+    .contentleft p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+    }
 }
 
 

@@ -41,7 +41,7 @@ const supports = () => {
             </svg>
           </div>
           <div className={styles.answer} style={{ display: stages===0 ? 'flex' : 'none' }}>
-            <div className={styles.para}>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</div>
+            <p>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</p>
             <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>
@@ -56,7 +56,7 @@ const supports = () => {
 </svg>
           </div>
           <div className={styles.answer} style={{ display: stages===1 ? 'flex' : 'none' }}>
-            <div className={styles.para}>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</div>
+            <p>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</p>
             <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>
@@ -71,7 +71,7 @@ const supports = () => {
 </svg>
           </div>
           <div className={styles.answer} style={{ display: stages===2 ? 'flex' : 'none' }}>
-            <div className={styles.para}>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</div>
+            <p>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</p>
             <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>

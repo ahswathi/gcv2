@@ -1,7 +1,7 @@
 .container{
     display: inline-flex;
     flex-direction: column;
-    padding: 48px 12% 0 12%;
+    padding: 48px 12% 100px 12%;
     gap: 80px;
 }
 .service{
@@ -54,7 +54,14 @@
 /* .mainRight:hover img {
     transform: scale(1.1); 
   } */
-
+  .techicon span{
+    color: #464646;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 .mainLeft h6{
     color: #6A6A6A;
     font-size: 16px;
@@ -93,24 +100,45 @@ align-items: center;
 .read svg{
     margin-left: 8px;
 }
-
+.mainRightxs{
+    display: none;
+}
 @media (min-width: 360px) and (max-width: 768px) {
     .techicon img{
-        height: 50%;
+        height: 100%;
+        width: 80%;
       }
+     /*  .techicon{
+        width: 100px;
+      } */
 
-      .mainRight{
+      .techicon span{
+        color: #464646;
+        text-align: left;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .mainRightxs{
+        display:flex;
+        justify-content: center;
+        align-items: left;
         width: 100%;
-        display: flex;
-        flex-direction: column;
+    }
+      .mainRight{
+        display: none;
+        flex-direction: row;
+        justify-content: center;
         gap: 0px;
-        padding-top: 0px;
+        padding-top: 40px;
     }
     
     .mainRight1{
         display: flex;
         gap: 20px;
-        padding-left: 60px;
+        padding-left: 00px;
+        justify-content: center;
     }
     .mainRight2{
         display: flex;
@@ -119,7 +147,7 @@ align-items: center;
     }
     .mainLeft {
         width: 100%;
-        padding: 16px 0 16px 0;
+        padding: 40px 0 20px 0;
     }
     .mainLeft p{
         color: #6A6A6A;
@@ -127,8 +155,8 @@ align-items: center;
         font-style: normal;
         font-weight: 400;
         line-height: 18px; /* 187.5% */
-        padding: 16px 0 32px 0;
-        text-align: center;
+        padding: 8px 0 16px 0;
+        text-align: left;
     }
     
     .mainLeft h6{
@@ -138,22 +166,22 @@ align-items: center;
         font-weight: 600;
         line-height: normal;
         letter-spacing: 0.32px;
-        text-align: center;
+        text-align: left;
     }
 
     .mainLeft h2{
         color: #090909;
-        font-size: 24px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: 32px; /* 135% */
         padding-top: 8px;
-        text-align: center;
+        text-align: left;
     }
     .service{
         gap: 10%;
         flex-direction: column-reverse;
-        padding-top: 0px;
+        padding-top: 20px;
     }
     .service2{
         padding-bottom: 25px;
@@ -167,7 +195,8 @@ align-items: center;
     }
 
     .read{
-        justify-content: center;
+        justify-content: left;
+        align-items: left;
     }
 }
 
@@ -175,6 +204,8 @@ align-items: center;
     .techicon img{
         height: 80%;
       }
+
+      
 
       .mainRight{
         width: 50%;
@@ -193,17 +224,17 @@ align-items: center;
         gap: 40px;
     }
     .container{
-        padding: 48px 10% 0 10%;
-        gap: 60px;
+        padding: 0 10% 60px 10%;
+        gap: 40px;
     }
     .service{
         gap: 10%;
-        padding-top: 48px;
+        padding-top: 20px;
     }
     
     .service2{
         gap: 10%;
-        padding-top: 88px;
+        padding-top: 20px;
     }
     .mainLeft{
         width: 50%;
@@ -222,9 +253,9 @@ align-items: center;
     }
     
     .mainLeft h2{
-        font-size: 34px;
+        font-size: 24px;
         font-weight: 600;
-        line-height: 54px; /* 135% */
+        line-height: 32px; /* 135% */
         padding-top: 8px;
     }
     
@@ -239,7 +270,12 @@ align-items: center;
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-   .service{
-       gap: 12%;;
+    .container{
+        padding: 48px 8% 60px 8%;
+        gap: 60px;
+    }
+    .service{
+       gap: 12%;  
+        padding-top: 0px;
    }
 }

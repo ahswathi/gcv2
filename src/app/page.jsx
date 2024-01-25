@@ -70,7 +70,10 @@ export default function Home() {
       <Process />
       <Testimonials />
       <Supports />
-      <Website imgURL="/assets/clientbrands/image.png" />
+      <Website 
+        content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        title="Build perfect e-commerce website with growCommerce"
+        imageUrl="/assets/clientbrands/image.png" />
       <Industries />
       <Business
         subtitle="FOR D2C SOLUTION"
@@ -93,7 +96,13 @@ export default function Home() {
       <Newintegration
         title="Grow with integration"
         content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."
-
+      
+        growi='assets/growi.png'
+        growi2='assets/growi2.png'
+        growi3='assets/growi3.png'
+        growi4='assets/growi4.png'
+        growi5='assets/growi5.png'
+        growi6='assets/growi6.png'
       />
       <Blogs />
     </>

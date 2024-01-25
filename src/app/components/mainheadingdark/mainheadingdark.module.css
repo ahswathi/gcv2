@@ -28,14 +28,14 @@ text-align: center;
 }
 
 
-@media (max-width: 375px) {
+@media (min-width: 360px) and (max-width: 768px) {
     .container{
         padding:  16px 4% 16px 4%;
         gap: 8px;
     
     }
     .container h2{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     letter-spacing: -1.5px;
     }

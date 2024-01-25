@@ -1,30 +1,27 @@
 
 .button{
-    
-  width: 100%;
-  display: flex;
+    display: flex;
     padding: 14px 32px;
     justify-content: center;
-    align-items: flex-start;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background: #090909;
-  border-style: none;
-  box-shadow: -4px -4px 8px 0px rgba(36 36 36 / 40%);
-  cursor: pointer;
-  transition: all 500ms ease;
-  color: #FDFDFD;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+    align-items: center;
+    gap: 10px;
+    color: #090909;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+    border: 1px dashed #000;
+    box-shadow: -4px -4px 8px 0px rgba(30, 34, 43, 0.40);
+    background-color: #FFF;
+    cursor: pointer;
+    transition: all 500ms ease;
   }
   .button:hover{
-  background: #FDFDFD;
-  color: #090909;
-  box-shadow: -6px -6px 8px 0px rgb(36 36 36 / 40%);
-  border: 1px solid #090909;
+    border: none;
+    color: #FFF;
+    background-color: #090909;
+    border: 1px dashed #FFF;
   }
   
 .enquire{

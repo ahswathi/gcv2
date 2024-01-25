@@ -45,6 +45,24 @@ const Technologies = ({ subtitle, title, content, iwebflow,iwoocom, imegento, is
                     </div>
                 </div>
             </div>
+            <div className={styles.mainRightxs}>
+                    <div className={styles.techicon}>
+                        <img src={iwebflow} />
+                        <span>Webflow</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={iwoocom} />
+                        <span>WooCommerce</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={imegento} />
+                        <span>Meganto</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={ishopify} />
+                        <span>Shopify</span>
+                    </div>
+            </div>
         </div>
         <div className={styles.service2}>
             <div className={styles.mainLeft}>
@@ -78,6 +96,24 @@ const Technologies = ({ subtitle, title, content, iwebflow,iwoocom, imegento, is
                         <span>Reacts</span>
                 </div>
                 </div>
+            </div>
+            <div className={styles.mainRightxs}>
+                    <div className={styles.techicon}>
+                        <img src={iwebflow} />
+                        <span>Webflow</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={iwoocom} />
+                        <span>WooCommerce</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={imegento} />
+                        <span>Meganto</span>
+                    </div>
+                    <div className={styles.techicon}>
+                        <img src={ishopify} />
+                        <span>Shopify</span>
+                    </div>
             </div>
         </div>
 </div>

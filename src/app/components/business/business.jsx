@@ -5,7 +5,7 @@ import styles from './business.module.css'
 
 const Business = ({ subtitle, title, content, imageUrl, ssubtitle, stitle, scontent, simageUrl}) => {
   return (
-      <>
+    <div className={styles.containermain}>
       <Mainheading
      titlecenter="Business Modules"
      contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
@@ -42,7 +42,7 @@ const Business = ({ subtitle, title, content, imageUrl, ssubtitle, stitle, scont
             </div>
         </div>
 </div>
-</>
+</div>
   )
 }
 
