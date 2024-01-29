@@ -19,22 +19,23 @@ const Ourstory = () => {
       <Brands/>
       <Platform />
       <Trends />
-      <Mainheading
+      <div className={styles.spaceT}></div>
+      <Mainheading 
             titlecenter="Fast-track your business goals."
             contentcenter="Whether you’re starting from an ambiguous challenge or a clear idea, we can help you move forward. Reach out for an informal meeting below."
             />
             <div style={{display: 'flex', justifyContent: 'center'}}>
               <Darkbutton title='Get In Touch' />
             </div>
-       
+       <div className={styles.space}></div>
 
-        <div className={styles.teamcontainer}>
+       <div className={styles.teamcontainer}>
             <Mainheading
             titlecenter="Our Team"
             contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
             /> 
           <div className={styles.teammaincontainer}>
-            
+            <div className={styles.teamrow}>
                 <div className={styles.teamcard}>
                     <h2>Eleonora Israele</h2>
                     <img src="assets/team.png" alt="Image" />
@@ -50,6 +51,9 @@ const Ourstory = () => {
                     <img src="assets/team.png" alt="Image" />
                     <span>PROJECT MANAGER</span>
                 </div>
+                
+            </div>
+            <div className={styles.teamrow}>
                 <div className={styles.teamcard}>
                     <h2>Eleonora Israele</h2>
                     <img src="assets/team.png" alt="Image" />
@@ -65,6 +69,8 @@ const Ourstory = () => {
                     <img src="assets/team.png" alt="Image" />
                     <span>PROJECT MANAGER</span>
                 </div>
+                
+            </div>
           </div>  
         </div>
 

@@ -1,3 +1,6 @@
+.space{
+  height: 80px;
+}
 .container{
   margin-top: 120px;
   padding: 32px 8% 48px 8%;
@@ -48,12 +51,13 @@
 }
 
 .teammaincontainer{
-  padding: 48px 8%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between;
+  padding: 48px 12%;
 }
 
+.teamrow{
+  display: flex;
+  justify-content: space-between;
+}
 .teamcard{
   position: relative;
 }
@@ -73,7 +77,7 @@
 .teamcard span{
   position: absolute;
   top: 50px;
-  right: 43px;
+  right: -60px;
   color: #090909;
   font-size: 16px;
   font-style: normal;
@@ -107,7 +111,7 @@
 .teamcard2 span{
   position: absolute;
   top: 140px;
-  right: 43px;
+  right: -60px;
   color: #090909;
   font-size: 16px;
   font-style: normal;
@@ -158,7 +162,7 @@ width: calc(280px * 6);
 }
 
 
-@media (max-width: 1023px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   /* .row{
     width: 100%;
   }
@@ -169,7 +173,7 @@ width: calc(280px * 6);
      width: 100%;
    }
    .teammaincontainer{
-     padding: 0px 2% 72px 6%;
+     padding: 48px 8%;
    }
 .content img{
   width: 50%;
@@ -200,40 +204,6 @@ width: calc(280px * 6);
 .row{
   gap:60px
 }
-.teamrow{
-  gap: 40px;
-  padding-top: 30px;
-}
-.teamcard h2{
-  font-size: 20px;
-  left: -20px;
-}
-.teamcard img{
-  width: 71%;
-  margin: 15px;
-}
-.teamcard span{
-  font-size: 16px;
-  right: 20px;
-  top: 32px;
-}
-.teamcard2{
-  padding-top: 30px;
-}
-.teamcard2 h2{
-  font-size: 20px;
-  top: 42px;
-  left: -20px;
-}
-.teamcard2 img{
-  width: 71%;
-  margin: 15px;
-}
-.teamcard2 span{
-  font-size: 16px;
-  right: 20px;
-  top: 52px;
-}
 .partnercontainer{
   padding-top: 60px;
 }
@@ -244,8 +214,11 @@ width: calc(280px * 6);
 }
   }
   
-  @media (min-width: 476px) and (max-width: 835px) {
-    .row{
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .space{
+      height: 40px;
+  }
+  .row{
       display: flex;
       flex-wrap: wrap;
     }
@@ -257,41 +230,70 @@ width: calc(280px * 6);
       padding: 32px 3% 48px 3%;
     }
     .teammaincontainer{
-      padding: 0 2% 70px 8%;
-      grid-template-columns: 1fr 1fr;
+      padding: 0px 0% 78px 10%;
     }
-    .teamcard h2, .teamcard2 h2{
-      font-size: 17px;
-      width: 100px;
-    }
-    .teamcard span, .teamcard2 span{
-      font-size: 12px;
-      right: 13px;
-    }
+.teamrow{
+  gap: 40px;
+  padding-top: 30px;
+}
+.teamcard h2{
+  font-size: 20px;
+}
+.teamcard img{
+  width: 76%;
+}
+.teamcard span{
+  font-size: 13px;
+  right: 16px;
+  top: 32px;
+}
+.teamcard2{
+  padding-top: 30px;
+}
+.teamcard2 h2{
+  font-size: 20px;
+  top: 42px;
+}
+.teamcard2 img{
+  width: 70%;
+}
+.teamcard2 span{
+  font-size: 13px;
+  right: 16px;
+  top: 52px;
+}
     .partnerimage h1{
       left: 47px;
     font-size: 22px;
     line-height: 32px;
     }
   }
-  @media (max-width: 655px) {
+  /* @media (max-width: 655px) {
     .partnerimage h1{
       left: 2%;
     font-size: 19px;
     line-height: 30px;
     }
+  } */
+  @media (min-width: 360px) and (max-width: 768px) {
+    .space{
+      height: 40px;
   }
-  @media (max-width: 475px) {
-    .container{
+  .spaceT{
+    height: 40px;
+  }
+   .container{
       margin-top: 0px;
       padding: 32px 6% 48px 6%;
     }
     .maincontainer {
       gap: 30px;
     }
+    .row{
+      flex-direction: column;
+    }
     .teammaincontainer{
       padding: 0px 8%;
-      grid-template-columns: 1fr;
     }
     .row{
       flex-direction: column;
@@ -304,11 +306,9 @@ width: calc(280px * 6);
     }
     .teamcard h2{
       font-size: 20px;
-      left: -7px;
     }
     .teamcard span{
       font-size: 16px;
-      right: -20px;
     }
     .teamcard2{
       padding-top: 0px;
@@ -316,12 +316,10 @@ width: calc(280px * 6);
     .teamcard2 h2{
       font-size: 20px;
       top: 20px;
-      left: -7px;
     }
     .teamcard2 span{
       font-size: 16px;
       top: 50px;
-      right: -20px;
     }
     .partnercontainer{
       padding: 32px 0;
@@ -331,9 +329,6 @@ width: calc(280px * 6);
     font-size: 14px;
     line-height: 18px; /* 138.095% */
     letter-spacing: 1.0px;
-    }
-    .teamcard img, .teamcard2 img{
-      margin: 20px 10%;
     }
   
   }

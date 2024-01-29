@@ -8,24 +8,26 @@ const Platform = () => {
         <div className={styles.container}>
         <img src="/assets/building.png" className={styles.platform} />
         <div className={styles.maincontainer}>
-            <div className={styles.main}>
-                <div className={styles.mainleft}>Vission</div>
-                <div className={styles.mainright}>
-                Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes. Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes.
+            <div className={styles.outercontainer}>
+                <div className={styles.main}>
+                    <div className={styles.mainleft}>Vission</div>
+                    <div className={styles.mainright}>
+                    Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes. Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes.
+                    </div>
+                </div>
+                <div className={styles.main}>
+                    <div className={styles.mainleft}>Mission</div>
+                    <div className={styles.mainright}>
+                    Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes. Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes.
+                    </div>
                 </div>
             </div>
-            <div className={styles.main}>
-                <div className={styles.mainleft}>Mission</div>
-                <div className={styles.mainright}>
-                Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes. Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes.
-                </div>
-            </div><br />
             <div className={styles.content}>
                 <div className={styles.heading}>
                     <p>Create your own professional web presence—exactly the way you want.</p></div>
                 <div className={styles.para}>
                 Our powerful technology allows everyone to get online with a personalized, professional web presence. Whether it's your first time creating or you're a long time expert, you'll find the features and solutions you need to build a professional website with total creative freedom.
-                <br />
+                <br /> <br />
                 Our global user base, open SDK, and unparalleled design capabilities create a unique ecosystem. Developers, web designers, and online professionals can effectively market their apps and services to millions through Wix. For agencies and freelancers, our new platform, Wix Studio, allows them to deliver exceptional client work at scale.
                 </div>
             </div>
@@ -33,7 +35,7 @@ const Platform = () => {
     titlecenter="Succeed online with the right creation platform"
     contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
     /> <br />
-        <div className={styles.content}>
+        <div className={styles.content2}>
         <div className={styles.story}>
             <img src="/assets/rectangle.png" />
             <h3 className={styles.title}>
@@ -63,13 +65,13 @@ const Platform = () => {
                 <div className={styles.heading}>
                     <p>Create your own professional web presence—exactly the way you want.</p></div>
                 <div className={styles.para}>
-                Our powerful technology allows everyone to get online with a personalized, professional web presence. Whether it's your first time creating or you're a long time expert, you'll find the features and solutions you need to build a professional website with total creative freedom.
-                <br />
-                Our global user base, open SDK, and unparalleled design capabilities create a unique ecosystem. Developers, web designers, and online professionals can effectively market their apps and services to millions through Wix. For agencies and freelancers, our new platform, Wix Studio, allows them to deliver exceptional client work at scale.
+               <p> Our powerful technology allows everyone to get online with a personalized, professional web presence. Whether it's your first time creating or you're a long time expert, you'll find the features and solutions you need to build a professional website with total creative freedom.
+               </p>
+               <p>Our global user base, open SDK, and unparalleled design capabilities create a unique ecosystem. Developers, web designers, and online professionals can effectively market their apps and services to millions through Wix. For agencies and freelancers, our new platform, Wix Studio, allows them to deliver exceptional client work at scale.</p>
                 </div>
-            </div>
         </div>
         </div>
+    </div>
     )
 }
 export default Platform;

@@ -1,3 +1,12 @@
+.outercontainer{
+    border-radius: 24px;
+    background: rgba(237, 236, 236, 0.45);
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
 .container{
     padding: 0;
     margin: 0;
@@ -7,7 +16,7 @@
 
 }
 .maincontainer{
-        padding: 40px 6% 40px 6%;
+        padding: 80px 6% 80px 6%;
 }
 .main{
     width: 100%;
@@ -15,56 +24,62 @@
     align-items: center;
     justify-content: space-between;
     display: flex;
-    margin: 45px 0;
+    gap: 40px
 }
 .mainleft{
     color: #090909;
 font-size: 64px;
 width: 42%;
-text-align: center;
 font-weight: 300;
 line-height: 46px; /* 71.875% */
 }
 .content{
     display: flex;
     justify-content: space-between;
-    padding: 2% 5%;
+    padding: 80px 4% 80px 4%;
+    gap: 80px;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 4% 40px 4%;
+    gap: 80px;
 }
 .heading{
-    width: 50%;
+    width: 60%;
     color: #090909;
-font-size: 34px;
-font-weight: 600;
-display: flex;
-justify-content: center;
-line-height: 46px; /* 135.294% */
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 46px; /* 135.294% */
 }
 .heading p{
     width: 80%;
 }
 .para{
     color: #6A6A6A;
-font-size: 16px;
-width: 50%;
-line-height: 30px; /* 187.5% */
+    font-size: 16px;
+    width: 40%;
+    line-height: 30px; /* 187.5% */
+    display: inline;
+    gap: 20px;
 }
+
 .story{
     color: #6A6A6A;
 font-size: 16px;
 line-height: 30px; /* 187.5% */
-width: 45%;
 }
 .story img{
-    width: 80%;
+    width: 100%;
 }
 .title{
     color: #090909;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
-letter-spacing: 0.24px;
-padding: 25px 0px;
-width: 60%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    letter-spacing: 0.24px;
+    padding: 24px 0px 8px 0px;
+    width: 80%;
 }
 .story p{
     width: 70%;
@@ -84,30 +99,40 @@ align-items: center;
     color: #6A6A6A;
 font-size: 16px;
 width: 50%;
-margin-right: 8%;
 line-height: 30px; /* 187.5% */
 }
-@media (max-width: 650px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .platform{
         width: 115%;
+    }
+    .content{
+        padding: 80px 0% 40px 0%;
+        gap: 0px;
+    }
+    .content2{
+        padding: 0px 0% 0px 0%;
+        gap: 60px;
     }
     .heading{
         font-size: 24px;
         line-height: 38px;
+        width: 56%;
     }
     .para{
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 28px;
+        gap: 10px;
     }
     .mainleft{
         font-size: 32px;
         line-height: 37px;
+        width: 30%;
     }
     .mainright{
         margin-right: 0;
-    }
-    .content{
-        padding: 0%;
+        width: 70%;
+        font-size: 16px;
+        line-height: 28px;
     }
     .story img{
         width: 100%;
@@ -119,11 +144,17 @@ line-height: 30px; /* 187.5% */
         line-height: 35px;
     }
     .story{
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .outercontainer{
+        padding: 40px 40px;
     }
 }
-@media (max-width: 415px) {
+@media (min-width: 360px) and (max-width: 768px) {
+    .maincontainer{
+            padding: 40px 6% 20px 6%;
+    }
     .main, .content{
         flex-direction: column;
     }
@@ -134,5 +165,100 @@ line-height: 30px; /* 187.5% */
     .heading p, .heading, .para{
         width: 100%;
     }
-    
+    .outercontainer{
+        border-radius: 6px;
+        padding: 20px 20px;
+        gap: 30px;
+    }
+    .main{
+        gap: 10px;
+    }
+    .mainleft{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .mainright{
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .content{
+        padding: 40px 0% 40px 0%;
+        gap: 0px;
+    }
+    .content2{
+        padding: 0px 0% 0px 0%;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 20px;
+        line-height: 32px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .para{
+        font-size: 12px;
+        line-height: 28px;
+        gap: 10px;
+    }
+
+    .title{
+        width: 100%;
+    }
+    .story p{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .platform{
+        width: 115%;
+    }
+    .content{
+        padding: 80px 0% 40px 0%;
+        gap: 0px;
+    }
+    .content2{
+        padding: 0px 0% 0px 0%;
+        gap: 60px;
+    }
+    .heading{
+        font-size: 32px;
+        line-height: 48px;
+        width: 56%;
+    }
+    .para{
+        font-size: 18px;
+        line-height: 32px;
+        gap: 10px;
+    }
+    .mainleft{
+        font-size: 32px;
+        line-height: 48px;
+        width: 30%;
+    }
+    .mainright{
+        margin-right: 0;
+        width: 70%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .story img{
+        width: 100%;
+    }
+    .story p, .title{
+        width: 95%;
+    }
+    .title{
+        line-height: 35px;
+    }
+    .story{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .outercontainer{
+        padding: 60px 60px;
+    }
 }
