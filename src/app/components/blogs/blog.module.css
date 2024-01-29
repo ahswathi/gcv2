@@ -1,5 +1,5 @@
 .container {
-    padding: 48px 6.2%;
+    padding: 48px 6.2% 48px 6.2%;
 }
 
 .head {
@@ -19,7 +19,7 @@
     font-style: normal;
     font-weight: 600;
     border: none;
-    background-color: white;
+    background-color: transparent;
     line-height: normal;
     cursor: pointer;
     padding-bottom: 2px;
@@ -36,7 +36,7 @@
     color: #1D212C;
     font-size: 24px;
     font-style: normal;
-    background: white;
+    background: transparent;
     align-items: center;
     display: flex;
     grid-gap: 10px;
@@ -83,12 +83,12 @@
     /* 166.667% */
 }
 
-@media (max-width: 1060px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .tabcontainer {
-        grid-gap: 35px;
+        grid-gap:75px;
     }
     .blogs {
-        width: calc(50% - 20px);
+        width: calc(30% - 20px);
     }
 
     .blog {
@@ -100,15 +100,30 @@
         object-fit: cover;
         border-radius: 12px;
     }
+    .blogtext {
+        font-size: 18px;
+        width: 90%;
+        line-height: 26px;
+    }
+    .menu, .view {
+        font-size: 22px;
+    }
+    .container {
+        padding: 60px 6.2% 68px 6.2%;
+    }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .head {
-        flex-direction: column;
         grid-gap: 18px;
         align-items: flex-start;
     }
-
+        .tabcontainer{
+            grid-gap: 40px;
+        }
+        .blogs {
+            width: calc(32% - 20px);
+        }
     .tabs {
         grid-gap: 26px;
     }
@@ -126,20 +141,33 @@
     }
 }
 
-@media (max-width: 475px) {
+@media (min-width: 360px) and (max-width: 768px) {
     .tabcontainer {
-        grid-gap: 15px;
+        grid-gap: 24px;
+        margin-top: 20px;
     }
-
+    .tabs{
+        grid-gap: 14px;
+    }
     .menu, .view {
-        font-size: 20px;
+        font-size: 14px;
     }
     
     .blogs {
-        width: calc(50% - 9px);
+        width: calc(48% - 9px);
     }
 
     .blogtext {
-        font-size: 17px;
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
     }
+    .view {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .container {
+        padding: 20px 6.2% 48px 6.2%;
+    }
+    
 }
