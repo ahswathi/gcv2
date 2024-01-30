@@ -1,6 +1,6 @@
 .container{
     padding: 32px 0;
-    background: #090909;
+    background: #2C2C2C;
 }
 .main{
     padding: 32px 10%;
@@ -29,7 +29,7 @@
   left: 0;
   width: 76%;
   height: 100%;
-  background-color: #1C1C1C;
+  background-color: #090909;
   transition: background-color 0.3s;
 }
 .cardactive{

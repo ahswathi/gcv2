@@ -8,9 +8,9 @@ import Process from '../../components/process/process'
 import Testimonials from '../../components/testimonials/testimonials'
 import Content from '../../components/content/content'
 import Ctaform from '../../components/ctaform/ctaform'
-import Slidebar from '@/app/components/slider/slidebar'
 import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
+import Ecommerceslider from '@/app/components/slider/ecommerceslider'
 // import Brands from '../components'
 const Ecommerce = () => {
   return (
@@ -23,7 +23,7 @@ const Ecommerce = () => {
      bg='rgba(232, 232, 232, 0.47)'
      />
      <Brands />
-     <Slidebar />
+     <Ecommerceslider />
      <Content 
      imageUrl='/assets/abt3.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'

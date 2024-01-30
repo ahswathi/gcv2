@@ -11,19 +11,19 @@ import Ctaform from '../../components/ctaform/ctaform'
 import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
 // import Brands from '../components'
-const Mobile = () => {
+const Websiteuiux = () => {
   return (
     <>
     <Herosub
      subtitle="Design"
-     title="Mobile UI/UX"
+     title="Website UI/UX"
      content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
-     imageUrl='/assets/mobile.png'
-     bg='rgba(10, 168, 229, 0.46)'
+     imageUrl='/assets/websiteuiux.png'
+     bg='rgba(15, 204, 117, 0.46);'
      />
      <Brands />
      <Content 
-     imageUrl='/assets/abt2.png'
+     imageUrl='/assets/websiteuiuxser.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
      />
      <Verticalchooseus />
@@ -40,4 +40,4 @@ const Mobile = () => {
   )
 }
 
-export default Mobile
+export default Websiteuiux

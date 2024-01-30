@@ -2,9 +2,9 @@
 import React from 'react'
 import styles from './casestudies.module.css'
 import Mainheading from '../mainheading/mainheading'
-import cta1 from '../../../../public/assets/casestudies11.png'
-import cta2 from '../../../../public/assets/casestudies12.png'
-import cta3 from '../../../../public/assets/casestudies13.png'
+import cta1 from '../../../../public/assets/cs1.png'
+import cta2 from '../../../../public/assets/cs2.png'
+import cta3 from '../../../../public/assets/cs3.png'
 import Image from 'next/image'
 
 const Casestudies = () => {
@@ -17,70 +17,70 @@ const Casestudies = () => {
         /> 
         <div className={styles.box}>
           <div className={styles.contentmain}>
-              <div className={styles.contentright}>
-                  <Image src={cta1} 
-                  />
-              </div>
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Grocery Shop</h2>
                   <p>Uniting teams to build a top-notch omnichannel shopping experience.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span><br className={styles.hidden} />
+                    <span>Ecommerce</span>
                     <span>Native App</span>
                   </div>
                 </div>
               </div>
-          </div>
-    <br />
-          <div className={styles.contentmain}>
               <div className={styles.contentright}>
-                  <Image src={cta2} 
+                  <Image src={cta1} 
                   />
               </div>
+          </div>
+   
+          <div className={styles.contentmain}>
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Furniture Web Design</h2>
                   <p>Building a single housekeeping application to make the lives of both clients and personnel a lot easier.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span><br className={styles.hidden} />
+                    <span>Ecommerce</span>
                     <span>Native App</span>
                   </div>
                 </div>
               </div>
-          </div>
-          <br />
-          <div className={styles.contentmain}>
               <div className={styles.contentright}>
                   <Image src={cta2} 
                   />
               </div>
+          </div>
+         
+        {/*   <div className={styles.contentmain}>
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Furniture Web Design</h2>
                   <p>Building a single housekeeping application to make the lives of both clients and personnel a lot easier.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span><br className={styles.hidden} />
+                    <span>Ecommerce</span>
                     <span>Native App</span>
                   </div>
                 </div>
               </div>
-          </div>
-      <br />
-          <div className={styles.contentmain}>
               <div className={styles.contentright}>
-                  <Image src={cta3} 
+                  <Image src={cta2} 
                   />
               </div>
+          </div> */}
+     
+          <div className={styles.contentmain}>
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Restaurant</h2>
                   <p>Building a single housekeeping application to make the lives of both clients and personnel a lot easier.</p>
                   <div className={styles.content2}>
-                    <span>Ecommerce</span><br className={styles.hidden} />
+                    <span>Ecommerce</span>
                     <span>Native App</span>
                   </div>
                 </div>
+              </div>
+              <div className={styles.contentright}>
+                  <Image src={cta3} 
+                  />
               </div>
           </div>
           <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">

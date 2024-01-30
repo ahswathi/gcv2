@@ -64,11 +64,11 @@ align-items: center;
 }
 
 .mainLeft{
-    width: 60%;
+    width: 50%;
     box-sizing: border-box;
 }
 .mainRight{
-    width: 40%;
+    width: 50%;
     flex-shrink: 0;
 }
 .mainRight img{
@@ -179,7 +179,7 @@ align-items: center;
         gap: 5%;
     }
    .mainLeft h2{
-       font-size: 38px;
+       font-size: 34px;
        line-height: 50px;
    }
 }

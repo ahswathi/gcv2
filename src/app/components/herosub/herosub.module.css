@@ -1,13 +1,14 @@
 .container{
     display: inline-flex;
     flex-direction: column;
-    padding: 48px 6% 0 6%;
+    padding: 28px 6% 0 6%;
 }
 .service{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 60px 48px 120px 48px;
+    gap: 120px;
+    padding: 48px 48px 48px 48px;
     border-radius: 14px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -26,6 +27,7 @@
     width: 550px;
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
 }
 .quicknav span{
     color: #6A6A6A;
@@ -74,14 +76,15 @@ line-height: 22px; /* 137.5% */
 .mainRight{
     width: 50%;
 }
-.mainRight:hover img {
+/* .mainRight:hover img {
     transform: scale(1.1); 
-  }
-
+  } */
+  .mainRight img{
+    width: 100%;
+}
 .mainLeft h6{
-    color: #090909;
+    color: #464646;
     font-size: 18px;
-    letter-spacing: 0.36px;
 }
 
 .mainLeft h2{
@@ -97,9 +100,9 @@ line-height: 22px; /* 137.5% */
     color: #6A6A6A;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 187.5% */
-    padding: 16px 0 32px 0;
+    font-weight: 500;
+    line-height: 30px; 
+    padding: 8px 0 48px 0;
 }
 .read{
     float: left;
@@ -107,92 +110,15 @@ line-height: 22px; /* 137.5% */
     gap: 40px;
 }
 
-@media (min-width: 360px) and (max-width: 768px)  {
 
-    /* .service{
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        flex-direction: column-reverse;
-        /* flex-direction: col-reverse;  ///
-        align-items: center;
-        gap: 20%;
-        padding: 40px 20px 120px 20px;
-    }
-    
-    .content{
-        border-radius: 6px;
-        background: rgba(217, 217, 217, 0.65);
-        backdrop-filter: blur(25px);
-        position: absolute;
-        top: 142px;
-        right: 54px;
-        padding: 10px ;
-      }
-      .bullet{
-          gap: 6px;
-          padding-bottom: 2px;
-        }
-      .bullet p{
-        color: #090909;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 14px; /* 137.5% */
-      }
-
-      .bullet svg{
-          width: 8px;
-          height: 8px;
-      }
-    .mainLeft{
-        width: 50%;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        padding-left:4%;
-        justify-content: center;
-    }
-    .mainRight img{
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      height: auto; 
-    }
-  
-
-    .mainLeft h2{
-        color: #090909;
-font-size: 36px;
-font-weight: 600;
-letter-spacing: 0.72px;
-text-transform: capitalize;
-    }
-
-    .mainLeft p{
-        color: #6A6A6A;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px; 
-        /* padding: 16px 0 32px 0; */
-    }
-    /* .container{
-        padding: 0px 10% 0 10%;
-    } */
-
-@media (max-width: 1119px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+ 
     .container{
-        padding: 48px 6% 0 6%;
+        padding: 28px 6% 0 6%;
     }
     .service{
-        gap: 10%;
-        padding-bottom: 60px;
-        padding-top: 48px;
+        gap: 80px;
+        padding: 48px 48px 48px 48px;
     }
     
     .service2{
@@ -201,22 +127,18 @@ text-transform: capitalize;
     }
     .mainLeft h6{
         font-size: 16px;
-        font-weight: 600;
-        letter-spacing: 0.32px;
     }
     
     .mainLeft h2{
         font-size: 28px;
-        font-weight: 600;
         line-height: 34px; /* 135% */
         padding-top: 8px;
     }
     
     .mainLeft p{
         font-size: 16px;
-        font-weight: 400;
-        line-height: 30px; /* 187.5% */
-        padding: 16px 0 32px 0;
+        line-height: 28px; /* 187.5% */
+        padding: 8px 0 40px 0;
     }
     .content{
         top: 96px;
@@ -228,83 +150,82 @@ text-transform: capitalize;
 }
 
 
-@media (min-width: 1024px) and (max-width: 1279px) {
- 
-}
 
-@media (max-width: 889px) {
-      .mainLeft{
-        width: 45%;
+@media (min-width: 768px) and (max-width: 1023px) {
+      
+    .container{
+        padding: 28px 6% 0 6%;
+    }
+    .service{
+        gap: 60px;
+        padding: 28px 28px 28px 28px;
+    }
+    .mainLeft{
+        width: 50%;
     }
     .mainRight{
-        width: 55%;
+        width: 50%;
+    } 
+    
+    .mainLeft h2{
+        font-size: 22px;
+        line-height: 34px; /* 135% */
+        padding-top: 8px;
+    }
+    
+    .mainLeft h6{
+        font-size: 14px;
+    }
+    .mainLeft p{
+        font-size: 12px;
+        line-height: 24px; /* 187.5% */
+        padding: 8px 0 30px 0;
     }
     .content{
         right: -20px;
       }
 }
-@media (max-width: 771px) {
-    .service{
-        flex-direction: column-reverse;
-    }
-    .mainLeft, .mainRight{
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .mainRight img{
         width: 100%;
-    }
-    .mainRight img{
-        width: 70%;
-        margin-bottom: 15%;
-    }
-    .mainRight{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .content{
-        right: 20%;
-        bottom: 5%;
-        top: auto;
-      }
-}
-@media (max-width: 625px) {
-    .bullet{
-        padding-bottom: 5px;
-      }
-    .content{
-        right: 20%;
-        padding: 10px 15px;
-    }
-      .service{
-        padding: 30px 18px 25px 18px;
-      }
-}
-@media (max-width: 475px) {
-}
-@media (max-width: 415px) {
-    .mainRight img{
-        width: 80%;
-        margin-bottom: 50%;
     }
       .bullet p{
     font-size: 12px;
     line-height: 15px; /* 137.5% */
       }
-    .content{
-        right: 10%;
+    .mainLeft{
+        width: 100%;
     }
+    .mainRight{
+        width: 100%;
+    } 
     .mainLeft p{
-        font-size: 14px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 8px 0 24px 0;
     }
     .mainLeft h2{
-        font-size: 26px;
-        line-height: 35px;
+        font-size: 22px;
+        line-height: 34px;
+        padding-top: 0px;
+    }  
+    .mainLeft h6{
+        font-size: 14px;
+        line-height: 28px;
     }
     .container{
-        padding: 20px 0 15px 0;
-      }
-      .service{
-        border-radius: 0;
-        box-shadow: none;
-        border-top-left-radius: 14px;
-        border-top-right-radius: 14px;
-      }
+        padding: 18px 6% 0 6%;
+    }
+    .service{
+        gap: 60px;
+        padding: 18px 18px 18px 18px;
+        border-radius: 6px;
+        flex-direction: column;
+    }
+
+    .sub, .main{
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
