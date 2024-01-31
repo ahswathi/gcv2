@@ -9,14 +9,14 @@ import Testimonials from '../../components/testimonials/testimonials'
 import Content from '../../components/content/content'
 import Ctaform from '../../components/ctaform/ctaform'
 import WebDesigns from '@/app/components/webdesigns/webdesigns'
-import Subchoose from '../../components/subchoose/subchoose'
 import Newcta from '@/app/components/newcta/newcta'
+import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 // import Brands from '../components'
 const Wordpress = () => {
   return (
     <>
     <Herosub
-     subtitle="Design"
+     subtitle="Development"
      title="Wordpress  development"
      content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
      imageUrl='/assets/wordpress.png'
@@ -25,10 +25,10 @@ const Wordpress = () => {
      <Brands />
      <WebDesigns />
      <Content 
-     imageUrl='/assets/abt5.png'
+     imageUrl='/assets/Wordpressdevelopmentserv.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
      />
-     <Subchoose />
+     <Subchoosetype2 />
     <Process />
     <Casestudies />
     <Newcta />

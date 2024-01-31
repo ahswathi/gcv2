@@ -146,7 +146,7 @@ const Footer = () => {
       <div className={styles.line}></div>
           <div className={styles.copywrite}>
             <p>
-              Copyright © GrowCommerce | Designed by GrowCommerce 
+              Copyright © Explo Commerce 
             </p>
             <div className={styles.footerimg}>
               <div className={styles.footersvg}>

@@ -2,20 +2,19 @@
     padding: 48px 6%;
 }
 .main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
-    justify-content: space-between;
-    padding: 25px 0;
-    width: 100%;
+    display: flex;
+     align-items: center;
+     gap: 80px;
+     justify-content: center;
+     padding: 48px 6% 48px 6%;
 }
 .service {
     display: flex; 
     flex-direction: column;
     gap: 25px;
     color: #6A6A6A;
-font-size: 16px;
-line-height: 26px; /* 162.5% */
+    font-size: 16px;
+    line-height: 26px; /* 162.5% */
 }
 .service img{
     width: 64px;
@@ -23,41 +22,101 @@ line-height: 26px; /* 162.5% */
 }
 .service h2{
     color: #090909;
-font-size: 24px;
-font-weight: 600;
-letter-spacing: 0.112px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0.112px;
+    padding: 16px 0px 16px 0px;
 }
-.service a{
+.service p{
+    color: #6A6A6A;
+font-size: 16px;
+line-height: 28px; /* 162.5% */
+}
+.more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
     color: #1E222B;
+text-align: center;
 font-size: 16px;
 font-weight: 600;
-line-height: 31.266px; /* 195.411% */
-padding: 5px 0px;
-border-bottom: 2px solid #090909;
-width: 110px;
 }
-@media (max-width: 745px) {
-    .service{
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    
+    .service2{
+        gap: 60px;
+        padding: 48px 6% 48px 6%;
+    }
+    .container{
+        padding: 0px 2%;
     }
     .main{
-        gap: 50px 25px;
-        grid-template-columns: 1fr 1fr;
+        gap: 30px;
     }
 }
-@media (max-width: 485px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    
+    .service h2{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 34px; /* 150% */
+    }
+    .service p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .more{
+        font-size: 12px;
+    }
+    .more svg{
+        width: 12px;
+    }
+    .container{
+        padding: 0px 2%;
+    }
+    .main{
+        gap: 30px;
+    }
+    .service{
+        gap: 0px;
+    }
+}
+@media (min-width: 360px) and (max-width: 768px) {
+    
+    .more svg{
+        width: 12px;
+    }
+    .main{
+        flex-direction: column;
+        gap: 30px;
+    }
     .service p{
         font-size: 12px;
-        line-height: 20px;
+    line-height: 20px; 
     }
     .service h2{
         font-size: 18px;
-        line-height: 28px;
+    font-weight: 600;
+    line-height: 28px; /* 150% */
+    padding: 8px 0px 8px 0px;
     }
     .service{
-        gap: 18px;
+        flex-direction: column;
+        gap: 0px;
     }
     .service img{
         width: 48px;
         height: 48px;
+    }
+    .container{
+        padding: 0px 2%;
+    }
+    .more{
+        font-size: 12px;
+        padding-top: 16px;
     }
 }

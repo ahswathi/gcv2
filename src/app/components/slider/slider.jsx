@@ -25,7 +25,7 @@ const Slider = ({head, bg, src, clr, bullet}) => {
                   </div>
               </div>
           </div>  */}
-      <div className={styles.container} style={{filter:`drop-shadow(0px 4px 8px ${bg})`, color: `${clr}`}}>
+      <div className={styles.container} style={{filter:`drop-shadow(-8px -8px 8px 8px ${bg})`, color: `${clr}`}}>
            {/*  <div className={styles.wrapper}> */}
               <div className={styles.service} style={{background:bg}}>
                   <div className={styles.mainRight}>

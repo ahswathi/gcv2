@@ -103,12 +103,23 @@
     padding-bottom: 10px;
     color: #090909;
 font-size: 15px;
-font-family: Montserrat;
 display: flex;
 justify-content: space-between;
 align-items: center;
 gap: 10px;
 }
+.ptag a{
+  font-weight: 700;
+    padding-bottom: 10px;
+    color: #090909;
+font-size: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+}
+
+
 .exitBtn{
     align-items: center;
     display: flex;
@@ -135,7 +146,7 @@ font-weight: 600;
   position: absolute;
   /* width: 100%; */
   z-index: 1;
-  margin: 24% 0px 0px 36px;
+  margin: 0% 0px 0px 36px;
 }
 
 .dropdown.open .dropdownContent {
@@ -298,9 +309,12 @@ font-weight: 600;
 
 
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1350px) {
   .navbar {
     justify-content: space-between;
     padding: 26px 6%;
+  }
+  .dropdownContent {
+    margin: 6% 0px 0px 12%;
   }
 }

@@ -6,12 +6,13 @@ import styles from './subservices.module.css'
 
 const Subservices = () => {
   return (
-    <div className={styles.container}>
+   <>
       <Mainheading
         titlecenter="Sub Services"
         contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
         />
-        <div className={styles.services}>
+    <div className={styles.services}>
+      <div className={styles.services1}>
         <div className={styles.subservice}>
         <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
  
@@ -25,8 +26,9 @@ const Subservices = () => {
 </svg>
         <h2>Shopify Web Development</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
-        <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
+        
+        <div className={styles.more}><p>View more </p> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
         </div>
@@ -51,7 +53,7 @@ const Subservices = () => {
 </svg>
         <h2>Shopify theme customization</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
@@ -76,12 +78,13 @@ const Subservices = () => {
 </svg>
         <h2>Shopify custom theme development</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
         </div>
-
+        </div> 
+        <div className={styles.services1}>
         <div className={styles.subservice}>
         <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
   <g clip-path="url(#clip0_96_153)">
@@ -101,7 +104,7 @@ const Subservices = () => {
 </svg>
         <h2>Shopify Maintenance & Support</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
@@ -126,7 +129,7 @@ const Subservices = () => {
 </svg>
         <h2>Shopify plus development</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
@@ -152,12 +155,13 @@ const Subservices = () => {
 </svg>
         <h2>Wordpress  development</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
         </div>
-
+        </div>
+        <div className={styles.services1}>
         <div className={styles.subservice}>
         <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
   <g clip-path="url(#clip0_96_232)">
@@ -178,7 +182,7 @@ const Subservices = () => {
 </svg>
         <h2>Woo Commerce Development</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
@@ -204,7 +208,7 @@ const Subservices = () => {
 </svg>
         <h2>Woo Commerce Maintenance &  Support</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
@@ -228,12 +232,14 @@ const Subservices = () => {
 </svg>
         <h2>Webflow e-commerce development</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
         </div>
 
+        </div>
+        <div className={styles.services1}>
         <div className={styles.subservice}>
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51" fill="none">
   <g mask="url(#mask0_96_316)">
@@ -250,7 +256,7 @@ const Subservices = () => {
 </svg>
         <h2>Webflow  e-commerce Maintenance &  Support </h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
@@ -275,7 +281,7 @@ const Subservices = () => {
 </svg>
         <h2>Bigcommerce development </h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
@@ -308,14 +314,14 @@ const Subservices = () => {
 </svg>
         <h2>Bigcommerce  e-commerce Maintenance & Support</h2>
         <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
-        <br />
+        
         <div className={styles.more}><p>View more </p> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
   <path d="M17.4556 8.20808C17.8462 7.81756 17.8462 7.18439 17.4556 6.79387L11.0917 0.429909C10.7012 0.0393844 10.068 0.0393844 9.67747 0.429909C9.28694 0.820433 9.28694 1.4536 9.67747 1.84412L15.3343 7.50098L9.67747 13.1578C9.28694 13.5484 9.28694 14.1815 9.67747 14.572C10.068 14.9626 10.7012 14.9626 11.0917 14.572L17.4556 8.20808ZM0.748535 8.50098H16.7485V6.50098H0.748535V8.50098Z" fill="#1E222B"/>
 </svg></div>
         </div>
-
         </div>
-    </div>
+        </div>
+    </>
   )
 }
 

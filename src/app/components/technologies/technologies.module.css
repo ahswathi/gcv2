@@ -96,7 +96,12 @@ font-weight: 600;
 line-height: normal;
 display: flex;
 align-items: center;
+cursor: pointer;
+transition: all 500ms ease;
 }
+.read:hover{
+    color: #090909;
+    }
 .read svg{
     margin-left: 8px;
 }
@@ -276,4 +281,28 @@ align-items: center;
        gap: 12%;  
         padding-top: 0px;
    }
+}
+
+
+.read{
+    color: #4c4c4c;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+align-items: center;
+transition: all 500ms ease;
+}
+.read a{
+    color: #4c4c4c;
+    transition: all 500ms ease;
+}
+.read a:hover{
+    color: #090909;
+    font-size: 17px;
+    }
+.read svg{
+    margin-left: 8px;
+    padding-top: 2px;
 }

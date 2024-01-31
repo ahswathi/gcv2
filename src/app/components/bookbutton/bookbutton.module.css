@@ -19,8 +19,8 @@
   }
   .button:hover{
     border: none;
-    color: #FFF;
-    background-color: #090909;
+    color: #090909;
+    background-color: #FFF;
     border: 1px dashed #FFF;
   }
   

@@ -1,6 +1,10 @@
 .outercont{
     padding: 48px 8% 72px 8%;
 }
+.buttons{
+    display: flex;
+    gap: 20px;
+}
 .container{
     display: inline-flex;
     align-items: center;
@@ -73,7 +77,6 @@
     flex-direction: column;
     gap: 40px;
 }
-
 .mainRight1{
     display: flex;
     gap: 60px;

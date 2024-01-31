@@ -12,6 +12,7 @@ import Ctaform from '../../components/ctaform/ctaform'
 import Subservices from './../../components/subservices/subservices';
 import Subchoose from '../../components/subchoose/subchoose'
 import Newcta from '@/app/components/newcta/newcta'
+import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 const Cms = () => {
   return (
     <>
@@ -28,7 +29,7 @@ const Cms = () => {
      imageUrl='/assets/abt4.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
      />
-     <Subchoose />
+      <Subchoosetype2 />
     <Process />
     <Casestudies />
     <Newcta />

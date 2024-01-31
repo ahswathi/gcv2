@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Darkbookbutton from '../darkbookbutton/darkbookbutton'
 import Lightbutton from '../lightbutton/lightbutton'
 import Mainheadingdark from '../mainheadingdark/mainheadingdark'
 import styles from './trends.module.css'
@@ -63,8 +64,8 @@ const Trends = () => {
             <p>Do you want to scale your e-commerce</p>
             <div className={styles.btngroup}>
             <Lightbutton title="Lets connect"/>
-            <a className={styles.book}>Book a Time</a>
-            </div>
+            <Darkbookbutton title1="Book a time"/>
+        </div>
         </div>
     </div>
   )

@@ -1,36 +1,39 @@
-.container{
+/* .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: fit-content;
     padding: 48px 6% 0 6%;
-}
+} */
 .services{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3% 10%;
-    height: 180vh;
-    padding: 0 20px 0px 20px;
+    display: flex;
+   flex-direction: column;
     align-items: center;
+    gap: 80px;
     justify-content: center;
+    padding: 48px 6% 48px 6%;
+}
+.services1{
+    display: flex;
+    gap: 80px;
 }
 .subservice{
-    margin: auto;
-    width: 90%;
     display:flex;
     flex-direction: column;
     /* height: 345px; */
 }
 .subservice h2{
     color: #090909;
-font-size: 24px;
-font-weight: 600;
-letter-spacing: 0.112px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0.112px;
+    padding: 16px 0px 16px 0px;
 }
 .subservice p{
     color: #6A6A6A;
 font-size: 16px;
-line-height: 26px; /* 162.5% */
+line-height: 28px; /* 162.5% */
 }
 .more{
     display: flex;
@@ -42,20 +45,20 @@ text-align: center;
 font-size: 16px;
 font-weight: 600;
 }
-@media (max-width: 831px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .subservice{
         margin: auto;
         width: 100%;
     }
-    .services{
-        grid-gap: 3% 7%; 
-        padding: 0;
-        height: 220vh;
-    }
+    
 }
-@media (max-width: 549px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .services{
-        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        padding: 48px 6% 48px 6%;
+    }
+    .services1{
+        gap: 60px; 
     }
     .subservice svg{
         width: 28px;
@@ -63,13 +66,13 @@ font-weight: 600;
 
     }
     .subservice h2{
-font-size: 12px;
-font-weight: 600;
-line-height: 18px; /* 150% */
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 34px; /* 150% */
     }
     .subservice p{
-font-size: 12px;
-line-height: 20px; /* 166.667% */
+        font-size: 14px;
+        line-height: 26px;
     }
     .more{
         font-size: 12px;
@@ -79,8 +82,36 @@ line-height: 20px; /* 166.667% */
     }
 }
 
-@media (max-width: 395px) {
+@media (min-width: 360px) and (max-width: 768px) {
     .services{
-        height: 230vh;
+        flex-direction: column;
+        gap: 36px;
+        padding: 20px 6% 40px 6%;
+    }
+    .services1{
+        flex-direction: column;
+        gap: 36px;
+    }
+    .subservice svg{
+        width: 28px;
+        height: auto;
+
+    }
+    .subservice h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; /* 150% */
+    padding: 8px 0px 8px 0px;
+    }
+    .subservice p{
+    font-size: 12px;
+    line-height: 20px; /* 166.667% */
+    }
+    .more{
+        font-size: 12px;
+        padding-top: 16px;
+    }
+    .more svg{
+        width: 12px;
     }
 }

@@ -1,5 +1,7 @@
 'use client'
 import React from 'react'
+import Bookbutton from '../bookbutton/bookbutton'
+import Darkbookbutton from '../darkbookbutton/darkbookbutton'
 import Darkbutton from '../darkbutton/darkbutton'
 import Readmore from '../readbutton/readbutton'
 import styles from './newintegration.module.css'
@@ -11,8 +13,9 @@ const Integration = ({ subtitle, title, content, growi, growi2, growi3, growi4, 
                 <div className={styles.contentleft}>
                     <h2>{title}</h2>
                     <p>{content}</p>
-                    <div>
+                    <div className={styles.buttons}>
                     <Darkbutton title="Lets connect"/>
+                    <Bookbutton title1="Book a time"/>
                     </div>
                 </div>
                 <div className={styles.mainRight}>

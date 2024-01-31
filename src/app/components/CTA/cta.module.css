@@ -135,13 +135,13 @@
 
 @media (min-width: 360px) and (max-width: 768px) {
     .container {
-        padding: 76px 6% 40px  6%;
+        padding: 40px 6% 40px  6%;
     }
     
     .content {
         border-radius: 12px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
         border-radius: 6px;
@@ -172,7 +172,8 @@
         margin: 0px 0px;
     }
     .contentright img {
-        border-top-left-radius: 0px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
         border-bottom-left-radius: 0px;
     }
 }
