@@ -55,6 +55,13 @@ flex-wrap: wrap;
     color: #090909 !important;
 font-size: 15px;
 }
+.ptag a{
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #090909 !important;
+font-size: 15px;
+cursor: pointer;
+}
 .links a, .sublinks a{
     color: #6A6A6A;
 font-size: 13px;

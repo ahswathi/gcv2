@@ -7,8 +7,8 @@ const design = ({handleClose}) => {
       <div className={styles.heading}>
        {/*  <p className={styles.ptag}>E-commerce UI/UX design services </p> */}
         <p className={styles.ptag}><Link onClick={() =>handleClose()} href="/services/ecommerce">E-commerce UI/UX design services</Link></p>
-        <p className={styles.links}><Link onClick={() =>handleClose()} href="/services/ecommerce">Website ui and ux</Link></p>
-        <p className={styles.links}><Link onClick={() =>handleClose()} href="/services/mobile">Mobile ui and ux</Link></p>
+        <p className={styles.links}><Link onClick={() =>handleClose()} href="/services/websiteuiux">Website ui and ux</Link></p>
+        <p className={styles.links}><Link onClick={() =>handleClose()} href="/services/mobileuiux">Mobile ui and ux</Link></p>
       </div>
     </div>
   )
