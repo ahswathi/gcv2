@@ -25,7 +25,7 @@ const Ourstory = () => {
             contentcenter="Whether you’re starting from an ambiguous challenge or a clear idea, we can help you move forward. Reach out for an informal meeting below."
             />
             <div style={{display: 'flex', justifyContent: 'center'}}>
-              <Darkbutton title='Get In Touch' />
+              <Darkbutton title='Lets talk' />
             </div>
        <div className={styles.space}></div>
 
