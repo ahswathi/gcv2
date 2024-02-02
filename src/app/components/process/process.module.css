@@ -124,7 +124,9 @@
         padding: 16px 0;
     
     } 
-    
+    .container{
+        margin: 40px 0px;
+    }
     
 }
 
