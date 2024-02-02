@@ -10,15 +10,13 @@ const Footer = () => {
       <div className={styles.footer}>
         <div className={styles.footerLeft}>
           <p>Want to start <br/>a project?</p>
-          <div> 
           {/* <Lightbutton title=" Lets Talk" /> */}
+          <div className={styles.read}>
+                 <Link href=''>  Let's talk
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
+        <path d="M17.1446 8.20808C17.5351 7.81756 17.5351 7.18439 17.1446 6.79387L10.7806 0.429909C10.3901 0.0393844 9.75696 0.0393844 9.36643 0.429909C8.97591 0.820433 8.97591 1.4536 9.36643 1.84412L15.0233 7.50098L9.36643 13.1578C8.97591 13.5484 8.97591 14.1815 9.36643 14.572C9.75696 14.9626 10.3901 14.9626 10.7806 14.572L17.1446 8.20808ZM0.4375 8.50098H16.4375V6.50098H0.4375V8.50098Z" fill="#ffffff"/>
+      </svg></Link>
           <div>
-            <a className={styles.button}>
-                Lets Talk
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" fill="none">
-  <path d="M19.1976 8.20711C19.5881 7.81658 19.5881 7.18342 19.1976 6.79289L12.8336 0.428932C12.4431 0.0384078 11.8099 0.0384078 11.4194 0.428932C11.0289 0.819457 11.0289 1.45262 11.4194 1.84315L17.0763 7.5L11.4194 13.1569C11.0289 13.5474 11.0289 14.1805 11.4194 14.5711C11.8099 14.9616 12.4431 14.9616 12.8336 14.5711L19.1976 8.20711ZM0.490479 8.5H18.4905V6.5H0.490479V8.5Z" fill="#FDFDFD" fill-opacity="0.82"/>
-</svg>
-            </a>
           </div>
           </div>
           <img src="/assets/footer.png" className={styles.gap} />
@@ -146,7 +144,7 @@ const Footer = () => {
       <div className={styles.line}></div>
           <div className={styles.copywrite}>
             <p>
-              Copyright © Explo Commerce 
+              Copyright © Explo Commerce |  Powered by Oracle
             </p>
             <div className={styles.footerimg}>
               <div className={styles.footersvg}>

@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Mainheading from '../components/mainheading/mainheading'
-import Subhero from '../components/subhero/subhero'
+import Contacthero from '../components/contacthero/contacthero'
 import Brands from '../components/brands/brands'
 import Image from 'next/image'
 import contact1 from '../../../public/assets/contact1.png'
@@ -12,8 +12,9 @@ import contact3 from '../../../public/assets/contact3.png'
 const page = () => {
   return (
     <>
-    <Subhero/>
-    <Brands/>
+    <Contacthero title='Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.'
+      heading='We build digital commerce that perform faster.'/>
+   {/*  <Brands/> */}
     <div className={styles.cardrow}>
             <div className={styles.cardcol}>
                 <div className={styles.card}>
@@ -130,6 +131,7 @@ const page = () => {
 
         <div className={styles.spacing}></div>
         <Mainheading
+        
             titlecenter="Our Partner"
             contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
             /> 

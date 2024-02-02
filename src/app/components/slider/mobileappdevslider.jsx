@@ -26,9 +26,9 @@ const Mobileappdevslider = () => {
         />
         <div className={styles.container}>
           <Slider {...settings}>
-          <Slidercompo class="slides" head="Flutter E-commerce mobile application development" bg="#0AA8E5" bullet='#090909' clr='#090909' src='/assets/Flutter.png' />
-          <Slidercompo class="slides"  head='React Native E-commerce mobile application development' bg='#E4FFF3' bullet='#090909' clr='#090909' src='/assets/reactjs.png' />
-          <Slidercompo class="slides" head="E commerce custom mobile app Maintenance and Support" bg="#0FCC75" bullet='#090909' clr='#090909' src='/assets/mobilesupport.png' />
+          <Slidercompo class="slides" head="Flutter E-commerce mobile application development" bg="#0AA8E5" bullet='#ffffff' clr='#ffffff' src='/assets/mobilesupport.png' />
+          <Slidercompo class="slides"  head='React Native E-commerce mobile application development' bg='#46CB7E' bullet='#ffffff' clr='#ffffff' src='/assets/reactjs.png' />
+          <Slidercompo class="slides" head="E commerce custom mobile app Maintenance and Support" bg="#212121" bullet='#ffffff' clr='#ffffff' src='/assets/Flutter1.png' />
           </Slider>
       </div>
     </div>

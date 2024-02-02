@@ -19,9 +19,9 @@
   }
   .button:hover{
     border: none;
-    color: #090909;
-    background-color: #FFF;
-    border: 1px dashed #FFF;
+    color: #FFF;
+    background-color: #090909;
+    border: 1px dashed #090909;
   }
   
 .enquire{

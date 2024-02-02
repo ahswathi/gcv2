@@ -26,9 +26,9 @@ const Webdevslider = () => {
         />
         <div className={styles.container}>
           <Slider {...settings}>
-          <Slidercompo class="slides" head="E commerce web  Maintenance and Support" bg="#0AA8E5" bullet='#090909' clr='#090909' src='/assets/ECustomwebdevelopmentser.png' />
-          {/* <Slidercompo class="slides"  head='React Native E-commerce mobile application development' bg='#E4FFF3' bullet='#090909' clr='#090909' src='/assets/reactjs.png' />
-          <Slidercompo class="slides" head="E commerce custom mobile app Maintenance and Support" bg="#0FCC75" bullet='#090909' clr='#090909' src='/assets/mobilesupport.png' />
+          <Slidercompo class="slides" head="E commerce web  Maintenance and Support" bg="#0AA8E5" bullet='#ffffff' clr='#ffffff' src='/assets/ECustomwebdevelopmentser.png' />
+          {/* <Slidercompo class="slides"  head='React Native E-commerce mobile application development' bg='#E4FFF3' bullet='#ffffff' clr='#ffffff' src='/assets/reactjs.png' />
+          <Slidercompo class="slides" head="E commerce custom mobile app Maintenance and Support" bg="#0FCC75" bullet='#ffffff' clr='#ffffff' src='/assets/mobilesupport.png' />
            */}</Slider>
       </div>
     </div>

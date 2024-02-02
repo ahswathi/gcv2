@@ -1,12 +1,12 @@
 .container{
-    padding: 32px 0;
+    margin: 40px 40px;
     background: #2C2C2C;
 }
 .main{
-    padding: 32px 10%;
+    padding: 80px 10%;
     display: flex;
     flex-direction: column;
-    gap: 160px;
+    gap: 120px;
 }
 .row{
     display: flex;

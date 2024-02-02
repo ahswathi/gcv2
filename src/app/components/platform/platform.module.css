@@ -262,3 +262,13 @@ line-height: 30px; /* 187.5% */
         padding: 60px 60px;
     }
 }
+
+
+.read a{
+    color: #4c4c4c;
+    transition: all 500ms ease;
+}
+.read a:hover{
+    color: #090909;
+    font-size: 17px;
+    }

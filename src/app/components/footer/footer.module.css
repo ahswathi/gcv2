@@ -232,3 +232,34 @@ padding-top: 20px;
 @media (min-width: 1024px) and (max-width: 1279px) {
  
 }
+
+
+
+.read{
+    color: #ffffff;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+align-items: center;
+transition: all 500ms ease;
+border-bottom: 2.5px solid rgba(253, 253, 253, 0.82);
+background-color: transparent;
+}
+.read :hover{
+    text-shadow: -6px -6px 8px 0px rgb(157, 165, 182, 0.2);
+    background-color: transparent;
+}
+.read a{
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+.read a:hover{
+    color: #ffffff;
+    font-size: 28px;
+    }
+.read svg{
+    margin-left: 8px;
+    padding-top: 2px;
+}

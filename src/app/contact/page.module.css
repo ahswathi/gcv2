@@ -237,7 +237,7 @@ line-height: normal;
   gap: 40px;
   background-color: #090909;
   padding: 72px 8%;
-  margin: 80px 0px;
+  margin: 60px 0px 80px 0px;
 }
 
 .cardcol{
@@ -304,9 +304,9 @@ line-height: 58px; /* 138.095% */
 letter-spacing: 1.5px;
 }
 
-.spacing{
+/* .spacing{
   padding: 42px;
-}
+} */
 
 /* Customizing the height */
 .mySelect {
@@ -335,6 +335,9 @@ letter-spacing: 1.5px;
   color: #D9D9D9; */
 }
 @media (min-width: 360px) and (max-width: 768px) {
+  .spacing{
+    padding: 0px;
+  }
      .container{
       padding: 0 6% 32px 6%;
      }
@@ -353,16 +356,48 @@ letter-spacing: 1.5px;
      }
     .cardrow{
       flex-direction: column;
+      margin: 40px 0px;
     }
   .cardcol{
     width: 100%;
+    height: auto;
   }
   }
   @media (min-width: 768px) and (max-width: 1023px) {
-     
+    .spacing{
+      padding: 0px;
+    }
+       .container{
+        padding: 0 6% 32px 6%;
+       }
+    .application form{
+      padding:  24px 2%;
+      border-radius: 10px;
+    }
+    .row{
+      flex-direction: column;
+    }
+    .row2{
+      width: 94%;
+    }
+       .application{
+        padding:  24px 0;
+       }
+      .cardrow{
+        margin: 0px 0px 40px 0px;
+      }
+    .cardcol{
+      width: 33%;
+    }
+
   }
   
   
   @media (min-width: 1024px) and (max-width: 1279px) {
-   
+    .spacing{
+      padding: 0px;
+    }
+    .cardrow{
+      margin: 0px 0px  80px 0px;
+    }
   }

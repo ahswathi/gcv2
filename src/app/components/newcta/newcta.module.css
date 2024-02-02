@@ -6,6 +6,11 @@
     gap: 10px;
 }
 
+.buttondiv{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .content {
     border-radius: 12px;
     width: 100%;

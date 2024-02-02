@@ -26,8 +26,8 @@ const Ecommerceslider = () => {
         />
         <div className={styles.container}>
           <Slider {...settings}>
-          <Slidercompo class="slides" head="Website ui and ux" bg="#0AA8E5" bullet='#090909' clr='#090909' src='/assets/uiuxservice1.png' />
-          <Slidercompo class="slides"  head='Mobile ui and ux' bg='#46CB7E' bullet='#090909' clr='#090909' src='/assets/uiuxservice2.png' />
+          <Slidercompo class="slides" head="Website ui and ux" bg="#0AA8E5" bullet='#ffffff' clr='#ffffff' src='/assets/uiuxservice1.png' />
+          <Slidercompo class="slides"  head='Mobile ui and ux' bg='#46CB7E' bullet='#ffffff' clr='#ffffff' src='/assets/uiuxservice2.png' />
           </Slider>
       </div>
     </div>
