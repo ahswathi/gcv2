@@ -6,11 +6,11 @@ const development = ({handleClose}) => {
   return (
     <div className={styles.header}>
         <div className={styles.heading}>
-        <p className={styles.links}><a onClick={() =>handleClose()} href="/services/cms">E commerce CMS based web development</a></p> 
+        <p className={styles.ptag}><a onClick={() =>handleClose()} href="/services/cms">E commerce CMS based web development</a></p> 
     <p className={styles.links}><a onClick={() =>handleClose()} href="#">Shopify web development</a></p>
     <p className={styles.sublinks}><a onClick={() =>handleClose()} href="#">Shopify theme customization </a></p>    
     <p className={styles.sublinks}><a onClick={() =>handleClose()} href="#">Shopify custom theme development</a></p>
-    <p className={styles.sublinks}><a onClick={() =>handleClose()} href="/services/custom">Shopify Maintenance and Support</a></p>
+    <p className={styles.sublinks}><a onClick={() =>handleClose()} href="#">Shopify Maintenance and Support</a></p>
     <p className={styles.gap}></p>
     <p className={styles.links}><a onClick={() =>handleClose()} href="#">Shopify plus development</a></p>
     <p className={styles.sublinks}><a href="#">Shopify plus development Maintenance and Support</a></p> 
@@ -27,7 +27,7 @@ const development = ({handleClose}) => {
     </div>
     <div className={styles.vl}></div>
     <div className={styles.heading}>
-    <p className={styles.sublinks}><a onClick={() =>handleClose()} href="/services/custom-web-development"> E-commerce Custom web development </a></p>
+    <p className={styles.ptag}><a onClick={() =>handleClose()} href="/services/custom-web-development"> E-commerce Custom web development </a></p>
     <p className={styles.links}><a href="#">Flutter E-commerce mobile app development</a></p>
     <p className={styles.sublinks}><a href="#">Flutter E-commerce mobile app Maintenance and Support </a></p>
     <p className={styles.links}><a href="#">React Native E-commerce mobile and development</a></p>
@@ -38,7 +38,7 @@ const development = ({handleClose}) => {
     </div>
     <div className={styles.vl}></div>
     <div className={styles.heading}>
-    <p className={styles.sublinks}><a onClick={() =>handleClose()} href="/services/custom-mobile-app-development"> E-commerce custom mobile app development </a></p>
+    <p className={styles.ptag}><a onClick={() =>handleClose()} href="/services/custom-mobile-app-development"> E-commerce custom mobile app development </a></p>
     <p className={styles.links}><a href="#">E-commerce web  Maintenance and Support </a></p>
     </div>
 </div>

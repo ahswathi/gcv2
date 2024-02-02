@@ -29,12 +29,14 @@ const Footer = () => {
 
           <div className={styles.footerNav}>
             <div>
-              <h2>INDUSTRY</h2>
+              <h2>Design</h2>
               <ul>
-              <Link href="/artcrafts"><li>Arts & crafts</li></Link>
-                <li>Baby & kids</li>
+              <Link href="/services/ecommerceuiux"><li>E-commerce UI/UX design services</li></Link>
+              <Link href="/services/websiteuiux"><li style={{ paddingLeft: '10px' }}>Website ui and ux</li></Link>
+              <Link href="/services/mobileuiux"><li style={{ paddingLeft: '10px' }}>Mobile ui and ux</li></Link>
+                {/*<li>Baby & kids</li>
                 <li>Media</li>
-                <li>Clothing</li>
+                 <li>Clothing</li>
                 <li>Electronics</li>
                 <li>Food & drink</li>
                 <li>Hardware & automotive</li>
@@ -45,29 +47,33 @@ const Footer = () => {
                 <li>Pet supplies</li>
                 <li>Restaurants</li>
                 <li>Sports & recreation</li>
-                <li>Toys & games</li>
+                <li>Toys & games</li> */}
               </ul>
             </div>
             <div>
-              <h2>USEFULL LINKS</h2>
+              <h2>Integration</h2>
                 <ul>
-                  <li>Case studies </li>
-                  <li>Industries</li>
-                  <li>Contact us </li>
-                  <li>Blog</li>
-                  <li>Career</li>
+                  <li>Shipping  </li>
+                  <li>Chatbotx</li>
+                  <li>CRM </li>
                 </ul>
-              <h2>STAGES</h2>
+              {/* <h2>STAGES</h2>
                 <ul>
                   <li>Early </li>
                   <li>Funded </li>
                   <li>Estabalished</li>
-                </ul>
+                </ul> */}
             </div>
+          </div>
+          <div className={styles.footerNav}>
             <div>
-            <h2>BUSINESS MODEL</h2>
+            <h2>Development</h2>
               <ul>
-                <li>Design & Photography</li>
+              <Link href="/services/cms"><li>E commerce CMS based web development</li></Link>
+                <Link href="/services/wordpress"><li style={{ paddingLeft: '10px' }}>Wordpress  development </li></Link>
+              <Link href="/services/custom-web-development"><li>E-commerce Custom web development</li></Link>
+              <Link href="/services/custom-mobile-app-development"><li>E-commerce Custom Mobile app development</li></Link>
+                {/* <li>Design & Photography</li>
                 <li>Education & Science</li>
                 <li>Entertainment</li>
                 <li>Fashion</li>
@@ -78,11 +84,10 @@ const Footer = () => {
                 <li>Design & Photography</li>
                 <li>Education & Science</li>
                 <li>Entertainment</li>
-                <li>Fashion</li>
+                <li>Fashion</li> */}
               </ul>
             </div>
           </div>
-          
           <div className={styles.footerNavmob}>
             <div>
               <h2>INDUSTRY</h2>
