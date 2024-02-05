@@ -10,178 +10,133 @@ const Menu = ({setIsDropdownOpen, setSidebar}) => {
   return (
     <>
         <div className={styles.container}>
-            <div className={styles.businesscat}>
-                <h2>BUSINESS MODEL</h2>
-                <div className={styles.subcat}>
-                    <div className={styles.row}>
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
+        {/*  <div className={styles.innersection}> */}
+            <div className={styles.title} style={{width: "17%", paddingLeft: '6%'}}>Building Strong Capabilities to Empower Your Brand</div>
+           
+            <div className={styles.businesscat} >
+                <div className={styles.subcatmain}>
+                    <h2>Design</h2>
+                    <div className={styles.subcat}>
+                        <Link href="/services/ecommerceuiux" onClick={handleclick}>
+                                <h3>E-commerce UI/UX design services</h3>
+                        </Link>
+                        <div className={styles.row}>       
+                            <Link href="/services/websiteuiux" onClick={handleclick}>
+                                    <h3>Website ui and ux</h3>
+                            </Link>   
+                            <Link href="/services/mobileuiux" onClick={handleclick}>
+                                    <h3>Mobile ui and ux</h3>
+                            </Link>
                         </div>
-                    </Link>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                    <div className={styles.row}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                    <div className={styles.row}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
                     </div>
                 </div>
-                <div  className={styles.buttonmain}> 
-                <button  className={styles.button}>
-                    <div className={styles.enquire}>
-                        See All 
+                <div className={styles.subcatmain}>
+                    <h2>Integration</h2>
+                    <div className={styles.subcat}>
+                        <Link href="#" onClick={handleclick}>
+                                <h3>Platform</h3>
+                        </Link>
+                        <div className={styles.row}>  
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>Shipping</h3>
+                            </Link>     
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>Chatbotx</h3>
+                            </Link>   
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>CRM</h3>
+                            </Link>
+                        </div>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18" viewBox="0 0 26 18" fill="none">
-                        <path d="M13.8125 14.625L21.9375 9L13.8125 3.375" stroke="#464646" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M20.3125 9L4.0625 9" stroke="#090909" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
                 </div>
             </div> 
-             <div className={styles.businesscat}>
-                <h2>INDUSTRY</h2>
-                <div className={styles.subcat}>
-                    <div className={styles.row}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
+
+             <div className={styles.businesscat} >
+                <div className={styles.subcatmain}>
+                <h2>Development</h2>
+                <div className={styles.subcatmain2}>
+                    <div className={styles.subcat2}>
+                        <Link href="#" onClick={handleclick}>
+                                <h3>E commerce CMS based web development</h3>
+                        </Link>
+                        <div className={styles.row}>       
+                            <Link href="#" onClick={handleclick} >
+                                    <h3>Shopify web development</h3>
+                            </Link>   
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>Shopify theme customization</h3>
+                            </Link> 
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>Shopify custom theme development</h3>
+                            </Link> 
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>Shopify Maintenance and Support</h3>
+                            </Link> 
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>Shopify plus development</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>Shopify plus development Maintenance and Support</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>Wordpress  development</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>WooCommerce Development </h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>WooCommerce Maintenance and Support</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>Webflow e-commerce development</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>Webflow  ecommerce Maintenance and Support</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>Bigcommerce development</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>Bigcommerce  ecommerce Maintenance and Support</h3>
+                            </Link>
                         </div>
-                    </Link>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
                     </div>
-                    <div className={styles.row}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
+                    <div className={styles.subcat2}>
+                        <Link href="#" onClick={handleclick}>
+                                <h3>E-commerce Custom web development </h3>
+                        </Link>
+                        <div className={styles.row}>  
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>Flutter E-commerce mobile app development</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>Flutter E-commerce mobile app Maintenance and Support </h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>React Native E-commerce mobile and development</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>React Native E-commerce mobile and Maintenance and Support</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>IOS E-commerce mobile and development</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3>IOS E-commerce mobile app Maintenance and Support</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick}>
+                                    <h3>E-commerce web  Maintenance and Support</h3>
+                            </Link>
+                            <Link href="#" onClick={handleclick} style={{paddingLeft:"16px"}}>
+                                    <h3></h3>
+                            </Link>
                         </div>
-                    </Link>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
                     </div>
-                    <div className={styles.row}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                </div>
-                <div  className={styles.buttonmain}> 
-                <button  className={styles.button}>
-                    <div className={styles.enquire}>
-                        See All 
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18" viewBox="0 0 26 18" fill="none">
-                        <path d="M13.8125 14.625L21.9375 9L13.8125 3.375" stroke="#464646" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M20.3125 9L4.0625 9" stroke="#090909" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                </div>
-            </div>
-            <div className={styles.stage}>
-                
-                <h2>STAGE</h2>
-                <div className={styles.subcat}>
-                    <div className={styles.stagerow}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                    <div className={styles.stagerow}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                    <div className={styles.stagerow}>
-                        
-                    <Link href="/shopify" onClick={handleclick}> 
-                        <div className={styles.business}>
-                            <h3>Shopify</h3>
-                            <p>Streamline workflow to <br/> increase business efficiency.</p>
-                        </div>
-                    </Link>
-                    </div>
-                </div>
-                <div  className={styles.buttonmain}> 
-                <button  className={styles.button}>
-                    <div className={styles.enquire}>
-                        See All 
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18" viewBox="0 0 26 18" fill="none">
-                        <path d="M13.8125 14.625L21.9375 9L13.8125 3.375" stroke="#464646" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M20.3125 9L4.0625 9" stroke="#090909" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
+                 </div>
                 </div>
             </div>
         </div>
+       {/*  </div> */}
     </>
   )
 }

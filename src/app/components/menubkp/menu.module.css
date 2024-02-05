@@ -1,50 +1,42 @@
 .container{
     display: flex;
-    align-items: flex-start;
-    gap: 42px;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
     position: relative;
-    background-color: #090909;
+    background-color: white;
     left: -57%;
     top: 0;
     margin-left:var(--margin);
     margin-right:var(--margin);
-   /*  max-width: 1440px;
-    width: 100%; */
-    width: max-content;
-    padding: 2% 14%;
+    max-width:none;
+    width: 100%;
 }
-/* .innersection{
-    padding: 2% 16%;
-    width: 80%;
-} */
 .businesscat{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
+    border-right: 1px solid rgb(231, 231, 231);
+    /* border-bottom:  1px solid rgb(231, 231, 231); */
+    padding: 0px 20px 58px 20px;
+    background-color: white;
+    width: 38%;
 }
-.title{
-    color: #ffffff;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 48px;
-}
-.subcatmain h2{
-    color: #ffffff;
+.businesscat h2{
+    color: #1E222B;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    padding: 28px 0px 30px 24px;
 }
 .stage{
     /* border-bottom:  1px solid rgb(231, 231, 231); */
     padding: 0px 20px 40px 20px;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    width: 20%;
 }
 .stage h2{
-    color: #ffffff;
+    color: #1E222B;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -53,75 +45,36 @@
 }
 .row{
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0px;
-    padding-left: 12px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 .stagerow{
     display: flex;
     align-items: center;
 }
-.subcatmain{
+.subcat{
     display: flex;
     flex-direction: column;
-    gap: 8px;
-}
-.subcatmain2{
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
+    justify-content: center;
+    gap: 20px;
 }
 .business{
     padding: 6px 22px 12px 16px;
-    /* border-left: 4px solid transparent; */
+    border-left: 4px solid transparent;
 }
 .business:hover{
     border-radius: 4px;
     background: rgba(237, 235, 235, 0.26);
     box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.06);
-    /* border-left: 4px solid #090909; */
+    border-left: 4px solid #090909;
 }
 
-.subcat{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-}
-.subcat h3{
-    color: #ffffff;
+.business h3{
+    color: #1E222B;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
-} 
-.subcat a{
-    color: #ffffff;
-
-}
-.subcat2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-}
-.subcat2 h3{
-    color: #ffffff;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
-} 
-.subcat2 a{
-    color: #ffffff;
-
-}
-.row h3{
-    color: #6A6A6A;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 32px;
 } 
 .business p{

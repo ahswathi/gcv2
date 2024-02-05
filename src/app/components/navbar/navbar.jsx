@@ -74,7 +74,8 @@ const Navbar = () => {
                             </div>
                             <div className={styles.dropdownContent}>
                                 {/* <Link href="/shopify">Shopify</Link> */}
-                                <Remenu handleClose={handleClose} />
+                                {/* <Remenu handleClose={handleClose} /> */}
+                                <Menu/>
                             </div>
                         </div>
                         <div className={styles.subHeader}>
