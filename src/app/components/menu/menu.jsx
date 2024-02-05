@@ -54,8 +54,8 @@ const Menu = ({setIsDropdownOpen, setSidebar}) => {
              <div className={styles.businesscat} >
                 <div className={styles.subcatmain}>
                 <h2>Development</h2>
-                <div className={styles.subcatmain2}>
-                    <div className={styles.subcat2}>
+                <div className={styles.subcatmain2} >
+                    <div className={styles.subcat2} style={{width: "30%"}}>
                         <Link href="#" onClick={handleclick}>
                                 <h3>E commerce CMS based web development</h3>
                         </Link>
@@ -101,7 +101,7 @@ const Menu = ({setIsDropdownOpen, setSidebar}) => {
                             </Link>
                         </div>
                     </div>
-                    <div className={styles.subcat2}>
+                    <div className={styles.subcat2}  style={{width: "30%"}}>
                         <Link href="#" onClick={handleclick}>
                                 <h3>E-commerce Custom web development </h3>
                         </Link>

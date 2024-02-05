@@ -1,7 +1,7 @@
 .container{
     display: inline-flex;
     flex-direction: column;
-    padding: 28px 6% 0 6%;
+    padding: 128px 6% 0 6%;
 }
 .service{
     display: flex;

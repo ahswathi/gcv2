@@ -82,7 +82,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 6%;
-  position: relative;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #FAFAFA;
+  z-index: 99;
 }
 
 .dropdown {
