@@ -1,6 +1,6 @@
 .container{
     margin: 40px 40px;
-    background: #2C2C2C;
+    background: #090909;
 }
 .main{
     padding: 80px 10%;
@@ -29,7 +29,7 @@
   left: 0;
   width: 76%;
   height: 100%;
-  background-color: #090909;
+  background-color: #2c2c2c;
   transition: background-color 0.3s;
 }
 .cardactive{
@@ -48,7 +48,7 @@
   transition: background-color 0.3s;
 }
 .col:hover .cardactive{
-    background-color: #1C1C1C;
+    background-color: #2c2c2c;
 }
 .col:hover .card{
     background-color: #0AA8E5;

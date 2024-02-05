@@ -1,7 +1,7 @@
 .container{
     display: flex;
     align-items: flex-start;
-    gap: 42px;
+    gap: 40px;
     position: relative;
     background-color: #090909;
     /* left: -57%; */
@@ -12,7 +12,7 @@
    /*  max-width: 1440px;
     width: 100%; */
     width: 100%;
-    padding: 2% 6%;
+    padding: 2% 2%;
 }
 /* .innersection{
     padding: 2% 16%;
@@ -22,21 +22,26 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
+    gap: 20px;
+}
+.main{
+    display: flex;
+    align-items: flex-start;
+    gap: 0px;
 }
 .title{
     color: #ffffff;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 40px;
 }
 .subcatmain h2{
     color: #ffffff;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 30px;
 }
 .stage{
     /* border-bottom:  1px solid rgb(231, 231, 231); */
@@ -49,7 +54,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 30px;
     padding: 28px 0px 30px 24px;
 }
 .row{
@@ -66,12 +71,14 @@
 .subcatmain{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0px;
+    width: 100%;
 }
 .subcatmain2{
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    gap: 30px;
+    width: 100%;
 }
 .business{
     padding: 6px 22px 12px 16px;
@@ -95,7 +102,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 28px;
 } 
 .subcat a{
     color: #ffffff;
@@ -105,14 +112,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 8px;
+    gap: 0px;
 }
 .subcat2 h3{
     color: #ffffff;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 28px;
 } 
 .subcat2 a{
     color: #ffffff;
@@ -120,6 +127,13 @@
 }
 .row h3{
     color: #6A6A6A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+} 
+.row h3:hover{
+    color: #ffffff;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -223,50 +237,10 @@
 } */
 
 
-@media (max-width: 991.98px) {
-    .container {
-        left: 0;
-        margin: 0;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    .businesscat{
-        padding: 20px;
-        width: 100%;
-        border: none;
-    }
 
-    .businesscat > h2 {
-        padding: 0 0 15px 10px;
-    }
-    .row{
-        justify-content: flex-start;
-        gap: 20px;
-
-    }
-    .business{
-        padding: 2px 10px 2px 10px;
-    }
-    .subcat{
-        width: 100%;
-    }
-
-    .buttonmain {
-        padding: 20px 0;
-        width: 100%;
-    }
-
-    .button {
-        width: 100%;
-        padding: 14px 20px;
-    }
-
-    .stage {
-        width: 100%;
-    }
-
-    .stage > h2 {
-        width: 100%;
-        padding: 0 0 15px 10px;
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .title{
+        font-size: 22px;
+        line-height: 36px;
     }
 }

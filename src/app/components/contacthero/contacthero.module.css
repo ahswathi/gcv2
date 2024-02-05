@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    gap: 56px;
+    gap: 0px;
     padding:  132px 7% 32px 7% ;
 }
 .container2{
@@ -35,7 +35,7 @@
     line-height: 36px; /* 187.5% */
     letter-spacing: 0.4px;
     width: 76%;
-    padding-bottom: 48px;
+    padding-bottom: 0px;
 }
 .enquire{
     color: #FFF;

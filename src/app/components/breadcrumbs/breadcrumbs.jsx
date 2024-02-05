@@ -10,20 +10,6 @@ import Link from 'next/link';
 import { usePathname } from "next/navigation"
 
 const links = {
-  "websiteuiux": [
-    {
-      href: "/",
-      title: "Home"
-    },
-    {
-      href: "/ecommerceuiux",
-      title: "E commerece UI/UX"
-    },
-    {
-      href: "#",
-      title: "Website UI/UX"
-    }
-  ],
   "ourstory": [
     {
       href: "/",
@@ -33,7 +19,89 @@ const links = {
       href: "/ourstory",
       title: "Our Story"
     },
-  ]
+  ],
+  "ecommerceuiux": [
+    {
+      href: "/",
+      title: "Home"
+    },
+    {
+      href: "/services/ecommerceuiux",
+      title: "E-commerce UI/UX design services"
+    },
+  ],
+  "websiteuiux": [
+    {
+      href: "/",
+      title: "Home"
+    },
+    {
+      href: "/services//ecommerceuiux",
+      title: "E-commerce UI/UX design services"
+    },
+    {
+      href: "#",
+      title: "Website UI/UX"
+    }
+  ],
+  "mobileuiux": [
+    {
+      href: "/",
+      title: "Home"
+    },
+    {
+      href: "/services//ecommerceuiux",
+      title: "E commerece UI/UX"
+    },
+    {
+      href: "#",
+      title: "Mobile UI/UX"
+    }
+  ],
+  "cms": [
+    {
+      href: "/",
+      title: "Home"
+    },
+    {
+      href: "#",
+      title: "E commerce CMS based web development"
+    },
+  ],
+  "wordpress": [
+    {
+      href: "/",
+      title: "Home"
+    },
+    {
+      href: "/services/cms",
+      title: "E commerce CMS based web development"
+    },
+    {
+      href: "#",
+      title: "Wordpress development"
+    },
+  ],
+  "custom-web-app-development": [
+    {
+      href: "/",
+      title: "Home"
+    },
+    {
+      href: "#",
+      title: "E commerce Custom web development"
+    },
+  ],
+  "custom-mobile-app-development": [
+    {
+      href: "/",
+      title: "Home"
+    },
+    {
+      href: "#",
+      title: "E commerce custom mobile application development"
+    },
+  ],
 }
 
 

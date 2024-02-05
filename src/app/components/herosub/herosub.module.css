@@ -115,7 +115,7 @@ line-height: 22px; /* 137.5% */
 @media (min-width: 1024px) and (max-width: 1279px) {
  
     .container{
-        padding: 28px 6% 0 6%;
+        padding: 128px 6% 0 6%;
     }
     .service{
         gap: 80px;

@@ -11,7 +11,7 @@ const Newcta = () => {
       <div className={styles.content}>
 
     <div className={styles.contentright}>
-                  <img src='/assets/icons/tea.png' alt="" />
+                  <img src='/assets/cta.jpg' alt="" />
               </div>
           <div className={styles.contentleft}>
               <h2>Find the perfect person <br/> every time</h2>

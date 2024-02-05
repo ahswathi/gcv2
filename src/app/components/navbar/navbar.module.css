@@ -318,7 +318,7 @@ font-weight: 600;
 @media (min-width: 1024px) and (max-width: 1350px) {
   .navbar {
     justify-content: space-between;
-    padding: 26px 6%;
+  /*   padding: 26px 6%; */
   }
   .dropdownContent {
     /* margin: 6% 0px 0px 12%; */
