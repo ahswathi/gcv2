@@ -24,10 +24,6 @@ const Herosub = ({subtitle, title, imageUrl, content, bg}) => {
           <div className={styles.main}>
             Development
           </div>
-          {/* <span>/</span>
-          <Link href="/shopify"  className={styles.sub}>
-            websit ui and ux
-          </Link> */}
         </div>
         <div className={styles.service} style={{background: `${bg}`}}>
             <div className={styles.mainLeft}>

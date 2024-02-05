@@ -19,7 +19,7 @@ const Websiteuiux = () => {
      title="Website UI/UX"
      content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
      imageUrl='/assets/websiteuiux.png'
-     bg='rgba(15, 204, 117, 0.46);'
+     bg='rgba(15, 204, 117, 0.46)'
      />
      <Brands />
      <Content 
