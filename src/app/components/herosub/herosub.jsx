@@ -6,13 +6,17 @@ import Mainheading from '../mainheading/mainheading'
 import Readmore from '../readbutton/readbutton'
 import styles from './herosub.module.css'
 import Link from 'next/link';
+import Breadcrumbs from '../breadcrumbs/breadcrumbs'
 
-const Herosub = ({subtitle, title, imageUrl, content, bg}) => {
+const Herosub = ({ subtitle, title, imageUrl, content, bg }) => {
+
+
   return (
-  <>
-    
+    <>
+
       <div className={styles.container}>
-      <div className={styles.quicknav}>
+        <Breadcrumbs />
+        {/* <div className={styles.quicknav}>
           <Link href="/" className={styles.sub}>
             Home
           </Link>
@@ -24,24 +28,24 @@ const Herosub = ({subtitle, title, imageUrl, content, bg}) => {
           <div className={styles.main}>
             Development
           </div>
-        </div>
-        <div className={styles.service} style={{background: `${bg}`}}>
-            <div className={styles.mainLeft}>
-                <h6>{subtitle}</h6>
-                <h2>{title}</h2>
-                <p>{content}</p>
-                <div className={styles.read}>
-                    <Letstalk/>
-                    <Estimate/>
-                </div>
+        </div> */}
+        <div className={styles.service} style={{ background: `${bg}` }}>
+          <div className={styles.mainLeft}>
+            <h6>{subtitle}</h6>
+            <h2>{title}</h2>
+            <p>{content}</p>
+            <div className={styles.read}>
+              <Letstalk />
+              <Estimate />
             </div>
-            <div className={styles.mainRight}>
-              <img src={imageUrl} />
-            </div>
+          </div>
+          <div className={styles.mainRight}>
+            <img src={imageUrl} />
+          </div>
         </div>
-      
-</div>
- </>
+
+      </div>
+    </>
   )
 }
 

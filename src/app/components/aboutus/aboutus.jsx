@@ -2,11 +2,13 @@ import React from 'react'
 import styles from './about.module.css'
 import Link from 'next/link';
 import Darkbutton from '../darkbutton/darkbutton';
+import Breadcrumbs from '../breadcrumbs/breadcrumbs';
 
-const aboutus = ({title, heading}) => {
+const aboutus = ({ title, heading }) => {
   return (
-    <div className={styles.container}> 
-    <div className={styles.quicknav}>
+    <div className={styles.container}>
+      <Breadcrumbs />
+      {/* <div className={styles.quicknav}>
       <Link href="/" className={styles.main}>
         Home
       </Link>
@@ -14,13 +16,13 @@ const aboutus = ({title, heading}) => {
       <Link href="/ourstory"  className={styles.sub}>
         Our Story
       </Link>
-    </div>
-    <div className={styles.container2}> 
-      <div className={styles.heading}>{heading}</div>
-      <div className={styles.title}>{title}</div>
+    </div> */}
+      <div className={styles.container2}>
+        <div className={styles.heading}>{heading}</div>
+        <div className={styles.title}>{title}</div>
         <Darkbutton title="Lets Connect" />
+      </div>
     </div>
-</div>
   )
 }
 
