@@ -100,9 +100,9 @@ const Navbar = () => {
                     <div className={styles.alignment}>
                         <p onClick={() => setSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p>
                         <br /><br />
-                        <p onClick={() => setNestedSolution(1)} className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></p>
-                        <p className={styles.links}><Link onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></Link></p>
-                        <p className={styles.links}><Link onClick={() => setNestedSolution(null)} href="/services/mobileuiux">E-commerce UI/UX design services</Link></p>
+                        <p onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></p>
+                       {/*  <p className={styles.links}><Link onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></Link></p>
+                        <p className={styles.links}><Link onClick={() => setNestedSolution(null)} href="/services/mobileuiux">E-commerce UI/UX design services</Link></p> */}
                     </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
                 </div>
