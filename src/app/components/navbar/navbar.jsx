@@ -7,7 +7,7 @@ import Menu from '../menu/menu';
 import Darkbutton from '../darkbutton/darkbutton';
 import { RiMenu3Fill } from "react-icons/ri";
 import { RxCross1 } from "react-icons/rx";
-import Remenu from './../remenu/remenu';
+import Remenu from '../remenu/remenu';
 import { SlArrowRight } from "react-icons/sl";
 import { SlArrowLeft } from "react-icons/sl";
 
