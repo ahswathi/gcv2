@@ -4,14 +4,15 @@
     gap: 42px;
     position: relative;
     background-color: #090909;
-    left: -57%;
+    /* left: -57%; */
+
     top: 0;
     margin-left:var(--margin);
     margin-right:var(--margin);
    /*  max-width: 1440px;
     width: 100%; */
-    width: max-content;
-    padding: 2% 18%;
+    width: 100%;
+    padding: 2% 6%;
 }
 /* .innersection{
     padding: 2% 16%;

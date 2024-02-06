@@ -87,10 +87,11 @@
   right: 0;
   background-color: #FAFAFA;
   z-index: 99;
+
 }
 
 .dropdown {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
 }
 
@@ -148,9 +149,10 @@ font-weight: 600;
 .dropdownContent {
   display: none;
   position: absolute;
-  /* width: 100%; */
+  left: 0;
+  width: 100%;
   z-index: 1;
-  margin: 0% 0px 0px 36px;
+  /* margin: 0% 0px 0px 36px; */
 }
 
 .dropdown.open .dropdownContent {
@@ -319,6 +321,6 @@ font-weight: 600;
     padding: 26px 6%;
   }
   .dropdownContent {
-    margin: 6% 0px 0px 12%;
+    /* margin: 6% 0px 0px 12%; */
   }
 }
