@@ -30,6 +30,10 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+.main {
+    color: #0AA8E5;
+}
 @media (min-width: 1024px) and (max-width: 1279px) {
  
 }
