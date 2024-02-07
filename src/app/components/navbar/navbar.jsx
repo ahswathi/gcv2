@@ -120,7 +120,7 @@ const Navbar = () => {
                     <div className={styles.alignment}>
                         <p onClick={() => setSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p>
                         <br /><br />
-                        <p onClick={() => setNestedSolution(2)} className={styles.ptag}>E commerce CMS based web development  <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
+                        <p onClick={() => setNestedSolution(2)} href="/services/ecommerce" className={styles.ptag}>E commerce CMS based web development  <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                         <br />
                         <p onClick={() => setNestedSolution(3)} className={styles.ptag}>E-commerce Custom web development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                         <br />
@@ -132,12 +132,12 @@ const Navbar = () => {
                 <div className={nestedSolution === 2 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
                     <div className={styles.alignment}>
                         <p onClick={() => setNestedSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p><br /><br />
-                        <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="/services/ecommerce">Shopify web development</a></p>
-                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="/services/cms">Shopify theme customization</a></p>
-                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="/services/wordpress">Shopify custom theme development</a></p>
-                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="/services/custom">Shopify Maintenance and Support</a></p>
+                        <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="#">Shopify web development</a></p>
+                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="#">Shopify theme customization</a></p>
+                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="#">Shopify custom theme development</a></p>
+                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="#">Shopify Maintenance and Support</a></p>
                         <br />
-                        <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="/services/customecomm">Shopify plus development</a></p>
+                        <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="#">Shopify plus development</a></p>
                         <p className={styles.sublink}><a href="#">Shopify plus development Maintenance and Support</a></p>
                         <br />
                         <p className={styles.links}><a href="#">Wordpress  development</a></p>
