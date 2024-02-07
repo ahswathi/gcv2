@@ -85,8 +85,8 @@ const Navbar = () => {
                         </div>
                         <Link href="/casestudies" onClick={handleClose} className={styles.link}>Case Studies</Link>
                     </div>
-                    <div style={{ paddingLeft: sidebar ? '20px' : '' }}>
-                        <Darkbutton title="Lets connect" onClick={handleClose} />
+                    <div className={styles.sidebarbutton}  style={{ paddingLeft: sidebar ? '20px' : '' }}>
+                        <Darkbutton title="Lets connect" onClick={handleClose}  />
                     </div>
                 </div>
                 <RiMenu3Fill className={styles.hamburger} onClick={() => setSidebar(true)} />
@@ -122,9 +122,9 @@ const Navbar = () => {
                         <br /><br />
                         <p onClick={() => setNestedSolution(2)} href="/services/ecommerce" className={styles.ptag}>E commerce CMS based web development  <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                         <br />
-                        <p onClick={() => setNestedSolution(3)} className={styles.ptag}>E-commerce Custom web development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
+                        <p onClick={() => setNestedSolution(3)} href="/services/custom-mobile-app-development"  className={styles.ptag}>E-commerce Custom mobile app development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                         <br />
-                        <p onClick={() => setNestedSolution(4)} className={styles.ptag}>E-commerce custom mobile app development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
+                        <p onClick={() => setNestedSolution(4)} href="/services/custom-web-app-development" className={styles.ptag}>E-commerce custom web development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                     </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
                 </div>
@@ -140,7 +140,7 @@ const Navbar = () => {
                         <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="#">Shopify plus development</a></p>
                         <p className={styles.sublink}><a href="#">Shopify plus development Maintenance and Support</a></p>
                         <br />
-                        <p className={styles.links}><a href="#">Wordpress  development</a></p>
+                        <p className={styles.links}><a href="/services/wordpress">Wordpress  development</a></p>
                         <p className={styles.sublink}><a href="#">WooCommerce Development</a></p>
                         <p className={styles.sublink}><a href="#">WooCommerce Maintenance and Support</a></p>
                         <br />
