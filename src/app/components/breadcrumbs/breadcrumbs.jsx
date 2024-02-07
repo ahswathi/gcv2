@@ -109,30 +109,29 @@ const Breadcrumbs = ({ mainlink, href }) => {
 
   const path = usePathname().split("/").pop()
 
-  console.log("pathname", path)
   return (
     <>
 
       <div className={styles.container}>
         <div className={styles.quicknav}>
           {
-            links[path].map((link, i) => (
-              <>
+            links[path]?.map((link, i) => (
+              <React.Fragment key={i}>
                 {
                   i === links[path]?.length - 1
 
                     ? <div className={styles.main}>
-                      {link.title}
+                      {link?.title}
                     </div>
-                    : <Link href={link.href} className={styles.sub}>
-                      {link.title}
+                    : <Link href={link?.href} className={styles.sub}>
+                      {link?.title}
                     </Link>
                 }
 
                 {
                   i === links[path]?.length - 1 ? " " : <span>/</span>
                 }
-              </>
+              </React.Fragment>
             ))
           }
 
