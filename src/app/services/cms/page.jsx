@@ -13,6 +13,7 @@ import Subservices from './../../components/subservices/subservices';
 import Subchoose from '../../components/subchoose/subchoose'
 import Newcta from '@/app/components/newcta/newcta'
 import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
+import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 const Cms = () => {
   return (
     <>
@@ -32,7 +33,7 @@ const Cms = () => {
      />
       <Subchoosetype2 />
     <Process />
-    <Casestudies />
+    <Newcasestudies />
     <Newcta />
     <Ctaform />
     <Testimonials />

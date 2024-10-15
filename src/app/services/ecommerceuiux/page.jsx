@@ -11,6 +11,7 @@ import Ctaform from '../../components/ctaform/ctaform'
 import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
 import Ecommerceslider from '@/app/components/slider/ecommerceslider'
+import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 // import Brands from '../components'
 
 
@@ -34,7 +35,7 @@ const Ecommerce = () => {
      />
      <Newchooseus />
     <Process />
-    <Casestudies />
+    <Newcasestudies />
     <Workon />
     <Website 
     imageUrl='/assets/iso1.png' 

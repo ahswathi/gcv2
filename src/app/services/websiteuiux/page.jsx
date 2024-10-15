@@ -10,6 +10,7 @@ import Content from '../../components/content/content'
 import Ctaform from '../../components/ctaform/ctaform'
 import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
+import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 // import Brands from '../components'
 
 const Websiteuiux = () => {
@@ -30,7 +31,7 @@ const Websiteuiux = () => {
       />
       <Verticalchooseus />
       <Process />
-      <Casestudies />
+      <Newcasestudies />
       <Workon />
       <Website
         imageUrl='/assets/iso1.png'

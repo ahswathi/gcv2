@@ -124,15 +124,18 @@
   }
 }
  
-@media (min-width: 360px) and (max-width: 768px) {
- 
+@media (max-width: 768px) {
+  .faqcontainer {
+    padding: 0px 4% 0px 4%;
+  }
+  
   .answer {
     font-size: 14px;
   }
 
   .faqbox {
     width: 100%;
-    padding: 16px 16px 16px 24px;
+    padding: 12px 12px 12px 12px;
   }
 
   .answer {

@@ -22,6 +22,7 @@ import Newchooseus from './components/newchooseus/newchooseus'
 import Herosub from './components/herosub/herosub'
 import Blogs from './components/blogs/blogs'
 import Supports from './components/supports/supports'
+import Newcasestudies from './components/newcasestudies/newcasestudies'
 // const faqItems = [
 //   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
 
@@ -48,7 +49,7 @@ export default function Home() {
       {/* <Herosub /> */}
       <Brands />
       <Slidebar />
-      <Casestudies />
+      <Newcasestudies />
       <CTA />
       <Technologies
         subtitle="For CMS based development"

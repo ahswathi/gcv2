@@ -155,7 +155,7 @@
         padding: 30px 6% 30px 6%;
     }
 }
-@media (min-width: 360px) and (max-width: 768px) {
+@media (max-width: 768px) {
 
     .box span{
         font-size: 12px;
@@ -208,7 +208,7 @@
         width: 100%;
       height: auto; 
       transition: transform 0.3s;
-
+      padding: 0px 0%;
     }
     .mainRicon.container img {
         transform: scale(1.1); 

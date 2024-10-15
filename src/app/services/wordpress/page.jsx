@@ -11,6 +11,7 @@ import Ctaform from '../../components/ctaform/ctaform'
 import WebDesigns from '@/app/components/webdesigns/webdesigns'
 import Newcta from '@/app/components/newcta/newcta'
 import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
+import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 // import Brands from '../components'
 const Wordpress = () => {
   return (
@@ -30,7 +31,7 @@ const Wordpress = () => {
      />
      <Subchoosetype2 />
     <Process />
-    <Casestudies />
+    <Newcasestudies />
     <Newcta />
     <Ctaform />
     <Testimonials />

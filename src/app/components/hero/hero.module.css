@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     padding:  140px 12% 28px 12% ;
+    height: 540px;
 }
 .heading{
     color: #090909;
@@ -64,7 +65,7 @@ line-height: normal;
         padding-bottom: 0px;
     }
   }
-  @media (min-width: 360px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     .heading{
         font-size: 23px;
         line-height: 36px;
@@ -80,6 +81,8 @@ line-height: normal;
     .container{
         gap: 0px;
         padding:  20px 6% 20px 6%;
+        height: 320px;
+        justify-content: flex-end;
     }
     .subtitle{
         width: 100%;

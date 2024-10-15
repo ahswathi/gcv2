@@ -10,6 +10,7 @@ import Ctaform from '../../components/ctaform/ctaform'
 import Chooseustype3 from '@/app/components/chooseustype3/chooseustype3'
 import Webdevslider from '@/app/components/slider/webdevslider'
 import Websitedark from '@/app/components/websitedark/websitedark'
+import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 // import Brands from '../components'
 const Customweb = () => {
   return (
@@ -29,7 +30,7 @@ const Customweb = () => {
      />
      <Chooseustype3 />
     <Process />
-    <Casestudies />
+    <Newcasestudies />
     <Websitedark
     imageUrl='/assets/iso1.png' 
     title='Build perfect e-commerce website with growCommerce'  />

@@ -78,14 +78,23 @@ letter-spacing: 0.22px;
     }
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .mainleft, .mainright{
         width: 100%;
     }
     .main{
         flex-direction: column;
         gap: 30px;
-        padding: 0px 6% 30px 6%;
+        padding: 0px 4% 30px 4%;
         
+    }
+    .content h5{
+    font-size: 18px;
+    }
+    .icon{
+        padding: 0px 0px;
+    }
+    .topic{
+        padding: 20px 0px;
     }
 }

@@ -144,7 +144,7 @@ font-weight: 600;
 }
 
 
-@media (max-width: 475px) {
+@media (max-width: 768px) {
     .container {
         margin: 0;
     }
@@ -172,7 +172,7 @@ font-weight: 600;
     }
 
     .col h2 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 30px;
     }
 

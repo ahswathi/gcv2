@@ -10,8 +10,11 @@ body{
   overflow-x: hidden;
   color: rgb(8, 8, 8);  
   background: #FAFAFA;
+  letter-spacing: normal !important;
 }
-
+body, p, h1, h2, h3, h4, h5, h6, a, span, div, li {
+  letter-spacing: normal !important;
+}
 a{
   text-decoration: none;
 }
