@@ -5,6 +5,7 @@ import Mainheading from '../mainheading/mainheading'
 import cta1 from '../../../../public/assets/MandM.png'
 import cta2 from '../../../../public/assets/electrowiz.png'
 import cta3 from '../../../../public/assets/showfocus.png'
+import cta4 from '../../../../public/assets/kingster.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -51,7 +52,7 @@ const Newcasestudies = () => {
               </div>
           </div>
          
-        {/*   <div className={styles.contentmain}>
+          <div className={styles.contentmain}>
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Furniture Web Design</h2>
@@ -63,10 +64,10 @@ const Newcasestudies = () => {
                 </div>
               </div>
               <div className={styles.contentright}>
-                  <Image src={cta2} 
+                  <Image src={cta3} 
                   />
               </div>
-          </div> */}
+          </div>
      
           <div className={styles.contentmain}>
               <div className={styles.main}>
@@ -80,7 +81,7 @@ const Newcasestudies = () => {
                 </div>
               </div>
               <div className={styles.contentright}>
-                  <Image src={cta3} 
+                  <Image src={cta4} 
                   />
               </div>
           </div>

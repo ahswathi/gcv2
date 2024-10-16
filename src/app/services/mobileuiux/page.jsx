@@ -30,7 +30,7 @@ const Mobile = () => {
      <Verticalchooseus />
     <Process />
     <Newcasestudies />
-    <Workon />
+    {/* <Workon /> */}
     <Website 
     imageUrl='/assets/iso1.png' 
     title='Build perfect e-commerce website with growCommerce'  />

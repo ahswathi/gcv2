@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React, { useState } from 'react';
-import styles from './navbar.module.css'
+import styles from './newnavbar.module.css'
 import Image from 'next/image';
 import Menu from '../menu/menu';
 import Darkbutton from '../darkbutton/darkbutton';
@@ -11,7 +11,7 @@ import Remenu from '../remenu/remenu';
 import { SlArrowRight } from "react-icons/sl";
 import { SlArrowLeft } from "react-icons/sl";
 
-const Navbar = () => {
+const Newnavbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [solution, setSolution] = useState(null)
@@ -70,7 +70,7 @@ const Navbar = () => {
                                 Solutions  <span class="arrow">&#9660;</span>
                             </Link> */}
                             <div className={styles.dropdownToggle} onClick={toggleDropdown}>
-                                Solutions  <span class="arrow">&#9660;</span>
+                                Solutions  <span class="arrow">&#9660;</span> 
                             </div>
                             <div className={styles.dropdownContent}>
                                 {/* <Link href="/shopify">Shopify</Link> */}
@@ -205,4 +205,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Newnavbar

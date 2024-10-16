@@ -2,6 +2,7 @@ import './globals.css'
 import { Outfit } from 'next/font/google'
 import Navbar from './components/navbar/navbar'
 import Footer from './components/footer/footer'
+import Newnavbar from './components/newnavbar/newnavbar'
 
 const outfit = Outfit({ subsets: ['latin'] })
 
@@ -15,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={outfit.className}>
         <div className='container'>
-        <Navbar/>
+        <Newnavbar/>
         {children}
         <Footer/>
         </div>

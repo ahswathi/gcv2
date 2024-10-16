@@ -31,32 +31,26 @@ const Footer = () => {
             <div>
               <h2>Design</h2>
               <ul>
-                <Link href="/services/ecommerceuiux"><li>E-commerce UI/UX design services</li></Link>
+                <Link /* href="/services/ecommerceuiux" */ href='#'><li>E-commerce UI/UX design services</li></Link>
                 <Link href="/services/websiteuiux"><li style={{ paddingLeft: '10px' }}>Website ui and ux</li></Link>
                 <Link href="/services/mobileuiux"><li style={{ paddingLeft: '10px' }}>Mobile ui and ux</li></Link>
 
               </ul>
             </div>
-            <div>
+            {/* <div>
               <h2>Integration</h2>
               <ul>
                 <li>Shipping  </li>
                 <li>Chatbotx</li>
                 <li>CRM </li>
               </ul>
-              {/* <h2>STAGES</h2>
-                <ul>
-                  <li>Early </li>
-                  <li>Funded </li>
-                  <li>Estabalished</li>
-                </ul> */}
-            </div>
+            </div> */}
           </div>
           <div className={styles.footerNav}>
             <div>
               <h2>Development</h2>
               <ul>
-                <Link href="/services/cms"><li>E commerce CMS based web development</li></Link>
+                <Link /* href="/services/cms" */ href='#'><li>E commerce CMS based web development</li></Link>
                 <Link href="/services/wordpress"><li style={{ paddingLeft: '10px' }}>Wordpress  development </li></Link>
                 <Link href="/services/custom-web-development"><li>E-commerce Custom web development</li></Link>
                 <Link href="/services/custom-mobile-app-development"><li>E-commerce Custom Mobile app development</li></Link>

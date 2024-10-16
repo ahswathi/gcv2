@@ -51,7 +51,7 @@ const Casestudies = () => {
               </div>
           </div>
          
-        {/*   <div className={styles.contentmain}>
+          <div className={styles.contentmain}>
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Furniture Web Design</h2>
@@ -66,7 +66,7 @@ const Casestudies = () => {
                   <Image src={cta2} 
                   />
               </div>
-          </div> */}
+          </div>
      
           <div className={styles.contentmain}>
               <div className={styles.main}>

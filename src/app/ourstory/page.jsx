@@ -37,7 +37,7 @@ const Ourstory = () => {
             </div>
             <div className={styles.space}></div>
 
-            <div className={styles.teamcontainer}>
+            {/* <div className={styles.teamcontainer}>
                 <Mainheading
                     titlecenter="Our Team"
                     contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
@@ -81,7 +81,7 @@ const Ourstory = () => {
                     </div>
                 </div>
             </div>
-
+ */}
             <div className={styles.partnercontainer}>
                 <div className={styles.partnerimage}>
                     <h1>We Were Part Of <br /> Their Stories</h1>
@@ -140,7 +140,7 @@ const Ourstory = () => {
 		            </div></div> */}
                 </div>
             </div>
-            <Workon />
+            {/* <Workon /> */}
             <Newchooseus />
             <Ctaform />
         </div>
