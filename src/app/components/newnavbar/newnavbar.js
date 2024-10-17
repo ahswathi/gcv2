@@ -81,7 +81,7 @@ const Newnavbar = () => {
                         <div className={styles.subHeader}>
                             <div className={styles.link} onClick={() => setSolution(1)}>Designs <SlArrowRight style={{ fontSize: '13px' }} /></div>
                             <div className={styles.link} onClick={() => setSolution(2)}>Development <SlArrowRight style={{ fontSize: '13px' }} /></div>
-                            <div className={styles.link} onClick={() => setSolution(3)}>Integration <SlArrowRight style={{ fontSize: '13px' }} /></div>
+                           
                         </div>
                        {/*  <Link href="/casestudies" onClick={handleClose} className={styles.link}>Case Studies</Link> */}
                     </div>
@@ -122,9 +122,9 @@ const Newnavbar = () => {
                         <br /><br />
                         <p onClick={() => setNestedSolution(2)} href="/services/ecommerce" className={styles.ptag}>E commerce CMS based web development  <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                         <br />
-                        <p onClick={() => setNestedSolution(3)} href="/services/custom-mobile-app-development"  className={styles.ptag}>E-commerce Custom mobile app development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
+                        <p   className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-mobile-app-development">E-commerce Custom mobile app development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                         <br />
-                        <p onClick={() => setNestedSolution(4)} href="/services/custom-web-app-development" className={styles.ptag}>E-commerce custom web development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
+                        <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-web-development">E-commerce custom web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                     </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
                 </div>
@@ -132,72 +132,15 @@ const Newnavbar = () => {
                 <div className={nestedSolution === 2 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
                     <div className={styles.alignment}>
                         <p onClick={() => setNestedSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p><br /><br />
-                        <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="#">Shopify web development</a></p>
-                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="#">Shopify theme customization</a></p>
-                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="#">Shopify custom theme development</a></p>
-                        <p className={styles.sublink}><a onClick={() => setNestedSolution(null)} href="#">Shopify Maintenance and Support</a></p>
-                        <br />
-                        <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="#">Shopify plus development</a></p>
-                        <p className={styles.sublink}><a href="#">Shopify plus development Maintenance and Support</a></p>
-                        <br />
-                        <p className={styles.links}><a href="/services/wordpress">Wordpress  development</a></p>
-                        <p className={styles.sublink}><a href="#">WooCommerce Development</a></p>
-                        <p className={styles.sublink}><a href="#">WooCommerce Maintenance and Support</a></p>
-                        <br />
-                        <p className={styles.links}><a href='#'>Webflow e-commerce development</a></p>
-                        <p className={styles.sublink}><a href='#'>Webflow  ecommerce Maintenance and Support</a></p>
-                        <br />
-                        <p className={styles.links}><a href='#'>Bigcommerce development</a></p>
-                        <p className={styles.sublink}><a href='#'>Bigcommerce  ecommerce Maintenance and Support</a></p>
+                        <p className={styles.links}><a onClick={() => setNestedSolution(null)} href="/services/wordpress">Wordpress  development </a></p>
                     </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
                 </div>
 
-                <div className={nestedSolution === 3 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
-                    <div className={styles.alignment}>
-                        <p onClick={() => setNestedSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p><br /><br />
-                        <p className={styles.links}><a href="#">Flutter E-commerce mobile app development</a></p>
-                        <p className={styles.sublink}><a href="#">Flutter E-commerce mobile app Maintenance and Support</a></p>
-                        <br />
-                        <p className={styles.links}><a href="#">React Native E-commerce mobile and development</a></p>
-                        <p className={styles.sublink}><a href="#">React Native E-commerce mobile and Maintenance and Support</a></p>
-                        <br />
-                        <p className={styles.links}><a href="#">IOS E-commerce mobile and development</a></p>
-                        <p className={styles.sublink}><a href="#">IOS E-commerce mobile app Maintenance and Support</a></p>
-                        <br />
-                        <p className={styles.links}><a href='#'>E-commerce web  Maintenance and Support </a></p>
-                        <br />
-                    </div>
-                    <RxCross1 className={styles.exit} onClick={handleCloseAll} />
-                </div>
-                <div className={nestedSolution === 4 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
-                    <div className={styles.alignment}>
-                        <p onClick={() => setNestedSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p><br /><br />
-                        <p className={styles.links}><a href="#">E-commerce web  Maintenance and Support </a></p>
-                    </div>
-                    <RxCross1 className={styles.exit} onClick={handleCloseAll} />
-                </div>
+               
+               
 
-                {/* ----------------integration ------------- */}
-                <div className={solution === 3 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
-                    <div className={styles.alignment}>
-                        <div onClick={() => setSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</div>
-                        <br /><br />
-                        <p onClick={() => setNestedSolution(5)} className={styles.ptag}>Payment gateway <SlArrowRight style={{ fontSize: '13px' }} /></p>
-                    </div>
-                    <RxCross1 className={styles.exit} onClick={handleCloseAll} />
-                </div>
-
-                <div className={nestedSolution === 5 ? `${styles.sidebar} ${styles.subHeaderActive}` : styles.subHeaderActive}>
-                    <div className={styles.alignment}>
-                        <div onClick={() => setNestedSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</div>
-                        <br /><br />
-                        <p className={styles.links}><a href="#">Shipping</a></p>
-                        <p className={styles.links}><a href="#">Chatbot</a></p>
-                        <p className={styles.links}><a href="#">CRM</a></p>
-                    </div>
-                    <RxCross1 className={styles.exit} onClick={handleCloseAll} />
-                </div>
+                
             </nav >
             <div className={styles.line}>
             </div>
