@@ -7,10 +7,6 @@ import styles from './content.module.css'
 const Content = ({ subtitle, title, content, imageUrl}) => {
   return (
   <>
-    <Mainheading
-        titlecenter="More About Service"
-        contentcenter="Please answer a few simple questions about your needs to help our experts calculate your quote quicker."
-        />
         <div className={styles.container}>
                 <img src={imageUrl} />
                 <p>{content}</p>

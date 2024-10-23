@@ -11,6 +11,7 @@ import Ctaform from '../../components/ctaform/ctaform'
 import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
 import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
+import Mainheading from '@/app/components/mainheading/mainheading'
 // import Brands from '../components'
 
 const Websiteuiux = () => {
@@ -20,14 +21,18 @@ const Websiteuiux = () => {
       <Herosub
         subtitle="Design"
         title="Website UI/UX"
-        content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        content="Engaging the visitor thoroughly with its design principles and aesthetics is the purpose of a competent website UI/UX design service. The website provides sufficient space provision to spread the design across and make it attractive and efficient. The purpose of an efficient UI/UX design is to support and assist in every functionality of the website and make the browsing experience smooth and seamless."
         imageUrl='/assets/websiteuiux.png'
         bg='rgba(15, 204, 117, 0.46)'
       />
       <Brands />
+    <Mainheading
+        titlecenter="More About Service"
+        contentcenter="Foster innovation with superior technological applications"
+        />
       <Content
         imageUrl='/assets/websiteuiuxser.png'
-        content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
+        content='Responsive designs that captivate the audience with brilliant UI/UX designs elevate the company’s image manifold. The purpose of developing and creating UI/UX designs that enthral audiences is to make them consider the proposition. Companies have varied propositions in an e-commerce business model, the propositions change based on the categories they represent. A product company has its business model, the discounts and offers on the products vary across the year, if it is well-accepted by the customers, the offers and proposition get embedded in the business model. Similarly, for the services offered, the company finds the right kind of proposition that fits its customers. The UI/UX and the unique designs become a part of the proposition, as it gets acclimatized with customers and the company, therefore getting a unique UI/UX that is integral to a company is significant in the evolving e-commerce landscape, as competition is increasing in the digital world, the unique UI/UX designs differentiates and retains the company’s and brand’s identity in the form of designs.  '
       />
       <Verticalchooseus />
       <Process />

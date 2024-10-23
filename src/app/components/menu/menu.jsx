@@ -49,7 +49,7 @@ const Menu = ({setIsDropdownOpen, setSidebar}) => {
                         </div>
 
                         <div className={styles.subcat2} >
-                                <Link href="/services/custom-web-app-development" onClick={handleclick}>
+                                <Link href="/services/custom-web-development" onClick={handleclick}>
                                         <h3>E-commerce Custom web development </h3>
                                 </Link>
                                 <Link href="/services/custom-mobile-app-development" onClick={handleclick}>

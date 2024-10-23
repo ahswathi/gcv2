@@ -19,24 +19,24 @@ const Verticalchooseus = () => {
           <div className={styles.box}>
             <span>1</span>
             <p className={styles.title}>Login or Sign Up</p>
-            <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+            <p className={styles.para}>Use your user address and password to log in.</p>
           </div>
           <div className={styles.box}>
           <span>2</span>
                 <p className={styles.title}>Verify Account</p>
-                <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+                <p className={styles.para}>Verify your account.</p>
           </div>
         </div>
         <div className={styles.boxes2}>
           <div className={styles.box}>
           <span>3</span>
                 <p className={styles.title}>Verify Account</p>
-                <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+                <p className={styles.para}>Verify your account.</p>
           </div>
           <div className={styles.box}>
           <span>4</span>
             <p className={styles.title}>Ready to Use!</p>
-            <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nisi</p>
+            <p className={styles.para}>Start using. </p>
           </div>
         </div>
     </div>

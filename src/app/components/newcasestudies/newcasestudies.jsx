@@ -15,14 +15,14 @@ const Newcasestudies = () => {
         
         <Mainheading 
         titlecenter="Case Studies"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        contentcenter="By building the most robust and efficient applications through Explo Commerce, the results are well-demonstrated by our clients."
         /> 
         <div className={styles.box}>
           <div className={styles.contentmain}>
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Missy & Moppet</h2>
-                  <p>Uniting teams to build a top-notch omnichannel shopping experience.</p>
+                  <p>The website with kid’s toys experienced the best interaction with customers.</p>
                   <div className={styles.content2}>
                     <span>Ecommerce</span>
                     <span>Native App</span>
@@ -39,7 +39,7 @@ const Newcasestudies = () => {
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Furniture Web Design</h2>
-                  <p>Building a single housekeeping application to make the lives of both clients and personnel a lot easier.</p>
+                  <p>Selling furniture was an easy and simple task. The category received a positive response from customers.</p>
                   <div className={styles.content2}>
                     <span>Ecommerce</span>
                     <span>Native App</span>
@@ -56,7 +56,7 @@ const Newcasestudies = () => {
               <div className={styles.main}>
                 <div className={styles.content}>
                   <h2>Furniture Web Design</h2>
-                  <p>Building a single housekeeping application to make the lives of both clients and personnel a lot easier.</p>
+                  <p>Selling furniture was an easy and simple task. The category received a positive response from customers.</p>
                   <div className={styles.content2}>
                     <span>Ecommerce</span>
                     <span>Native App</span>
@@ -72,7 +72,7 @@ const Newcasestudies = () => {
           <div className={styles.contentmain}>
               <div className={styles.main}>
                 <div className={styles.content}>
-                  <h2>Restaurant</h2>
+                  <h2>Learning Management System</h2>
                   <p>Building a single housekeeping application to make the lives of both clients and personnel a lot easier.</p>
                   <div className={styles.content2}>
                     <span>Ecommerce</span>

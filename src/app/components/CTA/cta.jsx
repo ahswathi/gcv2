@@ -10,8 +10,8 @@ const CTA = ( ) => {
     <div className={styles.container}>
         <div className={styles.content}>
             <div className={styles.contentleft}>
-                <h2>Find the perfect person <br/> every time</h2>
-                <p>Get unlimited design inspirations. Level up your design.</p>
+                <h2>Build and integrate effective applications that deliver on time.</h2>
+                <p>Pick and choose the applications that work for you.</p>
                 <div> 
                   <Darkbutton title="Lets connect"/>
                 </div>

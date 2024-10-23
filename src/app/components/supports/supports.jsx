@@ -27,8 +27,8 @@ const supports = () => {
   return (
     <div className={styles.container}>
       <Mainheading
-        titlecenter="We Support All Stages"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        titlecenter="Supporting industries for their growth:"
+        contentcenter="Explo Commerce supports various types of industries and launches them to the next level of growth stage."
       />
       <div className={styles.stages}>
         <div className={`${styles.box} ${styles.first}`}>
@@ -41,7 +41,7 @@ const supports = () => {
             </svg>
           </div>
           <div className={styles.answer} style={{ display: stages===0 ? 'flex' : 'none' }}>
-            <p>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</p>
+            <p>The challenges that a small-scale industry confronts are different, a thorough understanding is necessary to develop and deploy ecommerce applications that enable them to overcome the challenge and grow. Explo Commerce deploys agile applications that deliver consistently by leveraging on the technology and producing positive results.</p>
             <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>
@@ -56,7 +56,7 @@ const supports = () => {
 </svg>
           </div>
           <div className={styles.answer} style={{ display: stages===1 ? 'flex' : 'none' }}>
-            <p>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</p>
+            <p>Industries are rated based on their productivity and sales outcome, medium sized companies face different sets of challenges, and they have experienced growth cycle to an extent. The companies should prepare themselves to face the next level of challenges and leapfrog into the next stage of growth.  </p>
             <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>
@@ -71,7 +71,7 @@ const supports = () => {
 </svg>
           </div>
           <div className={styles.answer} style={{ display: stages===2 ? 'flex' : 'none' }}>
-            <p>Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.Implementing best practices, starting small, and shipping powerful iterations over time, based on real user data.</p>
+            <p>Understanding a large-stage industry is a complex process, and the set of challenges faced by the company are completely different. The e-commerce applications should consider the challenges and accordingly offer solutions that consolidate their position and market status. Explo Commerce leverages its quality software and abilities to deliver solutions that elevate the company. </p>
             <img src='assets/clientbrands/support.png' className={styles.ppl} />
           </div>
         </div>

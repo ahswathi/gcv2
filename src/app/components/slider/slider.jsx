@@ -3,7 +3,7 @@ import React from 'react'
 import Mainheading from '../mainheading/mainheading'
 import styles from './slider.module.css'
 
-const Slider = ({head, bg, src, clr, bullet}) => {
+const Slider = ({head, bg, src, clr, bullet, title}) => {
   return (
     <div className={styles.contained}>
         {/* <Mainheading
@@ -33,7 +33,7 @@ const Slider = ({head, bg, src, clr, bullet}) => {
                   </div>
                   <div className={styles.mainLeft}>
                       <h2>{head}</h2>
-                      <p>‘In the end, it all comes down to 0 and 1’. This is where the product shapes up, and our team knows these 0’s and 1’s well.</p>
+                      <p>{title}</p>
                       
                         <div className={styles.bullet}>
                           <div><svg  width="14" height="14" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">

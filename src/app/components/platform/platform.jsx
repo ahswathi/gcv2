@@ -14,23 +14,23 @@ const Platform = () => {
                     <div className={styles.main}>
                         <div className={styles.mainleft}>Vission</div>
                         <div className={styles.mainright}>
-                            Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes. Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes.
+                            To build robust and next-generation e-commerce platforms for companies and empower them to scale at the market pace, deliver applications that endure the test of time, and elevate the company toward the growth phase.
                         </div>
                     </div>
                     <div className={styles.main}>
                         <div className={styles.mainleft}>Mission</div>
                         <div className={styles.mainright}>
-                            Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes. Offer every client global coverage, reduced latency and a smooth user experience. Sites auto-scale with traffic and transaction spikes. Wix Studio runs on a combo of AWS, GCP and our own data centers—backed by over 200 CDN nodes.
+                            Develop applications related to e-commerce functions and build scalable systems that enhance value to the end customer, intend to create a happy and satisfied customer base with quick deliveries across various categories.
                         </div>
                     </div>
                 </div>
                 <div className={styles.content}>
                     <div className={styles.heading}>
-                        <p>Create your own professional web presence—exactly the way you want.</p></div>
+                        <p>Bespoke websites and applications have become the order of the day.</p>
+                    </div>
                     <div className={styles.para}>
-                        Our powerful technology allows everyone to get online with a personalized, professional web presence. Whether it's your first time creating or you're a long time expert, you'll find the features and solutions you need to build a professional website with total creative freedom.
-                        <br /> <br />
-                        Our global user base, open SDK, and unparalleled design capabilities create a unique ecosystem. Developers, web designers, and online professionals can effectively market their apps and services to millions through Wix. For agencies and freelancers, our new platform, Wix Studio, allows them to deliver exceptional client work at scale.
+                    New-age websites have multiple objectives and functions; custom websites are customer-centric and extend complete support. Websites and applications tailored to meet the demands of the customers must deliver value with products. The bespoke websites enhance greater value in terms of manoeuvrability, operations, and functionality, and deliver optimum value to the company. Entrepreneurs and businessmen who are first-timers in the digital marketplace and those who intend to develop websites can leverage on the applications to build great websites. Scalability is an important feature that delivers support and assistance to the company, growth becomes a natural phenomenon with custom-based website applications.
+                       {/*  <br /> <br /> */}
                     </div>
                 </div>
                 {/* <Mainheading
@@ -65,12 +65,12 @@ const Platform = () => {
                 </div> */}
                 <div className={styles.content}>
                     <div className={styles.heading}>
-                        <p>Create your own professional web presence—exactly the way you want.</p></div>
+                        <p>Technology that deeply impacts deploys changes from the core. </p></div>
                     <div className={styles.para}>
-                        <p> Our powerful technology allows everyone to get online with a personalized, professional web presence. Whether it's your first time creating or you're a long time expert, you'll find the features and solutions you need to build a professional website with total creative freedom.
+                        <p> Agile technology builds a collaborative platform for the customers and the online company, the products and services offered by the company must be built to scale consistently. Building a professional e-commerce website with efficient features is now simple to the core. Open SDK renders design capabilities that make a world of difference to e-commerce websites and create ecosystems that are unique in style and purpose. Big advantage for Developers, Web Designers, and Online professionals as they can market their apps and services to a global audience through Wix. Freelancers and agencies are thoroughly empowered to deliver quality work to their clients with our new platform on Wix Studio. 
                         </p>
-                        <p>Our global user base, open SDK, and unparalleled design capabilities create a unique ecosystem. Developers, web designers, and online professionals can effectively market their apps and services to millions through Wix. For agencies and freelancers, our new platform, Wix Studio, allows them to deliver exceptional client work at scale.</p>
-                    </div>
+                        {/* <p>Our global user base, open SDK, and unparalleled design capabilities create a unique ecosystem. Developers, web designers, and online professionals can effectively market their apps and services to millions through Wix. For agencies and freelancers, our new platform, Wix Studio, allows them to deliver exceptional client work at scale.</p>
+                    */} </div>
                 </div>
             </div>
         </div>

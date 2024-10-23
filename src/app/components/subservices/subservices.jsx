@@ -10,7 +10,7 @@ const Subservices = () => {
    <>
       <Mainheading
         titlecenter="Sub Services"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        contentcenter="The applications are very simple to use and induce efficiency in the operational process."
         />
     <div className={styles.services}>
       <div className={styles.services1}>
@@ -26,7 +26,7 @@ const Subservices = () => {
   </g>
 </svg>
         <h2>Shopify Web Development</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Empower the sales process of the online stores with Shopify Web Development, customize and create websites based on the design and custom specifications. Optimize, design, and develop the websites to meet the specific requirements of the business.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -55,7 +55,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Shopify theme customization</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Represent your unique brand identity with theme customization; create the website based on the brand guidelines and specifications of the design.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -83,7 +83,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Shopify custom theme development</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Customize the website based on the design theme, and create the website based on the brand guidelines and specifications of the design.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -112,7 +112,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Shopify Maintenance & Support</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Ensure complete success for your Shopify store, monitor the website, update information, and maintain the overall performance of the online store. </p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -140,7 +140,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Shopify plus development</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Optimize the web store for search engines and increase the number of leads and conversions. Take advantage of the additional feature and catch up with the growth curve.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -169,7 +169,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Wordpress  development</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Create a standalone mini storefront on the WordPress blog and connect directly with Shopify’s secure shopping cart platform.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -199,7 +199,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Woo Commerce Development</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>With open source, WooCommerce businesses can create, customize, maintain, and optimize an online store to suit your business requirements. Boost the performance of the online store with improved conversions.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -228,7 +228,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Woo Commerce Maintenance &  Support</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Fix errors, add features, enhance security, and improve the speed of the website. Sort technical issues related to the website and chase the growth path. </p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -255,7 +255,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Webflow e-commerce development</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Build, design, and scale up your website as per your will. Customize designs and details of your cart and manage products and orders efficiently.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -282,7 +282,7 @@ const Subservices = () => {
   </g>
 </svg>
         <h2>Webflow  e-commerce Maintenance &  Support </h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Resolve all technical issues related to the shopping cart and the online store. Maintain the web store and optimize for growth.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -310,7 +310,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Bigcommerce development </h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Create, build, and customize websites using the Big Commerce platform. Implement special features and optimize the overall performance of the website.</p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 
@@ -346,7 +346,7 @@ const Subservices = () => {
   </defs>
 </svg>
         <h2>Bigcommerce  e-commerce Maintenance & Support</h2>
-        <p>Represent multiple buyers and locations with unique payment terms and user permissions.</p>
+        <p>Sort technical issues effectively that are related to the website deployed on the Big Commerce platform. Resolve issues and chase the growth path. </p>
         
         <div className={styles.read}>
                  <Link href='#'>   View more 

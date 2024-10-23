@@ -22,15 +22,15 @@ const Ourstory = () => {
     console.log("pathname", path)
     return (
         <div>
-            <Aboutus title='Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.'
+            <Aboutus title='Explo Commerce delivers pace in the fast-paced e-commerce industry to make every delivery count. '
                 heading='We build digital commerce that perform faster.' />
             <Brands />
             <Platform />
             <Trends />
             <div className={styles.spaceT}></div>
             <Mainheading
-                titlecenter="Fast-track your business goals."
-                contentcenter="Whether you’re starting from an ambiguous challenge or a clear idea, we can help you move forward. Reach out for an informal meeting below."
+                titlecenter="Build agility in your business. Scale up and grow."
+                contentcenter="Businesses must scale up to grow; e-commerce is the right platform for growth-oriented business models. "
             />
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <Darkbutton title='Lets talk' />

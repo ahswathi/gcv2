@@ -13,8 +13,8 @@ const Website = ({imageUrl, content, title, title1}) => {
            <p>{content}</p>
            
           <div className={styles.buttondiv}>
-            <Darkbutton title="Lets connect"/>
-            <Bookbutton title1="Book a time"/>
+            <Darkbutton title="Let's  connect"/>
+            <Bookbutton title1="Book your slot"/>
           </div>
         </div>
     <div className={styles.mainRight}>

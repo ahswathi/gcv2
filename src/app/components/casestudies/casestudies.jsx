@@ -14,7 +14,7 @@ const Casestudies = () => {
         
         <Mainheading 
         titlecenter="Case Studies"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        contentcenter="By building the most robust and efficient applications through Explo Commerce, the results are well-demonstrated by our clients."
         /> 
         <div className={styles.box}>
           <div className={styles.contentmain}>

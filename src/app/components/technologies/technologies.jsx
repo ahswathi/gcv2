@@ -10,8 +10,8 @@ const Technologies = ({ subtitle, title, content, iwebflow,iwoocom, imegento, is
   return (
   <>
     <Mainheading
-        titlecenter="Technologies We Use"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        titlecenter="We count on these technologies."
+        contentcenter="Explo Commerce relies on these technologies to deliver on date and on time."
         />
       <div className={styles.container}>
         <div className={styles.service}>

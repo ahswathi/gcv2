@@ -48,17 +48,19 @@
 .boxes1{
     gap: 40px;
     display: flex;
+    width: 50%;
 }
 
 .boxes2{
     gap: 40px;
     display: flex;
+    width: 50%;
 }
 
 .box{
     display: block;
     align-items: flex-start;
-   /*  width: 300px; */
+    width: 50%;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     padding: 16px;
     border-radius: 14px

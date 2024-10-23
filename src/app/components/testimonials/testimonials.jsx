@@ -7,7 +7,7 @@ const Testimonials = () => {
     <div className={styles.containermain}>
       <Mainheading
     titlecenter="Testimonials"
-    contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+    contentcenter="Hear from the clients who have experienced impeccable services from the applications."
     /> 
     <div className={styles.container}>
         

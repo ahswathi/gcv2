@@ -12,6 +12,7 @@ import Mobileappdevslider from '@/app/components/slider/mobileappdevslider'
 import Chooseustype3 from '@/app/components/chooseustype3/chooseustype3'
 import Websitedark from '@/app/components/websitedark/websitedark'
 import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
+import Mainheading from '@/app/components/mainheading/mainheading'
 // import Brands from '../components'
 const Customecomm = () => {
   return (
@@ -19,15 +20,19 @@ const Customecomm = () => {
     <Herosub
      subtitle="Development"
      title="E-commerce custom mobile application development"
-     content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+     content="The dynamics of mobile commerce is a complex subject, with exponential growth opportunities and large customer acceptance, the mobile application development industry is poised for greater challenges.   "
      imageUrl='/assets/custommobile appdevelopment.png'
      bg='rgba(232, 232, 232, 0.47)'
      />
      <Brands />
      <Mobileappdevslider/>
+    <Mainheading
+        titlecenter="More About Service"
+        contentcenter="Construct mobile applications that deliver great experiences, deliver genuine sense of design and information."
+        />
      <Content 
      imageUrl='/assets/mobileappdevser.png'
-     content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
+     content='Mobile applications are typically used by every individual who possesses a smartphone; the rampant usage of smartphones and mobile applications has created a sense of need and urgency to develop mobile applications that engage positively. Positive engagement is achieved by delivering a great experience to the user on his mobile phone through operational UI/UX. The aesthetic principles of design school suggest that good designs engage positively and convey genuineness to the user. With authenticity, the customer develops a genuine relationship with the company, qualities of UI/UX not only connote authenticity, but they bring the company closer to the customer in every sense. With numerous mobile applications in the marketplace, a genuine app is considered to possess quality UI/UX, customers unequivocally prefer to interact and conduct business transactions with such companies. Developing a mobile app with quality UI/UX becomes inevitable for companies in the current age of digital era. The technological trends of the digital world demand every company interact and transact with customers digitally and deploy mobile applications with quality UI/UX functionalities. '
      />
      <Chooseustype3 />
     <Process />

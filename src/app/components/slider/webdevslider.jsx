@@ -22,7 +22,7 @@ const Webdevslider = () => {
     <div className={styles.containermain}>
     <Mainheading
         titlecenter=" Services"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        contentcenter="Enrich the website experience with a superior range of services; elevate the operations to meet the demands of the customers."
         />
         <div className={styles.container}>
           <Slider {...settings}>

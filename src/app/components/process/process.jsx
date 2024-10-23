@@ -8,7 +8,7 @@ const Process = () => {
     <div className={styles.container}>
        <Mainheadingdark 
     titlecenter="Process"
-    contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+    contentcenter="By involving the most efficient, robust systems and processes, a quality end product is a natural outcome."
     /> 
       <div className={styles.main}>
          <div className={styles.row}>
@@ -18,7 +18,7 @@ const Process = () => {
                      <div className={styles.details}>
                         <span>01</span>
                         <h2>Design</h2>
-                        <p>Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo. Minim officia elit id id ex est. Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo.</p>
+                        <p>Incorporate the best designs that blend well with customers. Choose from the range of Operating Systems (OS).</p>
                      </div>
                </div>   
                <div className={styles.col}>
@@ -27,7 +27,7 @@ const Process = () => {
                      <div className={styles.details}>
                         <span>02</span>
                         <h2>Development</h2>
-                        <p>Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo. Minim officia elit id id ex est. Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo.</p>
+                        <p>Build and operate applications at your convenience. Choose from the range of Operating Systems (OS).</p>
                      </div>
                </div>   
          </div>
@@ -38,7 +38,7 @@ const Process = () => {
                      <div className={styles.details}>
                         <span>03</span>
                         <h2>Deployment</h2>
-                        <p>Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo. Minim officia elit id id ex est. Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo.</p>
+                        <p>Enable proficiency in the process, and deploy efficient systems.</p>
                      </div>
                </div>   
                <div className={styles.col}>
@@ -47,7 +47,7 @@ const Process = () => {
                      <div className={styles.details}>
                         <span>04</span>
                         <h2>Testing & Launch</h2>
-                        <p>Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo. Minim officia elit id id ex est. Duis deserunt adipisicing fugiat labore non laboris. Non sunt occaecat velit commodo.</p>
+                        <p>Endure the applications with rigorous testing before launching.</p>
                      </div>
                </div>   
          </div>
