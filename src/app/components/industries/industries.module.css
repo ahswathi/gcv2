@@ -55,6 +55,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 text-align: center;
+height: 280px;
 }
 .card span{
     color: #464646;
