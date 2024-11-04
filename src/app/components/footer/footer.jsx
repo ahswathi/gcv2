@@ -19,7 +19,8 @@ const Footer = () => {
             <div>
             </div>
           </div>
-          <img src="/assets/footer.png" className={styles.gap} />
+          {/*   <img src="/assets/logo.png" className={styles.gap} />  */}
+          {/*  <img src="/assets/footer.png" className={styles.gap} /> */}
         </div>
         <div className={styles.footerRight}>
           <div>
@@ -31,9 +32,20 @@ const Footer = () => {
             <div>
               <h2>Design</h2>
               <ul>
-                <Link /* href="/services/ecommerceuiux" */ href='#'><li>E-commerce UI/UX design services</li></Link>
+                {/* <Link  href="/services/ecommerceuiux" ><li>E-commerce UI/UX design services</li></Link>
                 <Link href="/services/websiteuiux"><li style={{ paddingLeft: '10px' }}>Website ui and ux</li></Link>
-                <Link href="/services/mobileuiux"><li style={{ paddingLeft: '10px' }}>Mobile ui and ux</li></Link>
+                <Link href="/services/mobileuiux"><li style={{ paddingLeft: '10px' }}>Mobile ui and ux</li></Link> */}
+                <Link href="/services/websiteuiux"><li>Website ui and ux</li></Link>
+                <Link href="/services/mobileuiux"><li>Mobile ui and ux</li></Link>
+              </ul>
+            </div>
+            <div>
+              <h2>Development</h2>
+              <ul>
+                <Link /* href="/services/cms" */ href='#'><li>E commerce CMS based web development</li></Link>
+                {/*  <Link href="/services/wordpress"><li style={{ paddingLeft: '10px' }}>Wordpress  development </li></Link> */}
+                <Link href="/services/custom-web-development"><li>E-commerce Custom web development</li></Link>
+                <Link href="/services/custom-mobile-app-development"><li>E-commerce Custom Mobile app development</li></Link>
 
               </ul>
             </div>
@@ -46,11 +58,11 @@ const Footer = () => {
               </ul>
             </div> */}
           </div>
-          <div className={styles.footerNav}>
+          {/* <div className={styles.footerNav}>
             <div>
               <h2>Development</h2>
               <ul>
-                <Link /* href="/services/cms" */ href='#'><li>E commerce CMS based web development</li></Link>
+                <Link href="/services/cms"  ><li>E commerce CMS based web development</li></Link>
                 <Link href="/services/wordpress"><li style={{ paddingLeft: '10px' }}>Wordpress  development </li></Link>
                 <Link href="/services/custom-web-development"><li>E-commerce Custom web development</li></Link>
                 <Link href="/services/custom-mobile-app-development"><li>E-commerce Custom Mobile app development</li></Link>
@@ -58,8 +70,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
-         {/*  <div className={styles.footerNavmob}>
+ */}
+          {/*  <div className={styles.footerNavmob}>
             <div>
               <h2>Integration</h2>
               <ul>
@@ -95,9 +107,9 @@ const Footer = () => {
         <div className={styles.line}></div>
         <div className={styles.copywrite}>
           <p>
-            Copyright © Explo Commerce |  Powered by Oracle
+            Copyright © Explo Commerce {/* |  Powered by Oracle */}
           </p>
-          <div className={styles.footerimg}>
+          {/*  <div className={styles.footerimg}>
             <div className={styles.footersvg}>
               <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M21 3.5C11.3389 3.5 3.5 11.3389 3.5 21C3.5 30.661 11.3389 38.5 21 38.5C30.6421 38.5 38.5 30.661 38.5 21C38.5 11.3389 30.6421 3.5 21 3.5ZM32.5591 11.5667C34.647 14.1101 35.8997 17.3558 35.9376 20.8671C35.4441 20.7722 30.5092 19.7663 25.5363 20.3926C25.4225 20.1459 25.3275 19.8801 25.2137 19.6144C24.91 18.8932 24.5683 18.1529 24.2267 17.4507C29.731 15.211 32.2364 11.9843 32.5591 11.5667ZM21 6.08134C24.7961 6.08134 28.2695 7.50488 30.9078 9.83948C30.6421 10.2191 28.3834 13.237 23.0689 15.2299C20.6204 10.7316 17.9062 7.04935 17.4886 6.47993C18.6084 6.21421 19.7853 6.08134 21 6.08134ZM14.6416 7.4859C15.0401 8.01734 17.6974 11.7186 20.1838 16.122C13.199 17.9821 7.03038 17.9441 6.36605 17.9441C7.33404 13.3129 10.4658 9.45987 14.6416 7.4859ZM6.04338 21.019C6.04338 20.8671 6.04338 20.7153 6.04338 20.5634C6.68872 20.5824 13.9393 20.6773 21.3986 18.4376C21.8351 19.2728 22.2337 20.1269 22.6133 20.981C22.4235 21.038 22.2147 21.0949 22.0249 21.1518C14.3189 23.6383 10.2191 30.4333 9.87745 31.0027C7.50488 28.3644 6.04338 24.853 6.04338 21.019ZM21 35.9566C17.5456 35.9566 14.3568 34.7798 11.8324 32.8059C12.0982 32.2554 15.135 26.4094 23.5623 23.4675C23.6003 23.4485 23.6193 23.4485 23.6573 23.4295C25.7641 28.8769 26.6182 33.4512 26.846 34.7608C25.0428 35.539 23.0689 35.9566 21 35.9566ZM29.3324 33.3943C29.1806 32.4832 28.3834 28.1177 26.4284 22.7462C31.1166 22.006 35.2164 23.2207 35.7288 23.3916C35.0835 27.5483 32.692 31.1356 29.3324 33.3943Z" fill="white" />
@@ -123,7 +135,7 @@ const Footer = () => {
 
             </div>
 
-          </div>
+          </div> */}
         </div >
       </div>
     </div>

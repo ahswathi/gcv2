@@ -25,7 +25,7 @@ const Customweb = () => {
      bg='rgba(15, 204, 117, 0.46)'
      />
      <Brands />
-     <Webdevslider/>
+     {/* <Webdevslider/> */}
     <Mainheading
         titlecenter="More About Service"
         contentcenter="Build websites that understand the customer needs and requirements and make every experience of the customer count."
@@ -39,9 +39,9 @@ const Customweb = () => {
     <Newcasestudies />
     <Websitedark
     imageUrl='/assets/iso1.png' 
-    title='Build perfect e-commerce website with growCommerce'  />
+    title='Build perfect e-commerce website with Explo Commerce'  />
     <Ctaform />
-    <Testimonials />
+  {/*   <Testimonials /> */}
     <FAQAccordion />
     </>
   )

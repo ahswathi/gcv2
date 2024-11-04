@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 .col{
-
+    width: 50%;
     position: relative;
 }
 .card{
@@ -127,7 +127,10 @@
     .container{
         margin: 40px 0px;
     }
-    
+    .col{
+        width: 100%;
+        position: relative;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {

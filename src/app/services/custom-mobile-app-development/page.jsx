@@ -13,6 +13,7 @@ import Chooseustype3 from '@/app/components/chooseustype3/chooseustype3'
 import Websitedark from '@/app/components/websitedark/websitedark'
 import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 import Mainheading from '@/app/components/mainheading/mainheading'
+import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 // import Brands from '../components'
 const Customecomm = () => {
   return (
@@ -41,7 +42,7 @@ const Customecomm = () => {
     imageUrl='/assets/iso1.png' 
     title='Build perfect e-commerce website with growCommerce'  />
     <Ctaform />
-    <Testimonials />
+    {/* <Testimonials /> */}
     <FAQAccordion />
     </>
   )

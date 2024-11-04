@@ -48,7 +48,7 @@ const Ecommerce = () => {
     imageUrl='/assets/iso1.png' 
     title='Build perfect e-commerce website with growCommerce'  />
     <Ctaform />
-    <Testimonials />
+   {/*  <Testimonials /> */}
     <FAQAccordion />
     </>
   )

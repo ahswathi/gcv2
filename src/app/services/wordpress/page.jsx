@@ -39,7 +39,7 @@ const Wordpress = () => {
     <Newcasestudies />
     <Newcta />
     <Ctaform />
-    <Testimonials />
+   {/*  <Testimonials /> */}
     <FAQAccordion />
     </>
   )

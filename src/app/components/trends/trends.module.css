@@ -118,6 +118,7 @@ font-weight: 600;
 @media (max-width: 767px) {
     .col {
         gap: 16px;
+        width: 100%;
     }
 
     .row {

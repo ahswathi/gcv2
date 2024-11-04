@@ -83,10 +83,10 @@ const Navbar = () => {
                             <div className={styles.link} onClick={() => setSolution(2)}>Development <SlArrowRight style={{ fontSize: '13px' }} /></div>
                             <div className={styles.link} onClick={() => setSolution(3)}>Integration <SlArrowRight style={{ fontSize: '13px' }} /></div>
                         </div>
-                       {/*  <Link href="/casestudies" onClick={handleClose} className={styles.link}>Case Studies</Link> */}
+                        {/*  <Link href="/casestudies" onClick={handleClose} className={styles.link}>Case Studies</Link> */}
                     </div>
-                    <div className={styles.sidebarbutton}  style={{ paddingLeft: sidebar ? '20px' : '' }}>
-                        <Darkbutton title="Lets connect" onClick={handleClose}  />
+                    <div className={styles.sidebarbutton} style={{ paddingLeft: sidebar ? '20px' : '' }}>
+                        <Darkbutton title="Lets connect" onClick={handleClose} />
                     </div>
                 </div>
                 <RiMenu3Fill className={styles.hamburger} onClick={() => setSidebar(true)} />
@@ -101,7 +101,7 @@ const Navbar = () => {
                         <p onClick={() => setSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p>
                         <br /><br />
                         <p onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></p>
-                       {/*  <p className={styles.links}><Link onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></Link></p>
+                        {/*  <p className={styles.links}><Link onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></Link></p>
                         <p className={styles.links}><Link onClick={() => setNestedSolution(null)} href="/services/mobileuiux">E-commerce UI/UX design services</Link></p> */}
                     </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
@@ -120,9 +120,9 @@ const Navbar = () => {
                     <div className={styles.alignment}>
                         <p onClick={() => setSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p>
                         <br /><br />
-                        <p onClick={() => setNestedSolution(2)} href="/services/ecommerce" className={styles.ptag}>E commerce CMS based web development  <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
+                        {/*  <p onClick={() => setNestedSolution(2)} href="/services/ecommerce" className={styles.ptag}>E commerce CMS based web development  <SlArrowRight style={{ fontSize: '13px !important' }} /></p> */}
                         <br />
-                        <p onClick={() => setNestedSolution(3)} href="/services/custom-mobile-app-development"  className={styles.ptag}>E-commerce Custom mobile app development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
+                        <p onClick={() => setNestedSolution(3)} href="/services/custom-mobile-app-development" className={styles.ptag}>E-commerce Custom mobile app development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                         <br />
                         <p onClick={() => setNestedSolution(4)} href="/services/custom-web-app-development" className={styles.ptag}>E-commerce custom web development <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                     </div>

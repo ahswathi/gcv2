@@ -18,6 +18,9 @@
 .inputs{
     padding: 0px 6%  0px 6%;
 }
+/* input {
+    font-family: "Outfit";
+} */
 .custominput {
     border: none;
     outline: none;

@@ -70,7 +70,7 @@ const Newnavbar = () => {
                                 Solutions  <span class="arrow">&#9660;</span>
                             </Link> */}
                             <div className={styles.dropdownToggle} onClick={toggleDropdown}>
-                                Solutions  <span class="arrow">&#9660;</span> 
+                                Solutions  <span class="arrow">&#9660;</span>
                             </div>
                             <div className={styles.dropdownContent}>
                                 {/* <Link href="/shopify">Shopify</Link> */}
@@ -78,15 +78,28 @@ const Newnavbar = () => {
                                 <Menu />
                             </div>
                         </div>
-                        <div className={styles.subHeader}>
+                        <div className={styles.subHeader}>{/* 
                             <div className={styles.link} onClick={() => setSolution(1)}>Designs <SlArrowRight style={{ fontSize: '13px' }} /></div>
-                            <div className={styles.link} onClick={() => setSolution(2)}>Development <SlArrowRight style={{ fontSize: '13px' }} /></div>
-                           
+                            <div className={styles.link} onClick={() => setSolution(2)}>Development <SlArrowRight style={{ fontSize: '13px' }} /></div> */}
+
+                            <div className={styles.link}>Designs </div>
+                            <div className={styles.alignment}>
+                                <p className={styles.links}><Link onClick={() => setNestedSolution(null)} href="/services/mobileuiux">Website ui and ux</Link></p>
+                                <p className={styles.links}><Link onClick={() => setNestedSolution(null)} href="/services/websiteuiux">Mobile ui and ux</Link></p>
+                            </div>
+                            <div className={styles.link}>Development </div>
+                            <div className={styles.alignment}>
+                                <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/cms">E commerce CMS based web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
+
+                                <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-web-development">E-commerce Custom mobile app development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
+                            
+                                <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-mobile-app-development">E-commerce custom web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
+                            </div>
                         </div>
-                       {/*  <Link href="/casestudies" onClick={handleClose} className={styles.link}>Case Studies</Link> */}
+                        {/*  <Link href="/casestudies" onClick={handleClose} className={styles.link}>Case Studies</Link> */}
                     </div>
-                    <div className={styles.sidebarbutton}  style={{ paddingLeft: sidebar ? '20px' : '' }}>
-                        <Darkbutton title="Lets connect" onClick={handleClose}  />
+                    <div className={styles.sidebarbutton} style={{ paddingLeft: sidebar ? '20px' : '' }}>
+                        <Darkbutton title="Lets connect" onClick={handleClose} />
                     </div>
                 </div>
                 <RiMenu3Fill className={styles.hamburger} onClick={() => setSidebar(true)} />
@@ -101,7 +114,7 @@ const Newnavbar = () => {
                         <p onClick={() => setSolution(null)} className={styles.exitBtn} ><SlArrowLeft />Back</p>
                         <br /><br />
                         <p onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></p>
-                       {/*  <p className={styles.links}><Link onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></Link></p>
+                        {/*  <p className={styles.links}><Link onClick={() => setNestedSolution(1)} href="/services/ecommerce" className={styles.ptag}>E-commerce UI/UX design services <SlArrowRight style={{ fontSize: '13px' }} /></Link></p>
                         <p className={styles.links}><Link onClick={() => setNestedSolution(null)} href="/services/mobileuiux">E-commerce UI/UX design services</Link></p> */}
                     </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
@@ -122,7 +135,7 @@ const Newnavbar = () => {
                         <br /><br />
                         <p onClick={() => setNestedSolution(2)} href="/services/ecommerce" className={styles.ptag}>E commerce CMS based web development  <SlArrowRight style={{ fontSize: '13px !important' }} /></p>
                         <br />
-                        <p   className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-mobile-app-development">E-commerce Custom mobile app development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
+                        <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-mobile-app-development">E-commerce Custom mobile app development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                         <br />
                         <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-web-development">E-commerce custom web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                     </div>
@@ -137,10 +150,10 @@ const Newnavbar = () => {
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
                 </div>
 
-               
-               
 
-                
+
+
+
             </nav >
             <div className={styles.line}>
             </div>
