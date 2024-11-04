@@ -12,6 +12,7 @@ import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
 import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 import Mainheading from '@/app/components/mainheading/mainheading'
+import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 // import Brands from '../components'
 const Mobile = () => {
   return (
@@ -32,7 +33,7 @@ const Mobile = () => {
      imageUrl='/assets/abt2.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
      />
-     <Verticalchooseus />
+     <Subchoosetype2 />
     <Process />
     <Newcasestudies />
     {/* <Workon /> */}

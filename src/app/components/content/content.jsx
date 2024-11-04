@@ -10,7 +10,7 @@ const Content = ({ subtitle, title, content, imageUrl}) => {
         <div className={styles.container}>
                 <img src={imageUrl} />
                 <p>{content}</p>
-                <div className={styles.box}>
+               {/*  <div className={styles.box}>
                         <span>woo commerce</span>
                         <span>yoast</span>
                         <span>theme</span>
@@ -20,7 +20,7 @@ const Content = ({ subtitle, title, content, imageUrl}) => {
                         <span>bulk import</span>
                         <span>mobile responsive</span>
                         <span>social media sharing</span>
-                </div>
+                </div> */}
         </div>
  </>
   )

@@ -3,6 +3,7 @@
     align-items: center;
     padding: 100px 8% 100px 8%;
     gap: 100px;
+    background-color: #ffffff;
 }
 .buttondiv{
     display: flex;

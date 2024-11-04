@@ -15,7 +15,7 @@ const Integration = ({ subtitle, title, content, growi, growi2, growi3, growi4, 
                     <p>{content}</p>
                     <div className={styles.buttons}>
                     <Darkbutton title="Lets connect"/>
-                    <Bookbutton title1="Book a time"/>
+                  {/*   <Bookbutton title1="Book a time"/> */}
                     </div>
                 </div>
                 <div className={styles.mainRight}>

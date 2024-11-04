@@ -12,15 +12,15 @@ import contact3 from '../../../public/assets/contact3.png'
 const page = () => {
   return (
     <>
-    <Contacthero title='Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.Visionsharp is a Web Design Agency in Manchester specialising in specific platforms.'
-      heading='We build digital commerce that perform faster.'/>
+    <Contacthero title='Explo Commerce delivers bespoke e-commerce applications and solutions that impact the sales process holistically.'
+      heading='Agility supports e-commerce companies in catapulting them into the league of successful companies. '/>
    {/*  <Brands/> */}
     <div className={styles.cardrow}>
             <div className={styles.cardcol}>
                 <div className={styles.card}>
                     <Image src={contact1} width='48px' height='48px' />
                     <h2>Contact Us</h2>
-                    <p>info@magnetoitsolutions.com</p>
+                    <p>shivkumar@explocommerce.com</p>
                     
                 </div>
             </div>
@@ -28,8 +28,7 @@ const page = () => {
                 <div className={styles.card}>
                     <Image src={contact2} width='48px' height='48px' />
                     <h2>Address</h2>
-                    <p>347 Fifth Ave, Suite 1402-182,<br/>
-                    New York, NY 10016</p>
+                    <p>Mahaganapathi Nagar, 6th phase 1st stage, Rajaji Nagar Industrial Town, Rajajinagar, Bengaluru, Karnataka 560010</p>
                     
                 </div>
             </div>
@@ -37,7 +36,7 @@ const page = () => {
                 <div className={styles.card}>
                     <Image src={contact3} width='48px' height='48px' />
                     <h2>Call Us</h2>
-                    <p>+1-646-205-8151</p>
+                    <p>+91 97399 69166</p>
                     
                 </div>
             </div>

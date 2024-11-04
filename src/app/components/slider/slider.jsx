@@ -3,7 +3,7 @@ import React from 'react'
 import Mainheading from '../mainheading/mainheading'
 import styles from './slider.module.css'
 
-const Slider = ({head, bg, src, clr, bullet, title}) => {
+const Slider = ({head, bg, src, clr, bullet, title,listItem1, listItem2, listItem3,listItem4,listItem5,listItem6}) => {
   return (
     <div className={styles.contained}>
         {/* <Mainheading
@@ -39,37 +39,37 @@ const Slider = ({head, bg, src, clr, bullet, title}) => {
                           <div><svg  width="14" height="14" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M16.0989 0.000102093C17.7011 0.000110658 19 1.29897 19 2.9012V15.7445C19 18.3593 15.8126 19.6396 14.0039 17.7513L1.70129 4.90794C-0.0658543 3.06312 1.24168 2.26738e-05 3.79633 3.63296e-05L16.0989 0.000102093Z" fill={bullet} />
                           </svg></div>
-                          <div><p>Android Apps</p></div>
+                          <div><p>{listItem1}</p></div>
                         </div>
                         <div className={styles.bullet}>
                           <svg  width="14" height="14" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M16.0989 0.000102093C17.7011 0.000110658 19 1.29897 19 2.9012V15.7445C19 18.3593 15.8126 19.6396 14.0039 17.7513L1.70129 4.90794C-0.0658543 3.06312 1.24168 2.26738e-05 3.79633 3.63296e-05L16.0989 0.000102093Z" fill={bullet} />
                           </svg>
-                          <p>iOS Apps</p>
+                          <p>{listItem2}</p>
                         </div>
                         <div className={styles.bullet}>
                           <svg  width="14" height="14" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M16.0989 0.000102093C17.7011 0.000110658 19 1.29897 19 2.9012V15.7445C19 18.3593 15.8126 19.6396 14.0039 17.7513L1.70129 4.90794C-0.0658543 3.06312 1.24168 2.26738e-05 3.79633 3.63296e-05L16.0989 0.000102093Z" fill={bullet} />
                           </svg>
-                          <p>Enterprise Softwares</p>
+                          <p>{listItem3}</p>
                         </div>
                         <div className={styles.bullet}>
                           <svg  width="14" height="14" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M16.0989 0.000102093C17.7011 0.000110658 19 1.29897 19 2.9012V15.7445C19 18.3593 15.8126 19.6396 14.0039 17.7513L1.70129 4.90794C-0.0658543 3.06312 1.24168 2.26738e-05 3.79633 3.63296e-05L16.0989 0.000102093Z" fill={bullet} />
                           </svg>
-                          <p>React Native Apps</p>
+                          <p>{listItem4}</p>
                         </div>
                         <div className={styles.bullet}>
                           <svg  width="14" height="14" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M16.0989 0.000102093C17.7011 0.000110658 19 1.29897 19 2.9012V15.7445C19 18.3593 15.8126 19.6396 14.0039 17.7513L1.70129 4.90794C-0.0658543 3.06312 1.24168 2.26738e-05 3.79633 3.63296e-05L16.0989 0.000102093Z" fill={bullet} />
                           </svg>
-                          <p>Web Apps</p>
+                          <p>{listItem5}</p>
                         </div>
                         <div className={styles.bullet}>
                           <svg  width="14" height="14" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M16.0989 0.000102093C17.7011 0.000110658 19 1.29897 19 2.9012V15.7445C19 18.3593 15.8126 19.6396 14.0039 17.7513L1.70129 4.90794C-0.0658543 3.06312 1.24168 2.26738e-05 3.79633 3.63296e-05L16.0989 0.000102093Z" fill={bullet} />
                           </svg>
-                          <p>Data Visualisation</p>
+                          <p>{listItem6}</p>
                         </div>
                   </div>
               </div>

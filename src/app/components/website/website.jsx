@@ -14,7 +14,7 @@ const Website = ({imageUrl, content, title, title1}) => {
            
           <div className={styles.buttondiv}>
             <Darkbutton title="Let's  connect"/>
-            <Bookbutton title1="Book your slot"/>
+          {/*   <Bookbutton title1="Book your slot"/> */}
           </div>
         </div>
     <div className={styles.mainRight}>

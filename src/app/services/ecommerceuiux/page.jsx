@@ -12,6 +12,9 @@ import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
 import Ecommerceslider from '@/app/components/slider/ecommerceslider'
 import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
+import Mainheading from '@/app/components/mainheading/mainheading'
+import Chooseustype3 from '@/app/components/chooseustype3/chooseustype3'
+import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 // import Brands from '../components'
 
 
@@ -29,11 +32,15 @@ const Ecommerce = () => {
      />
      <Brands />
      <Ecommerceslider />
+    <Mainheading
+        titlecenter="More About Service"
+        contentcenter=""
+        />
      <Content 
      imageUrl='/assets/abt3.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
      />
-     <Newchooseus />
+     <Subchoosetype2 />
     <Process />
     <Newcasestudies />
    {/*  <Workon /> */}

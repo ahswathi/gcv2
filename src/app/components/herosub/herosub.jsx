@@ -36,7 +36,7 @@ const Herosub = ({ subtitle, title, imageUrl, content, bg }) => {
             <p>{content}</p>
             <div className={styles.read}>
               <Letstalk />
-              <Estimate />
+             {/*  <Estimate /> */}
             </div>
           </div>
           <div className={styles.mainRight}>

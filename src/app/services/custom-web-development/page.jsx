@@ -12,6 +12,7 @@ import Webdevslider from '@/app/components/slider/webdevslider'
 import Websitedark from '@/app/components/websitedark/websitedark'
 import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 import Mainheading from '@/app/components/mainheading/mainheading'
+import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 // import Brands from '../components'
 const Customweb = () => {
   return (
@@ -33,7 +34,7 @@ const Customweb = () => {
      imageUrl='/assets/abt6.png'
      content='The custom development advantage in an e-commerce website is a game-changing one, with numerous websites jostling for eyeballs and engagement, a unique custom theme-based website that suits the brand and the company creates the differentiation. The differentiation in every aspect of the product presentation and feature delivers an unmatchable experience to customers and enhances their browsing experience. The custom website delivers a holistic and comprehensive experience to the customer and engages him thoroughly; with high levels of engagement the chances of buying the product are higher. Thematic websites not only offer uniqueness and great presentation, they elevate the overall experience of the customer and register the name of the company in their minds. Optimization of the website at every stage and level is a given advantage; the online store can utilize every available feature for customer retention, lead generation, optimizing the search engine, and customizing the shopping cart periodically to suit the product offerings. '
      />
-     <Chooseustype3 />
+     <Subchoosetype2 />
     <Process />
     <Newcasestudies />
     <Websitedark

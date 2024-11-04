@@ -64,7 +64,7 @@ const Trends = () => {
             <p>Looking forward to scaling up your e-commerce website</p>
             <div className={styles.btngroup}>
             <Lightbutton title="Let's connect"/>
-            <Darkbookbutton title1="Book a slot"/>
+           {/*  <Darkbookbutton title1="Book a slot"/> */}
         </div>
         </div>
     </div>

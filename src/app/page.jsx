@@ -53,10 +53,10 @@ export default function Home() {
       <CTA />
       <Technologies
         subtitle="For CMS based development"
-        title="Intend to build CMS Based E-commerce website."
-        content="Launch your e-commerce web & mobile application using CMS frameworks."
+        title="Intend to build CMS Based E-commerce website"
+        content="Launch your e-commerce web & mobile application using CMS frameworks"
         secondsubtitle="For custom development"
-        secondtitle='Looking to build Custom E-commerce Solutions for web and mobile applications.'
+        secondtitle='Intend to build Custom E-commerce Solutions.'
         secondcontent="Launch your Custom e-commerce web & mobile application using various technologies."
         ishopify='assets/ishopify.png'
         imegento='assets/imegento.png'
@@ -69,7 +69,7 @@ export default function Home() {
 
       />
       <Process />
-      <Testimonials />
+   {/*    <Testimonials /> */}
       <Supports />
       <Website 
         content="Explo Commerce initiates applications that blend well with the company’s ecosystem and assist in quick scalability."
@@ -87,7 +87,7 @@ export default function Home() {
         simageUrl='assets/bm2.png'
       />
       {/* <Chooseus /> */}
-      <Newchooseus />
+      {/* <Newchooseus /> */}
       <Trends />
       <Ctaform />
       {/* <Ctaform /> */}
@@ -105,7 +105,7 @@ export default function Home() {
         growi5='assets/growi5.png'
         growi6='assets/growi6.png'
       />
-      <Blogs />
+     {/*  <Blogs /> */}
     </>
   )
 }

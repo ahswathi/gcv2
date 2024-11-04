@@ -12,6 +12,8 @@ import Workon from '../../components/workon/workon'
 import Website from '../../components/website/website'
 import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 import Mainheading from '@/app/components/mainheading/mainheading'
+import Chooseustype3 from '@/app/components/chooseustype3/chooseustype3'
+import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 // import Brands from '../components'
 
 const Websiteuiux = () => {
@@ -34,7 +36,7 @@ const Websiteuiux = () => {
         imageUrl='/assets/websiteuiuxser.png'
         content='Responsive designs that captivate the audience with brilliant UI/UX designs elevate the company’s image manifold. The purpose of developing and creating UI/UX designs that enthral audiences is to make them consider the proposition. Companies have varied propositions in an e-commerce business model, the propositions change based on the categories they represent. A product company has its business model, the discounts and offers on the products vary across the year, if it is well-accepted by the customers, the offers and proposition get embedded in the business model. Similarly, for the services offered, the company finds the right kind of proposition that fits its customers. The UI/UX and the unique designs become a part of the proposition, as it gets acclimatized with customers and the company, therefore getting a unique UI/UX that is integral to a company is significant in the evolving e-commerce landscape, as competition is increasing in the digital world, the unique UI/UX designs differentiates and retains the company’s and brand’s identity in the form of designs.  '
       />
-      <Verticalchooseus />
+      <Subchoosetype2 />
       <Process />
       <Newcasestudies />
       {/* <Workon /> */}
