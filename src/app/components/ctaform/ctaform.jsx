@@ -20,9 +20,10 @@ const Ctaform = () => {
           <span>Here are some details about my project:</span> <br />
           <div className={styles.apptextarea}>
             <textarea
-              value="my project is about . . . "
+              placeholder="my project is about . . . "
               rows='6'
               required
+              style={{fontFamily: `"Outfit", sans-serif`}}
             />
           </div>
           {/* <div><input type='text' className={styles.custominput} value='   my project is about . . . ' /></div><br /><br /> */}
