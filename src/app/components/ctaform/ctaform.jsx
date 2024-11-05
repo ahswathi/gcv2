@@ -13,9 +13,10 @@ const Ctaform = () => {
       />
       <div className={styles.form}>
         <div className={styles.inputs}>
-          <span>Hello! My name is</span> <input type='text' className={styles.custominput} value='enter your name here' />  <span>and I want to discuss a potential </span> <br />
-          <span>project. You can email me at </span>  <input type='text' className={styles.custominput} value='your@email.com ' />  <span>or reach me on</span>
-          <input type='text' className={styles.custominput} value=' #your phone' /> <br />
+          <span>Hello! My name is</span> 
+          <input type='text' className={styles.custominput} placeholder='enter your name here' />  <span>and I want to discuss a potential </span> <br />
+          <span>project. You can email me at </span>  <input type='text' className={styles.custominput} placeholder='your@email.com ' />  <span>or reach me on</span>
+          <input type='text' className={styles.custominput} placeholder=' #your phone' /> <br />
           <span>Here are some details about my project:</span> <br />
           <div className={styles.apptextarea}>
             <textarea
@@ -44,8 +45,11 @@ const Ctaform = () => {
       </div>
       <div className={styles.formmob}>
         <div className={styles.inputs}>
-          <span>Hello! My name is</span> <input type='text' className={styles.custominput} value='enter your name here' />  <span>and I want to discuss a potential project. </span> <br />
-          <span> You can email me at </span>  <input type='text' className={styles.custominput} value='your@email.com ' />  <span>or reach me on</span>
+          <span>Hello! My name is</span>
+          <input type='text' className={styles.custominput} placeholder='enter your name here' />
+          <span>and I want to discuss a potential project. </span> <br />
+          <span> You can email me at </span>
+          <input type='text' className={styles.custominput} value='your@email.com ' />  <span>or reach me on</span>
           <input type='text' className={styles.custominput} value=' #your phone' /> <br />
           <span>Here are some details about my project:</span> <br />
           <div className={styles.apptextarea}>
