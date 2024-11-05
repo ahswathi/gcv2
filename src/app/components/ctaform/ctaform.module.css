@@ -23,10 +23,10 @@
 }
 
 .custominput::placeholder {
-    font-family: "Outfit";
+    font-family: "Outfit" !important;
 }
 .custominput::-webkit-input-placeholder {
-    font-family: "Outfit";
+    font-family: "Outfit" !important;
 }
 .custominput {
     border: none;
