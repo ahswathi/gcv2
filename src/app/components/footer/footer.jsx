@@ -42,7 +42,7 @@ const Footer = () => {
             <div>
               <h2>Development</h2>
               <ul>
-                <Link /* href="/services/cms" */ href='#'><li>E commerce CMS based web development</li></Link>
+                <Link  href="/services/cms" ><li>E commerce CMS based web development</li></Link>
                 {/*  <Link href="/services/wordpress"><li style={{ paddingLeft: '10px' }}>Wordpress  development </li></Link> */}
                 <Link href="/services/custom-web-development"><li>E-commerce Custom web development</li></Link>
                 <Link href="/services/custom-mobile-app-development"><li>E-commerce Custom Mobile app development</li></Link>

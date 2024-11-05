@@ -42,7 +42,7 @@ const supports = () => {
           </div>
           <div className={styles.answer} style={{ display: stages===0 ? 'flex' : 'none' }}>
             <p>The challenges that a small-scale industry confronts are different, a thorough understanding is necessary to develop and deploy ecommerce applications that enable them to overcome the challenge and grow. Explo Commerce deploys agile applications that deliver consistently by leveraging on the technology and producing positive results.</p>
-            <img src='assets/clientbrands/support.png' className={styles.ppl} />
+            <img src='assets/small-scale.jpg' className={styles.ppl} />
           </div>
         </div>
 
@@ -57,7 +57,7 @@ const supports = () => {
           </div>
           <div className={styles.answer} style={{ display: stages===1 ? 'flex' : 'none' }}>
             <p>Industries are rated based on their productivity and sales outcome, medium sized companies face different sets of challenges, and they have experienced growth cycle to an extent. The companies should prepare themselves to face the next level of challenges and leapfrog into the next stage of growth.  </p>
-            <img src='assets/clientbrands/support.png' className={styles.ppl} />
+            <img src='assets/medium-scale.jpg' className={styles.ppl} />
           </div>
         </div>
 
@@ -72,7 +72,7 @@ const supports = () => {
           </div>
           <div className={styles.answer} style={{ display: stages===2 ? 'flex' : 'none' }}>
             <p>Understanding a large-stage industry is a complex process, and the set of challenges faced by the company are completely different. The e-commerce applications should consider the challenges and accordingly offer solutions that consolidate their position and market status. Explo Commerce leverages its quality software and abilities to deliver solutions that elevate the company. </p>
-            <img src='assets/clientbrands/support.png' className={styles.ppl} />
+            <img src='assets/large-scale.jpg' className={styles.ppl} />
           </div>
         </div>
       </div>

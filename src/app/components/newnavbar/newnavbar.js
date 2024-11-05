@@ -93,7 +93,7 @@ const Newnavbar = () => {
 
                                 <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-web-development">E-commerce Custom mobile app development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                             
-                                <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-mobile-app-development">E-commerce custom web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
+                                <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-mobile-app-development">E-commerce Custom web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                             </div>
                         </div>
                         {/*  <Link href="/casestudies" onClick={handleClose} className={styles.link}>Case Studies</Link> */}
@@ -137,7 +137,7 @@ const Newnavbar = () => {
                         <br />
                         <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-mobile-app-development">E-commerce Custom mobile app development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                         <br />
-                        <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-web-development">E-commerce custom web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
+                        <p className={styles.ptag}> <a onClick={() => setNestedSolution(null)} href="/services/custom-web-development">E-commerce Custom web development</a> {/* <SlArrowRight style={{ fontSize: '13px !important' }} /> */}</p>
                     </div>
                     <RxCross1 className={styles.exit} onClick={handleCloseAll} />
                 </div>

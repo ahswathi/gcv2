@@ -40,13 +40,13 @@ const Ecommerce = () => {
      imageUrl='/assets/abt3.png'
      content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
      />
-     <Subchoosetype2 />
+     <Subchoosetype2  chooseImg="/assets/choose1.png" />
     <Process />
-    <Newcasestudies />
+   {/*  <Newcasestudies /> */}
    {/*  <Workon /> */}
     <Website 
     imageUrl='/assets/iso1.png' 
-    title='Build perfect e-commerce website with growCommerce'  />
+    title='Build perfect e-commerce website with  Explo Commerce'  />
     <Ctaform />
    {/*  <Testimonials /> */}
     <FAQAccordion />

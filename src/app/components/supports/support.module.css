@@ -45,6 +45,7 @@ margin-top: 3px;
 }
 .answer img{ 
     width: 46%;
+    border-radius: 8px;
 }
 
 .ppl{

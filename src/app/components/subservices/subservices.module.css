@@ -22,6 +22,7 @@
     flex-direction: column;
     border-bottom: 1px solid #090909;
     /* height: 345px; */
+    width: 50%;
 }
 .subservice h2{
     color: #090909;
@@ -96,6 +97,9 @@ font-weight: 600;
         flex-direction: column;
         gap: 36px;
         padding: 20px 6% 40px 6%;
+    }
+    .subservice{
+        width: 100%;
     }
     .services1{
         flex-direction: column;

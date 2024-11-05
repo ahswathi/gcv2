@@ -18,7 +18,7 @@ const Newcta = () => {
               <p>Get unlimited design inspirations. Level up your design.</p>
               <div className={styles.buttondiv}>
                 <Darkbutton title="Lets connect"/>
-                <Bookbutton title1="Book a time"/>
+               {/*  <Bookbutton title1="Book a time"/> */}
               </div>
           </div>
           

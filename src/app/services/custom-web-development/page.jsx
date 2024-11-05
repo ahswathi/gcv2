@@ -34,9 +34,9 @@ const Customweb = () => {
      imageUrl='/assets/abt6.png'
      content='The custom development advantage in an e-commerce website is a game-changing one, with numerous websites jostling for eyeballs and engagement, a unique custom theme-based website that suits the brand and the company creates the differentiation. The differentiation in every aspect of the product presentation and feature delivers an unmatchable experience to customers and enhances their browsing experience. The custom website delivers a holistic and comprehensive experience to the customer and engages him thoroughly; with high levels of engagement the chances of buying the product are higher. Thematic websites not only offer uniqueness and great presentation, they elevate the overall experience of the customer and register the name of the company in their minds. Optimization of the website at every stage and level is a given advantage; the online store can utilize every available feature for customer retention, lead generation, optimizing the search engine, and customizing the shopping cart periodically to suit the product offerings. '
      />
-     <Subchoosetype2 />
+     <Subchoosetype2 chooseImg="/assets/choose2.png" />
     <Process />
-    <Newcasestudies />
+  {/*   <Newcasestudies /> */}
     <Websitedark
     imageUrl='/assets/iso1.png' 
     title='Build perfect e-commerce website with Explo Commerce'  />
