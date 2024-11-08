@@ -93,10 +93,10 @@ export default function Home() {
       {/* <Ctaform /> */}
 
       {/* <FAQAccordion faqItems={faqItems} faqItem2={faqItems2} />  //////// */}
-      <FAQAccordion />
+    {/*   <FAQAccordion /> */}
       <Newintegration
         title="Grow with integration"
-        content="Vestibulum dapibus nunc ac augue. Cras ultricies mi eu turpis hendrerit fringilla. Pellentesque posuere. Vestibulum dapibus nunc ac augue."
+        content="Easily connect with leading shipping, payment, and service providers. Streamline your operations, enhance customer satisfaction, and watch your business thrive."
       
         growi='assets/growi.png'
         growi2='assets/growi2.png'

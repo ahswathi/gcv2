@@ -129,11 +129,16 @@ border-radius: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 0.56px;
+/*   letter-spacing: 0.56px; */
   width: 100%;
   margin-bottom: 20px;
 }
-
+.apptextarea::placeholder {
+  font-family: "Outfit", sans-serif !important;
+}
+.apptextarea::-webkit-input-placeholder {
+  font-family: "Outfit", sans-serif !important;
+}
 .button{
   display: flex;
   width: 648px;
@@ -155,6 +160,12 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+.appinput::placeholder {
+  font-family: "Outfit", sans-serif !important;
+}
+.appinput::-webkit-input-placeholder {
+  font-family: "Outfit", sans-serif !important;
+}
 .appinput{
   border: 1px solid #D9D9D9;
   border-radius: 5px;
@@ -169,6 +180,7 @@ line-height: normal;
   line-height: normal;
   letter-spacing: 0.56px;
   margin-bottom:  20px;
+  font-family: "Outfit", sans-serif !important;
 }
 
 .appinput:focus{
@@ -323,6 +335,7 @@ letter-spacing: 1.5px;
   line-height: normal;
   letter-spacing: 0.56px;
   margin-bottom:  20px;
+  font-family: "Outfit", sans-serif !important;
 }
 
 .mySelect option{

@@ -56,7 +56,7 @@ const Industries = () => {
                 <div className={styles.card}>
                     <img src='assets/icons8-oil-industry-96.png' width='48px' height='48px' />
                     <h2>Real-estate</h2>
-                    <p>the quick fox jumps over the lazy dog the quick fox jumps over the lazy dog</p>
+                    <p>We serve a wide range of industries within the real estate sector, including residential, commercial, and industrial properties. Whether you’re looking to buy, sell, rent, or manage properties, we provide tailored services and insights to help you streamline processes, make informed decisions, and achieve success in every aspect of real estate.</p>
                     {/* <span>Learn more</span> */}
                 </div>
             </div>

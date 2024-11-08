@@ -82,7 +82,7 @@ const links = {
       title: "Wordpress development"
     },
   ],
-  "custom-web-app-development": [
+  "custom-web-development": [
     {
       href: "/",
       title: "Home"

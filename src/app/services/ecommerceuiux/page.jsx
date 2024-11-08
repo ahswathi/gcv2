@@ -49,7 +49,7 @@ const Ecommerce = () => {
     title='Build perfect e-commerce website with  Explo Commerce'  />
     <Ctaform />
    {/*  <Testimonials /> */}
-    <FAQAccordion />
+  {/*   <FAQAccordion /> */}
     </>
   )
 }

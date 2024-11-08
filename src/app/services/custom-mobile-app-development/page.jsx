@@ -35,7 +35,7 @@ const Customecomm = () => {
      imageUrl='/assets/mobileappdevser.png'
      content='Mobile applications are typically used by every individual who possesses a smartphone; the rampant usage of smartphones and mobile applications has created a sense of need and urgency to develop mobile applications that engage positively. Positive engagement is achieved by delivering a great experience to the user on his mobile phone through operational UI/UX. The aesthetic principles of design school suggest that good designs engage positively and convey genuineness to the user. With authenticity, the customer develops a genuine relationship with the company, qualities of UI/UX not only connote authenticity, but they bring the company closer to the customer in every sense. With numerous mobile applications in the marketplace, a genuine app is considered to possess quality UI/UX, customers unequivocally prefer to interact and conduct business transactions with such companies. Developing a mobile app with quality UI/UX becomes inevitable for companies in the current age of digital era. The technological trends of the digital world demand every company interact and transact with customers digitally and deploy mobile applications with quality UI/UX functionalities. '
      />
-     <Subchoosetype2 chooseImg="/assets/choose1.png" />
+     {/* <Subchoosetype2 chooseImg="/assets/choose1.png" /> */}
     <Process />
     {/* <Newcasestudies /> */}
     <Websitedark
@@ -43,7 +43,7 @@ const Customecomm = () => {
     title='Build perfect e-commerce website with Explo Commerce'  />
     <Ctaform />
     {/* <Testimonials /> */}
-    <FAQAccordion />
+   {/*  <FAQAccordion /> */}
     </>
   )
 }

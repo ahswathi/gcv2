@@ -15,7 +15,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 80px 0px 40px 0px;
+	padding: 0px 0px 80px 0px;
 }
 
 .slider {
@@ -33,6 +33,7 @@
 	animation: scroll 30s linear infinite;
 	width: calc(350px * 46);
     gap: 82px;
+	padding-top: 100px;
 }
 .slider .slide {
 	/* height: 100px; */

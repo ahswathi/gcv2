@@ -14,12 +14,13 @@ const Newcta = () => {
                   <img src='/assets/cta.jpg' alt="" />
               </div>
           <div className={styles.contentleft}>
-              <h2>Find the perfect person <br/> every time</h2>
-              <p>Get unlimited design inspirations. Level up your design.</p>
+              <h2>Find the right support, every time.</h2>
+              <p>Get unlimited insights and guidance to level up your CMS experience.</p>
               <div className={styles.buttondiv}>
                 <Darkbutton title="Lets connect"/>
                {/*  <Bookbutton title1="Book a time"/> */}
               </div>
+              
           </div>
           
       </div>

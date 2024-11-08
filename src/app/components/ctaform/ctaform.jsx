@@ -9,11 +9,11 @@ const Ctaform = () => {
 
       <Mainheading
         titlecenter="Let's Talk"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        contentcenter="Ready to take the next step? Reach out now and let’s discuss how we can help you achieve your goals."
       />
       <div className={styles.form}>
         <div className={styles.inputs}>
-          <span>Hello! My name is</span> 
+          <span>Hello! My name is</span>
           <input type='text' className={styles.custominput} placeholder='enter your name here' />  <span>and I want to discuss a potential </span> <br />
           <span>project. You can email me at </span>  <input type='text' className={styles.custominput} placeholder='your@email.com ' />  <span>or reach me on</span>
           <input type='text' className={styles.custominput} placeholder=' #your phone' /> <br />
@@ -23,7 +23,7 @@ const Ctaform = () => {
               placeholder="my project is about . . . "
               rows='6'
               required
-              style={{fontFamily: `"Outfit", sans-serif`}}
+              style={{ fontFamily: `"Outfit", sans-serif` }}
             />
           </div>
           {/* <div><input type='text' className={styles.custominput} value='   my project is about . . . ' /></div><br /><br /> */}
@@ -50,18 +50,19 @@ const Ctaform = () => {
           <input type='text' className={styles.custominput} placeholder='enter your name here' />
           <span>and I want to discuss a potential project. </span> <br />
           <span> You can email me at </span>
-          <input type='text' className={styles.custominput} value='your@email.com ' />  <span>or reach me on</span>
-          <input type='text' className={styles.custominput} value=' #your phone' /> <br />
+          <input type='text' className={styles.custominput} placeholder='your@email.com ' />  <span>or reach me on</span>
+          <input type='text' className={styles.custominput} placeholder=' #your phone' /> <br />
           <span>Here are some details about my project:</span> <br />
           <div className={styles.apptextarea}>
             <textarea
-              value="Description"
+              placeholder=" my project is about . . ."
               rows='6'
               required
             />
           </div>
           <div>
-            <input type='text' className={styles.custominput} value='   my project is about . . . ' /></div><br />
+            {/*  <input type='text' className={styles.custominput} placeholder='   my project is about . . . ' /> */}
+          </div><br />
           <span>I am interested in (select one or more)</span><br />
         </div>
         <div className={styles.options}>

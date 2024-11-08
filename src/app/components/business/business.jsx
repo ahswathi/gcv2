@@ -9,7 +9,7 @@ const Business = ({ subtitle, title, content, imageUrl, ssubtitle, stitle, scont
     <div className={styles.containermain}>
       <Mainheading
         titlecenter="Business Modules"
-        contentcenter="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        contentcenter=" Explo Commerce has created e-commerce applications that support different types of business models. With compatibility at its core, it adapts and scales efficiently when tested."
       />
       <div className={styles.container}>
         <div className={styles.service}>
