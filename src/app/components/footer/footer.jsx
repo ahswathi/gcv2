@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className={styles.footerRight}>
           <div>
-            <p>Duis aute irure dolor in reprehenderit in met voluptate velit esse cillum dolore eu fugiat dolore eu fugiat nulla pariatur ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui.</p>
+            <p>The convergence of emerging technology with the latest innovative e-commerce applications makes a world of difference to online sellers. The applications enable the product and service construct to seamlessly blend with customer preferences and stimulate them to commit.    </p>
           </div>
           <div className={styles.line}></div>
 

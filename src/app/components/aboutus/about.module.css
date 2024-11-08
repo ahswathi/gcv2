@@ -16,10 +16,10 @@
 .heading{
     color: #090909;
     text-align: left;
-    font-size: 72px;
+    font-size: 58px;
     font-style: normal;
     font-weight: 600;
-    line-height: 98px;
+    line-height: 82px;
     letter-spacing: 1.6px;
     padding-bottom: 28px;
 }
@@ -73,9 +73,9 @@ line-height: normal;
 
 @media (min-width: 1024px) and (max-width: 1279px) {
     .heading{
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 600;
-        line-height: 90px;
+        line-height: 70px;
         letter-spacing: 0.8px;
         padding-bottom: 0px;
     }

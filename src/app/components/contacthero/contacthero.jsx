@@ -11,8 +11,8 @@ const contacthero = ({title, heading}) => {
         Home
       </Link>
       <span>/</span>
-      <Link href="/ourstory"  className={styles.sub}>
-        Our Story
+      <Link href="/contact"  className={styles.sub}>
+        Contact
       </Link>
     </div>
     <div className={styles.container2}> 

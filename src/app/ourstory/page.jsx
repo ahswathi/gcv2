@@ -23,7 +23,7 @@ const Ourstory = () => {
     return (
         <div>
             <Aboutus title='Explo Commerce delivers pace in the fast-paced e-commerce industry to make every delivery count. '
-                heading='We build digital commerce that perform faster.' />
+                heading='Explo Commerce delivers bespoke e-commerce applications and solutions that impact the sales process holistically.' />
             <Brands />
             <Platform />
             <Trends />
