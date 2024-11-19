@@ -21,14 +21,23 @@ import b4 from '../../../public/assets/b4.png'
 import b5 from '../../../public/assets/b5.png'
 import Brands from '../components/brands/brands'
 
+export const metadata = {
+  title: 'Explo Commerce',
+  description: 'We build digital commerce that perform faster.',
+  metadata: new URL("https://www.explocommerce.com"),
+  alternates: {
+    canonical: 'https://www.explocommerce.com/bussiness',
+  }
+}
+
 const Casestudies = () => {
   return (
     <>
-      <Subhero/>
-      <Brands/>
+      <Subhero />
+      <Brands />
       <div className={styles.container}>
         <div className={styles.line}>
-          <Image src={divider}/>
+          <Image src={divider} />
         </div>
         <div className={styles.main}>
           <div className={styles.header}>
@@ -37,49 +46,49 @@ const Casestudies = () => {
           </div>
           <div className={styles.images}>
             <Image src={b1} />
-            <Image src={b2}/>
-            <Image src={b3}/>
-            <Image src={b4}/>
-            <Image src={b5}/>
+            <Image src={b2} />
+            <Image src={b3} />
+            <Image src={b4} />
+            <Image src={b5} />
           </div>
         </div>
       </div>
-      <Features/>
-       <div className={styles.buttoncont}>
-          <Mainheading
-            titlecenter="Let’s talk about your next project"
-            contentcenter="Learn how to create job ads that really work. Leverage winning strategies to best promote your ads. Find the perfect person faster."
-          /> 
-          <div>
-             <Darkbutton title="Lets connect"/>
-          </div>
-            </div>
-      <Trends/>
-      <Process/>
-      <Testimonials/>
+      <Features />
+      <div className={styles.buttoncont}>
+        <Mainheading
+          titlecenter="Let’s talk about your next project"
+          contentcenter="Learn how to create job ads that really work. Leverage winning strategies to best promote your ads. Find the perfect person faster."
+        />
+        <div>
+          <Darkbutton title="Lets connect" />
+        </div>
+      </div>
+      <Trends />
+      <Process />
+      <Testimonials />
 
       <div className={styles.ctacont}>
         <div className={styles.ctacontent}>
-            <div className={styles.contentright}>
-                <Image src={image1}/>
+          <div className={styles.contentright}>
+            <Image src={image1} />
+          </div>
+          <div className={styles.contentleft}>
+            <h2>Let’s talk about your  <br /> next project</h2>
+            <p>Learn how to create job ads that really work. Leverage winning strategies to best promote your ads. Find the perfect person faster.</p>
+            <div>
+              <a className={styles.button2}>
+                Lets connect
+              </a>
             </div>
-            <div className={styles.contentleft}>
-                <h2>Let’s talk about your  <br/> next project</h2>
-                <p>Learn how to create job ads that really work. Leverage winning strategies to best promote your ads. Find the perfect person faster.</p>
-                <div>
-                  <a className={styles.button2}>
-                      Lets connect
-                  </a>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-      <Working/>
+      <Working />
 
-      
 
-      <Ctaform/>
+
+      <Ctaform />
     </>
   )
 }

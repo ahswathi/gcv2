@@ -10,6 +10,14 @@ import contact2 from '../../../public/assets/contact2.png'
 import contact3 from '../../../public/assets/contact3.png'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Explo Commerce',
+  description: 'We build digital commerce that perform faster.',
+  metadata: new URL("https://www.explocommerce.com"),
+  alternates: {
+    canonical: 'https://www.explocommerce.com/contact',
+  }
+}
 const page = () => {
   return (
     <>

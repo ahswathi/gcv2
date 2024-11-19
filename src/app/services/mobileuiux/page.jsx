@@ -14,35 +14,44 @@ import Newcasestudies from '@/app/components/newcasestudies/newcasestudies'
 import Mainheading from '@/app/components/mainheading/mainheading'
 import Subchoosetype2 from '@/app/components/subchoosetype2/subchoosetype2'
 // import Brands from '../components'
+
+export const metadata = {
+  title: 'Explo Commerce',
+  description: 'We build digital commerce that perform faster.',
+  metadata: new URL("https://www.explocommerce.com"),
+  alternates: {
+    canonical: 'https://www.explocommerce.com/services/mobileuiux',
+  }
+}
 const Mobile = () => {
   return (
     <>
-    <Herosub
-     subtitle="Design"
-     title="Mobile UI/UX"
-     content="Enhance user engagement through its efficient UI/UX design principles, increase app usage and download, and build rapport with the customer. An efficient mobile UI/UX design increases customer retention delivers superior customer advantage and enhances the usage of the application. The ease of use is the most prominent feature and the design construct should thoroughly aid the process.  "
-     imageUrl='/assets/mobile.png'
-     bg='rgba(10, 168, 229, 0.46)'
-     />
-     <Brands />
-    <Mainheading
+      <Herosub
+        subtitle="Design"
+        title="Mobile UI/UX"
+        content="Enhance user engagement through its efficient UI/UX design principles, increase app usage and download, and build rapport with the customer. An efficient mobile UI/UX design increases customer retention delivers superior customer advantage and enhances the usage of the application. The ease of use is the most prominent feature and the design construct should thoroughly aid the process.  "
+        imageUrl='/assets/mobile.png'
+        bg='rgba(10, 168, 229, 0.46)'
+      />
+      <Brands />
+      <Mainheading
         titlecenter="More About Service"
         contentcenter="Foster innovation with superior technological applications"
-        />
-     <Content 
-     imageUrl='/assets/abt2.png'
-     content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
-     />
-   {/*   <Subchoosetype2  chooseImg="/assets/choose.png" /> */}
-    <Process />
-    {/* <Newcasestudies /> */}
-    {/* <Workon /> */}
-    <Website 
-    imageUrl='/assets/iso1.png' 
-    title='Build perfect e-commerce website with  Explo Commerce'  />
-    <Ctaform />
-   {/*  <Testimonials /> */}
-   {/*  <FAQAccordion /> */}
+      />
+      <Content
+        imageUrl='/assets/abt2.png'
+        content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
+      />
+      {/*   <Subchoosetype2  chooseImg="/assets/choose.png" /> */}
+      <Process />
+      {/* <Newcasestudies /> */}
+      {/* <Workon /> */}
+      <Website
+        imageUrl='/assets/iso1.png'
+        title='Build perfect e-commerce website with  Explo Commerce' />
+      <Ctaform />
+      {/*  <Testimonials /> */}
+      {/*  <FAQAccordion /> */}
     </>
   )
 }

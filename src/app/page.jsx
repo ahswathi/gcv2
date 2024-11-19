@@ -23,22 +23,15 @@ import Herosub from './components/herosub/herosub'
 import Blogs from './components/blogs/blogs'
 import Supports from './components/supports/supports'
 import Newcasestudies from './components/newcasestudies/newcasestudies'
-// const faqItems = [
-//   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
 
-//   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-
-//   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-
-// ];
-// const faqItems2 = [
-//   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-
-//   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-
-//   { question: 'What services do you offer in online marketing?', answer: 'We provide a wide range of services, including SEO, PPC, content creation, social media marketing, email marketing, video marketing, branding, and online marketing strategy development.' },
-
-// ]; 
+export const metadata = {
+  title: 'Explo Commerce',
+  description: 'We build digital commerce that perform faster.',
+  metadata: new URL("https://www.explocommerce.com"),
+  alternates: {
+    canonical: 'https://www.explocommerce.com',
+  }
+}
 
 export default function Home() {
 
@@ -69,9 +62,9 @@ export default function Home() {
 
       />
       <Process />
-   {/*    <Testimonials /> */}
+      {/*    <Testimonials /> */}
       <Supports />
-      <Website 
+      <Website
         content="Explo Commerce initiates applications that blend well with the company’s ecosystem and assist in quick scalability."
         title="Perfect e-commerce websites create a vigorous ecosystem"
         imageUrl="/assets/clientbrands/image.png" />
@@ -93,11 +86,11 @@ export default function Home() {
       {/* <Ctaform /> */}
 
       {/* <FAQAccordion faqItems={faqItems} faqItem2={faqItems2} />  //////// */}
-    {/*   <FAQAccordion /> */}
+      {/*   <FAQAccordion /> */}
       <Newintegration
         title="Grow with integration"
         content="Easily connect with leading shipping, payment, and service providers. Streamline your operations, enhance customer satisfaction, and watch your business thrive."
-      
+
         growi='assets/growi.png'
         growi2='assets/growi2.png'
         growi3='assets/growi3.png'
@@ -105,7 +98,7 @@ export default function Home() {
         growi5='assets/growi5.png'
         growi6='assets/growi6.png'
       />
-     {/*  <Blogs /> */}
+      {/*  <Blogs /> */}
     </>
   )
 }

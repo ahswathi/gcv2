@@ -19,40 +19,48 @@ import FAQAccordion from '../components/faq/faq'
 import Workon from '../components/workon/workon'
 import Website from '../components/website/website'
 
+export const metadata = {
+  title: 'Explo Commerce',
+  description: 'We build digital commerce that perform faster.',
+  metadata: new URL("https://www.explocommerce.com"),
+  alternates: {
+    canonical: 'https://www.explocommerce.com/shopify',
+  }
+}
 const page = () => {
   return (
     <>
-    <Herosub
-     subtitle="Design"
-     title="Website UI/UX"
-     content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
-     imageUrl='assets/web.png'
-     bg='rgba(15, 204, 117, 0.46)'
-     />
-     <Brands />
-     <Content 
-     imageUrl='/assets/abt.png'
-     content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
-     />
-    {/* <div className={styles.container}>
+      <Herosub
+        subtitle="Design"
+        title="Website UI/UX"
+        content="Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below."
+        imageUrl='assets/web.png'
+        bg='rgba(15, 204, 117, 0.46)'
+      />
+      <Brands />
+      <Content
+        imageUrl='/assets/abt.png'
+        content='What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.What is the best way to overcome complexity in designing the intricate details of your ecommerce ecosystem? We believe having a BigCommerce Solutions Architect at your side is the best approach.'
+      />
+      {/* <div className={styles.container}>
 
     <Models/>
     <Latestcs/>
     </div> */}
-    <Newchooseus />
-    <Process />
-    <Casestudies />
-    <Workon />
-    <Website imgURL='/assets/iso1.png' 
-    bg='#fff'
-    color='#1E222B'
-    heading='Build perfect e-commerce website with growCommerce' 
-    title='Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below.' 
-    />
-    <Ctaform />
-    <Testimonials />
-    <FAQAccordion />
-        {/* <Contacting /> 
+      <Newchooseus />
+      <Process />
+      <Casestudies />
+      <Workon />
+      <Website imgURL='/assets/iso1.png'
+        bg='#fff'
+        color='#1E222B'
+        heading='Build perfect e-commerce website with growCommerce'
+        title='Visionsharp is a Web Design Agency in Manchester specialising in specific platforms and technologies. The list of our services can be found below.'
+      />
+      <Ctaform />
+      <Testimonials />
+      <FAQAccordion />
+      {/* <Contacting /> 
         <Process/>
         <Portfolio/>
         <Testimonials/>

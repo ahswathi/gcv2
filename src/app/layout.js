@@ -11,7 +11,7 @@ export const metadata = {
   description: 'We build digital commerce that perform faster.',
   metadata: new URL("https://www.explocommerce.com"),
   alternates: {
-    canonical: './',
+    canonical: 'https://www.explocommerce.com',
   }
 }
 

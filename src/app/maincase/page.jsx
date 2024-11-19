@@ -8,6 +8,14 @@ import Testimonials from '../components/testimonials/testimonials'
 import Portfolio from '../components/portfolio/portfolio'
 import Ctaform from '../components/ctaform/ctaform'
 
+export const metadata = {
+  title: 'Explo Commerce',
+  description: 'We build digital commerce that perform faster.',
+  metadata: new URL("https://www.explocommerce.com"),
+  alternates: {
+    canonical: 'https://www.explocommerce.com/maincase',
+  }
+}
 const page = () => {
   return (
     <>

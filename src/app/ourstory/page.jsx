@@ -15,6 +15,14 @@ import Workon from './../components/workon/workon';
 
 import { usePathname } from "next/navigation"
 
+export const metadata = {
+    title: 'Explo Commerce',
+    description: 'We build digital commerce that perform faster.',
+    metadata: new URL("https://www.explocommerce.com"),
+    alternates: {
+        canonical: 'https://www.explocommerce.com/ourstory',
+    }
+}
 const Ourstory = () => {
 
     const path = usePathname()
@@ -141,7 +149,7 @@ const Ourstory = () => {
                 </div>
             </div>
             {/* <Workon /> */}
-           {/*  <Newchooseus /> */}
+            {/*  <Newchooseus /> */}
             <Ctaform />
         </div>
     )
