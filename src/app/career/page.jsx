@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import Mainheading from '../components/mainheading/mainheading'
 import styles from './page.module.css'

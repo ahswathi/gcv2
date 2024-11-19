@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import styles from './page.module.css'
 import Mainheading from '../components/mainheading/mainheading'
@@ -18,6 +17,7 @@ export const metadata = {
     canonical: 'https://www.explocommerce.com/contact',
   }
 }
+
 const page = () => {
   return (
     <>
@@ -137,7 +137,7 @@ const page = () => {
                   required
                 />
               </div>
-              <button onClick={() => { console.log('logged out') }} className={styles.button}>
+              <button className={styles.button}>
                 <div className={styles.enquire}>
                   Enquire now
                 </div>

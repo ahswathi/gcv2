@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import styles from './page.module.css'
 
@@ -110,7 +109,7 @@ const page = () => {
           <br />
           <div className={styles.customfile}>
             <input type="file" id="fileInput" value="Upload cv" accept=".jpg, .png, .pdf" className={styles.inputfile} />
-            <label for="fileInput">Upload cv</label>
+            <label htmlFor="fileInput">Upload cv</label>
           </div>
           <button className={styles.button}>
 

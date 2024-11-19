@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import FAQ from '../components/faq/faq'
 import Darkbutton from '../components/darkbutton/darkbutton'
@@ -13,8 +12,6 @@ import Trends from '../components/trends/trends'
 import Newchooseus from './../components/newchooseus/newchooseus';
 import Workon from './../components/workon/workon';
 
-import { usePathname } from "next/navigation"
-
 export const metadata = {
     title: 'Explo Commerce',
     description: 'We build digital commerce that perform faster.',
@@ -25,9 +22,6 @@ export const metadata = {
 }
 const Ourstory = () => {
 
-    const path = usePathname()
-
-    console.log("pathname", path)
     return (
         <div>
             <Aboutus title='Explo Commerce delivers pace in the fast-paced e-commerce industry to make every delivery count. '
