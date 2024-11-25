@@ -1,4 +1,11 @@
 User-agent: *
 Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://www.explocommerce.com/sitemap.xml
+
+
+User-agent: Yahoo! Slurp
+
+Allow: /
+
+
+
+Sitemap: https://www.explocommerce.com/sitemap.xml 
