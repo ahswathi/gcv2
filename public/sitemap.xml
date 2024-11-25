@@ -1,57 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
   <url>
     <loc>https://www.explocommerce.com/</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/ourstory</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/services/websiteuiux</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/services/mobileuiux</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/services/cms</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/services/custom-web-development</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/services/custom-mobile-app-development</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/contact</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/services/wordpress</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.explocommerce.com/services/ecommerceuiux</loc>
-    <lastmod>2024-11-11T07:01:01+00:00</lastmod>
-    <priority>0.64</priority>
+    <lastmod>2024-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
 </urlset>
